@@ -35,13 +35,20 @@ export async function GET(request: Request) {
 
     // 获取统计信息
     const stats = manager.getLevelStats();
-    const totalCount = manager.getTotalVocabCount();
+    const uniqueCount = manager.getTotalVocabCount();
+    const totalEntries = manager.getTotalEntriesLoaded();
+    const duplicateCount = totalEntries - uniqueCount;
 
     return NextResponse.json(
       {
         success: true,
         message: 'Vocabulary manager initialized successfully',
-        totalVocabulary: totalCount,
+        totalEntries,
+        uniqueWords: uniqueCount,
+        duplicateWords: duplicateCount,
+        note: duplicateCount > 0
+          ? `${duplicateCount} words appear at multiple HSK levels. The highest level is retained for each word (e.g. if "打" is at level 1 and level 3, it is stored as level 3).`
+          : undefined,
         levelStats: stats,
       },
       { status: 200 }

@@ -58,6 +58,7 @@ class VocabManager {
   private vocabSet: Set<string> = new Set();
   private tokenizer: SimpleTokenizer | null = null;
   private initialized: boolean = false;
+  private totalEntriesLoaded: number = 0;
 
   private constructor() {}
 
@@ -81,7 +82,11 @@ class VocabManager {
     }
 
     try {
+      this.totalEntriesLoaded = vocabData.length;
+
       // 加载词汇数据到 Map 和 Set
+      // 注意：Map 以词为 key，若同一词出现在多个等级，后遍历到的（更高等级）会覆盖前者
+      // 这确保 checkWordLevel 返回该词在 HSK 体系中的最高等级
       vocabData.forEach((entry) => {
         this.vocabularyMap.set(entry.word, entry);
         this.vocabSet.add(entry.word);
@@ -91,8 +96,10 @@ class VocabManager {
       this.tokenizer = new SimpleTokenizer(this.vocabSet);
 
       this.initialized = true;
+      const duplicateCount = vocabData.length - this.vocabularyMap.size;
       console.log(
-        `✓ VocabManager initialized successfully with ${vocabData.length} vocabulary entries`
+        `✓ VocabManager initialized: ${vocabData.length} total entries, ${this.vocabularyMap.size} unique words` +
+        (duplicateCount > 0 ? ` (${duplicateCount} words appear at multiple levels, highest level retained)` : '')
       );
     } catch (error) {
       console.error('Failed to initialize VocabManager:', error);
@@ -191,7 +198,14 @@ class VocabManager {
   }
 
   /**
-   * 获取词汇总数
+   * 获取加载的词汇总条目数（含跨等级重复词）
+   */
+  getTotalEntriesLoaded(): number {
+    return this.totalEntriesLoaded;
+  }
+
+  /**
+   * 获取唯一词汇数（去重后）
    */
   getTotalVocabCount(): number {
     return this.vocabularyMap.size;

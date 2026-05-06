@@ -19,15 +19,10 @@ files.forEach(file => {
   });
 });
 
-// Remove duplicates by word (keep first occurrence / lowest level)
-const seen = new Set();
-const unique = allVocab.filter(v => {
-  if (seen.has(v.word)) return false;
-  seen.add(v.word);
-  return true;
-});
+// Keep all entries, sort by level then word
+allVocab.sort((a, b) => a.level - b.level || a.word.localeCompare(b.word, 'zh'));
 
 const outputPath = path.join(publicDir, 'hsk3.0_vocab.json');
-fs.writeFileSync(outputPath, JSON.stringify(unique, null, 2), 'utf-8');
-console.log(`Merged ${allVocab.length} entries (${unique.length} unique) from ${files.length} files`);
+fs.writeFileSync(outputPath, JSON.stringify(allVocab, null, 2), 'utf-8');
+console.log(`Merged ${allVocab.length} total entries from ${files.length} files`);
 console.log(`Output: ${outputPath}`);

@@ -8,7 +8,7 @@ interface AnalyzeResult {
   originalText: string;
   tokens: { token: string; level: number | null; isOutOfLevel: boolean }[];
   outOfLevelCount: number;
-  highlightedText: string;
+  outOfLevelWords: string[];
 }
 
 interface RewriteResult {
@@ -61,7 +61,7 @@ export default function CorrectorPage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          highlightedText: analyzeResult.highlightedText,
+          text: analyzeResult.originalText,
           targetLevel,
         }),
       });

@@ -59,7 +59,7 @@ export async function POST(request: Request): Promise<NextResponse> {
     let finalReply = rawReply;
     try {
       const rewriteBody = JSON.stringify({
-        highlightedText: rawReply,
+        text: rawReply,
         targetLevel,
       });
 

@@ -21,7 +21,7 @@ interface AnalyzeResponse {
   originalText: string;
   tokens: TokenInfo[];
   outOfLevelCount: number;
-  highlightedText: string;
+  outOfLevelWords: string[];
   message?: string;
 }
 
@@ -84,7 +84,7 @@ async function ensureVocabManagerInitialized(): Promise<void> {
  *     }
  *   ],
  *   outOfLevelCount: number,
- *   highlightedText: string
+ *   outOfLevelWords: string[]
  * }
  */
 export async function POST(request: Request): Promise<NextResponse> {
@@ -174,22 +174,19 @@ export async function POST(request: Request): Promise<NextResponse> {
       });
     });
 
-    // 生成高亮文本：用 **词汇** 标记超纲词
-    let highlightedText = '';
-    tokenInfos.forEach((tokenInfo) => {
-      if (tokenInfo.isOutOfLevel) {
-        highlightedText += `**${tokenInfo.token}**`;
-      } else {
-        highlightedText += tokenInfo.token;
-      }
+    // 收集去重后的超纲词列表
+    const outOfLevelWordsSet = new Set<string>();
+    tokenInfos.forEach((t) => {
+      if (t.isOutOfLevel) outOfLevelWordsSet.add(t.token);
     });
+    const outOfLevelWords = Array.from(outOfLevelWordsSet);
 
     const response: AnalyzeResponse = {
       success: true,
       originalText: text,
       tokens: tokenInfos,
       outOfLevelCount,
-      highlightedText,
+      outOfLevelWords,
     };
 
     return NextResponse.json(response, { status: 200 });

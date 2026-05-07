@@ -138,21 +138,18 @@ function analyzeText(
     });
   });
 
-  // 生成高亮文本
-  let highlightedText = '';
-  tokenInfos.forEach((tokenInfo) => {
-    if (tokenInfo.isOutOfLevel) {
-      highlightedText += `**${tokenInfo.token}**`;
-    } else {
-      highlightedText += tokenInfo.token;
-    }
+  // 收集去重后的超纲词列表
+  const outOfLevelWordsSet = new Set<string>();
+  tokenInfos.forEach((t) => {
+    if (t.isOutOfLevel) outOfLevelWordsSet.add(t.token);
   });
+  const outOfLevelWords = Array.from(outOfLevelWordsSet);
 
   return {
     originalText: text,
     tokens: tokenInfos,
     outOfLevelCount,
-    highlightedText,
+    outOfLevelWords,
   };
 }
 
@@ -233,7 +230,7 @@ async function runTests() {
         );
       });
 
-      console.log(`\n   高亮文本: ${result.highlightedText}`);
+      console.log(`\n   超纲词列表: [${result.outOfLevelWords.join(', ')}]`);
       console.log(`${'─'.repeat(60)}\n`);
     }
 

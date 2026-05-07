@@ -32,6 +32,7 @@ export interface TextAnalysisResult {
   totalWords: number;
   knownWords: number;
   unknownWords: number;
+  outOfLevelWords: string[];
 }
 
 /**

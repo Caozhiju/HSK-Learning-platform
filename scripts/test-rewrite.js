@@ -103,42 +103,15 @@ function extractOutOfLevelWords(manager, text, targetLevel) {
 }
 
 /**
- * 高亮超纲词
- */
-function highlightOutOfLevelWords(manager, text, targetLevel) {
-  const tokens = manager.tokenize(text);
-  let highlightedText = '';
-
-  tokens.forEach((token) => {
-    if (isPunctuation(token)) {
-      highlightedText += token;
-      return;
-    }
-
-    const level = manager.checkWordLevel(token);
-
-    if (level === null || level <= targetLevel) {
-      highlightedText += token;
-      return;
-    }
-
-    highlightedText += `**${token}**`;
-  });
-
-  return highlightedText;
-}
-
-/**
- * 模拟 LLM 重写（演示用）
+ * 模拟 LLM 基础重写（演示用）
  * 实际应用中这会调用真实的 LLM API
  */
-function simulateLLMRewrite(highlightedText, targetLevel) {
-  console.log(`\n🤖 [模拟 LLM 调用]`);
-  console.log(`   Prompt: "在以下文本中，被 ** ** 标记的词汇超出了 HSK ${targetLevel} 级的范围..."`);
-  console.log(`   输入: ${highlightedText}`);
+function simulateLLMRewrite(text, outOfLevelWords, targetLevel) {
+  console.log(`\n🤖 [模拟 LLM 基础重写]`);
+  console.log(`   Prompt: "你是一名专业的国际中文教师...原始文本 + 超纲词列表：[${outOfLevelWords.join('、')}]..." (含删减权/格式禁令/防循环禁令)`);
+  console.log(`   输入: ${text}`);
 
   // 模拟 LLM 的替换逻辑
-  // 这里只是一个简单的演示，真实的 LLM 会做更智能的替换
   const replacements = {
     '现象': '事情',
     '社会': '生活',
@@ -152,9 +125,9 @@ function simulateLLMRewrite(highlightedText, targetLevel) {
     '重要': '重',
   };
 
-  let rewritten = highlightedText;
+  let rewritten = text;
   Object.entries(replacements).forEach(([word, replacement]) => {
-    rewritten = rewritten.replace(`**${word}**`, replacement);
+    rewritten = rewritten.replace(word, replacement);
   });
 
   console.log(`   输出: ${rewritten}`);
@@ -236,16 +209,8 @@ function runDemo() {
 
         console.log(`发现超纲词: ${check.words.join(', ')}`);
 
-        // 高亮
-        const highlighted = highlightOutOfLevelWords(
-          manager,
-          currentText,
-          testCase.targetLevel
-        );
-        console.log(`高亮文本: ${highlighted}`);
-
-        // 调用 LLM（模拟）
-        const rewritten = simulateLLMRewrite(highlighted, testCase.targetLevel);
+        // 基础重写：发送纯净文本 + 超纲词列表
+        const rewritten = simulateLLMRewrite(currentText, check.words, testCase.targetLevel);
         currentText = rewritten;
         console.log();
       }
@@ -276,9 +241,9 @@ function runDemo() {
     console.log('演示完成！\n');
 
     console.log('📝 说明:');
-    console.log('  • 该演示使用模拟的 LLM 输出');
+    console.log('  • 该演示使用基础重写（Base Rewrite）策略 + 模拟 LLM 输出');
     console.log('  • 实际应用中需要配置 OPENAI_API_KEY 环境变量');
-    console.log('  • API 调用会使用真实的 LLM 进行更智能的词汇替换');
+    console.log('  • 提供纯净原文 + 独立超纲词列表给 LLM，不在原文中打标记');
     console.log('  • 最多循环 3 次，确保修正效率');
     console.log('  • 如仍有残留超纲词，会返回警告信息\n');
   } catch (error) {

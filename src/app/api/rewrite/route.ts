@@ -67,36 +67,6 @@ function extractOutOfLevelWords(
 }
 
 /**
- * 高亮超纲词
- */
-function highlightOutOfLevelWords(
-  manager: VocabManager,
-  text: string,
-  targetLevel: number
-): string {
-  const tokens = manager.tokenize(text);
-  let highlightedText = '';
-
-  tokens.forEach((token) => {
-    if (isPunctuation(token)) {
-      highlightedText += token;
-      return;
-    }
-
-    const level = manager.checkWordLevel(token);
-
-    if (level === null || level <= targetLevel) {
-      highlightedText += token;
-      return;
-    }
-
-    highlightedText += `**${token}**`;
-  });
-
-  return highlightedText;
-}
-
-/**
  * 初始化 VocabManager
  */
 async function ensureVocabManagerInitialized(): Promise<void> {
@@ -128,10 +98,12 @@ async function ensureVocabManagerInitialized(): Promise<void> {
 }
 
 /**
- * 调用 LLM 重写文本
+ * 调用 LLM 进行基础重写（Base Rewrite）
+ * 策略：提供纯净原文 + 独立的超纲词列表，让 LLM 直接替换
  */
 async function callLLMForRewrite(
-  highlightedText: string,
+  text: string,
+  outOfLevelWords: string[],
   targetLevel: number
 ): Promise<string> {
   const apiKey = process.env.OPENAI_API_KEY;
@@ -147,10 +119,21 @@ async function callLLMForRewrite(
     baseURL: process.env.OPENAI_BASE_URL || undefined,
   });
 
-  const prompt = `在以下文本中，被 ** ** 标记的词汇超出了 HSK ${targetLevel} 级的范围。请你分两步思考：第一步，在心里寻找这些词的初级同义词；第二步，仅使用 HSK 1-${targetLevel} 级的基础词汇替换这些高亮词汇，保持原句核心句意不变。请直接输出修改后的纯文本。
+  const wordList = outOfLevelWords.join('、');
 
-文本：
-${highlightedText}`;
+  const prompt = `你是一名专业的国际中文教师。以下原始文本中包含了对于 HSK ${targetLevel} 级学习者来说超纲的词汇。
+
+原始文本：${text}
+超纲词列表：${wordList}
+
+请将原始文本改写为纯正的 HSK ${targetLevel} 级（仅限大纲内的基础词）文本。
+严格规则：
+
+允许删减：如果超纲词无法用 HSK ${targetLevel} 级词汇自然替换，请直接删除该词或其所在的整个分句。宁可牺牲部分原意，也必须保证句子的绝对自然和简单，绝不能生造病句。
+
+格式禁令：输出的文本必须是干净的纯文本。绝对禁止在输出中使用任何星号 ** 或特殊标记。
+
+防循环禁令：只需输出最终改写好的一段话，严禁重复输出相同的句子。`;
 
   try {
     const completion = await client.chat.completions.create({
@@ -179,15 +162,15 @@ ${highlightedText}`;
 }
 
 /**
- * 文本重写接口 - 闭环修正工作流
+ * 文本重写接口 - 基础重写（Base Rewrite）闭环修正工作流
  * POST /api/rewrite
- * 
+ *
  * 请求体：
  * {
- *   highlightedText: string,  // 包含超纲词高亮标记 ** ** 的文本
- *   targetLevel: number       // 目标 HSK 级别
+ *   text: string,        // 待修正的原始文本（纯净，无标记）
+ *   targetLevel: number  // 目标 HSK 级别
  * }
- * 
+ *
  * 响应：
  * {
  *   success: boolean,
@@ -204,15 +187,15 @@ export async function POST(request: Request): Promise<NextResponse> {
 
   try {
     const body = await request.json();
-    const { highlightedText, targetLevel } = body;
+    const { text, targetLevel } = body;
 
     // 参数验证
-    if (!highlightedText || typeof highlightedText !== 'string') {
+    if (!text || typeof text !== 'string') {
       return NextResponse.json(
         {
           success: false,
           message:
-            'Invalid request: highlightedText is required and must be a string',
+            'Invalid request: text is required and must be a string',
         },
         { status: 400 }
       );
@@ -244,15 +227,13 @@ export async function POST(request: Request): Promise<NextResponse> {
 
     const manager = VocabManager.getInstance();
 
-    // 移除高亮标记获取原始文本
-    const originalText = highlightedText.replace(/\*\*/g, '');
-
+    const originalText = text;
     let currentText = originalText;
     let iterationCount = 0;
     let finalOutOfLevelWords: string[] = [];
     let hasOutOfLevel = true;
 
-    console.log(`📝 开始文本重写循环 (最多 ${MAX_ITERATIONS} 次)`);
+    console.log(`📝 开始基础重写循环 (最多 ${MAX_ITERATIONS} 次)`);
     console.log(`原始文本: ${originalText}`);
     console.log(`目标级别: ${targetLevel}\n`);
 
@@ -273,23 +254,14 @@ export async function POST(request: Request): Promise<NextResponse> {
 
       console.log(`发现超纲词: ${words.join(', ')}`);
 
-      // 高亮超纲词
-      const textToRewrite = highlightOutOfLevelWords(
-        manager,
-        currentText,
-        targetLevel
-      );
-      console.log(`待重写文本: ${textToRewrite}`);
-
-      // 调用 LLM 重写
+      // 基础重写：发送纯净文本 + 独立的超纲词列表
       try {
-        const rewrittenText = await callLLMForRewrite(textToRewrite, targetLevel);
+        const rewrittenText = await callLLMForRewrite(currentText, words, targetLevel);
         console.log(`LLM 输出: ${rewrittenText}`);
 
         currentText = rewrittenText;
       } catch (error) {
         console.error(`LLM 调用失败 (第 ${iterationCount} 次):`, error);
-        // 如果 LLM 调用失败，记录当前的超纲词并终止
         finalOutOfLevelWords = words;
         break;
       }

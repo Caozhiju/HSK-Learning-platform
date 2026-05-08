@@ -31,6 +31,15 @@ function isPunctuation(char: string): boolean {
 }
 
 /**
+ * 将文本按中文标点拆分为句子
+ */
+function splitSentences(text: string): string[] {
+  // 按 。！？.!? 拆分，保留分隔符
+  const parts = text.split(/(?<=[。！？.!?])/);
+  return parts.filter((s) => s.trim().length > 0).map((s) => s.trim());
+}
+
+/**
  * 提取文本中的超纲词
  */
 function extractOutOfLevelWords(
@@ -99,7 +108,7 @@ async function ensureVocabManagerInitialized(): Promise<void> {
 
 /**
  * 调用 LLM 进行基础重写（Base Rewrite）
- * 策略：提供纯净原文 + 独立的超纲词列表，让 LLM 直接替换
+ * 回到 v1 简洁 prompt 格式 + temperature + 等级标注
  */
 async function callLLMForRewrite(
   text: string,
@@ -140,10 +149,7 @@ async function callLLMForRewrite(
       model: process.env.LLM_MODEL || 'gpt-4o-mini',
       max_tokens: 1024,
       messages: [
-        {
-          role: 'user',
-          content: prompt,
-        },
+        { role: 'user', content: prompt },
       ],
     });
 
@@ -162,6 +168,57 @@ async function callLLMForRewrite(
 }
 
 /**
+ * 对单条文本执行闭环修正（内部函数）
+ */
+async function rewriteSingleText(
+  manager: VocabManager,
+  text: string,
+  targetLevel: number
+): Promise<{
+  rewrittenText: string;
+  iterations: number;
+  outOfLevelWords: string[];
+  hasOutOfLevel: boolean;
+}> {
+  const MAX_ITERATIONS = 3;
+  let currentText = text;
+  let iterationCount = 0;
+  let finalOutOfLevelWords: string[] = [];
+  let hasOutOfLevel = true;
+
+  while (iterationCount < MAX_ITERATIONS && hasOutOfLevel) {
+    iterationCount++;
+
+    const { words, hasOutOfLevel: stillHasOutOfLevel } =
+      extractOutOfLevelWords(manager, currentText, targetLevel);
+
+    if (!stillHasOutOfLevel) {
+      hasOutOfLevel = false;
+      break;
+    }
+
+    console.log(`  [句] 第 ${iterationCount} 轮超纲词: ${words.join(', ')}`);
+
+    try {
+      const rewrittenText = await callLLMForRewrite(currentText, words, targetLevel);
+      currentText = rewrittenText;
+    } catch (error) {
+      console.error(`  [句] LLM 调用失败:`, error);
+      finalOutOfLevelWords = words;
+      break;
+    }
+  }
+
+  const finalCheck = extractOutOfLevelWords(manager, currentText, targetLevel);
+  return {
+    rewrittenText: currentText,
+    iterations: iterationCount,
+    outOfLevelWords: finalCheck.words,
+    hasOutOfLevel: finalCheck.hasOutOfLevel,
+  };
+}
+
+/**
  * 文本重写接口 - 基础重写（Base Rewrite）闭环修正工作流
  * POST /api/rewrite
  *
@@ -171,142 +228,82 @@ async function callLLMForRewrite(
  *   targetLevel: number  // 目标 HSK 级别
  * }
  *
- * 响应：
- * {
- *   success: boolean,
- *   originalText: string,
- *   rewrittenText: string,
- *   iterations: number,
- *   maxIterations: number,
- *   hasOutOfLevelWords: boolean,
- *   outOfLevelWords?: string[]
- * }
+ * 长文本自动拆句，逐句独立修正后再拼接。
  */
 export async function POST(request: Request): Promise<NextResponse> {
-  const MAX_ITERATIONS = 3;
-
   try {
     const body = await request.json();
     const { text, targetLevel } = body;
 
-    // 参数验证
     if (!text || typeof text !== 'string') {
       return NextResponse.json(
-        {
-          success: false,
-          message:
-            'Invalid request: text is required and must be a string',
-        },
+        { success: false, message: 'Invalid request: text is required and must be a string' },
         { status: 400 }
       );
     }
 
-    if (!targetLevel || typeof targetLevel !== 'number') {
+    if (!targetLevel || typeof targetLevel !== 'number' || targetLevel < 1 || targetLevel > 9) {
       return NextResponse.json(
-        {
-          success: false,
-          message:
-            'Invalid request: targetLevel is required and must be a number',
-        },
+        { success: false, message: 'Invalid request: targetLevel must be a number between 1 and 9' },
         { status: 400 }
       );
     }
 
-    if (targetLevel < 1 || targetLevel > 9) {
-      return NextResponse.json(
-        {
-          success: false,
-          message: 'Invalid request: targetLevel must be between 1 and 9',
-        },
-        { status: 400 }
-      );
-    }
-
-    // 初始化 VocabManager
     await ensureVocabManagerInitialized();
-
     const manager = VocabManager.getInstance();
 
-    const originalText = text;
-    let currentText = originalText;
-    let iterationCount = 0;
-    let finalOutOfLevelWords: string[] = [];
-    let hasOutOfLevel = true;
+    const sentences = splitSentences(text);
 
-    console.log(`📝 开始基础重写循环 (最多 ${MAX_ITERATIONS} 次)`);
-    console.log(`原始文本: ${originalText}`);
-    console.log(`目标级别: ${targetLevel}\n`);
+    console.log(`\n📝 开始重写 | 目标: HSK ${targetLevel} | 句子数: ${sentences.length}`);
 
-    // 闭环修正循环
-    while (iterationCount < MAX_ITERATIONS && hasOutOfLevel) {
-      iterationCount++;
-      console.log(`--- 第 ${iterationCount} 次迭代 ---`);
+    let totalIterations = 0;
+    const rewrittenParts: string[] = [];
+    let allResidualWords: string[] = [];
+    let anyHasOutOfLevel = false;
 
-      // 检查当前文本中的超纲词
-      const { words, hasOutOfLevel: stillHasOutOfLevel } =
-        extractOutOfLevelWords(manager, currentText, targetLevel);
+    for (let i = 0; i < sentences.length; i++) {
+      const sentence = sentences[i];
+      console.log(`\n句 ${i + 1}/${sentences.length}: "${sentence}"`);
 
-      if (!stillHasOutOfLevel) {
-        hasOutOfLevel = false;
-        console.log(`✓ 没有发现超纲词，循环终止`);
-        break;
+      const result = await rewriteSingleText(manager, sentence, targetLevel);
+
+      rewrittenParts.push(result.rewrittenText);
+      totalIterations += result.iterations;
+
+      if (result.hasOutOfLevel) {
+        anyHasOutOfLevel = true;
+        allResidualWords = allResidualWords.concat(result.outOfLevelWords);
       }
-
-      console.log(`发现超纲词: ${words.join(', ')}`);
-
-      // 基础重写：发送纯净文本 + 独立的超纲词列表
-      try {
-        const rewrittenText = await callLLMForRewrite(currentText, words, targetLevel);
-        console.log(`LLM 输出: ${rewrittenText}`);
-
-        currentText = rewrittenText;
-      } catch (error) {
-        console.error(`LLM 调用失败 (第 ${iterationCount} 次):`, error);
-        finalOutOfLevelWords = words;
-        break;
-      }
-
-      console.log();
     }
 
-    // 最后一次检查
-    const finalCheck = extractOutOfLevelWords(manager, currentText, targetLevel);
-    finalOutOfLevelWords = finalCheck.words;
-    hasOutOfLevel = finalCheck.hasOutOfLevel;
+    const rewrittenText = rewrittenParts.join('');
+    const uniqueResidual = Array.from(new Set(allResidualWords));
 
-    if (hasOutOfLevel) {
-      console.log(`⚠️ 警告: 经过 ${iterationCount} 次迭代后仍有超纲词`);
-      console.log(`残留超纲词: ${finalOutOfLevelWords.join(', ')}`);
-    } else {
-      console.log(`✅ 成功: 所有超纲词已修正 (用时 ${iterationCount} 次迭代)`);
-    }
+    console.log(`\n📊 完成 | 总迭代: ${totalIterations} | 残留: ${uniqueResidual.length} 词`);
 
     const response: RewriteResponse = {
       success: true,
-      originalText,
-      rewrittenText: currentText,
-      iterations: iterationCount,
-      maxIterations: MAX_ITERATIONS,
-      hasOutOfLevelWords: hasOutOfLevel,
-      outOfLevelWords: hasOutOfLevel ? finalOutOfLevelWords : undefined,
+      originalText: text,
+      rewrittenText,
+      iterations: totalIterations,
+      maxIterations: 3,
+      hasOutOfLevelWords: anyHasOutOfLevel,
+      outOfLevelWords: anyHasOutOfLevel ? uniqueResidual : undefined,
     };
 
-    if (hasOutOfLevel) {
-      response.message = `经过 ${iterationCount} 次迭代后仍有 ${finalOutOfLevelWords.length} 个超纲词: ${finalOutOfLevelWords.join(', ')}`;
+    if (anyHasOutOfLevel) {
+      response.message = `经过逐句修正后仍有 ${uniqueResidual.length} 个超纲词: ${uniqueResidual.join(', ')}`;
     } else {
-      response.message = `成功修正所有超纲词 (第 ${iterationCount} 次迭代)`;
+      response.message = sentences.length > 1
+        ? `成功修正所有句子 (共 ${sentences.length} 句, ${totalIterations} 次迭代)`
+        : `成功修正所有超纲词 (${totalIterations} 次迭代)`;
     }
 
     return NextResponse.json(response, { status: 200 });
   } catch (error) {
     console.error('Error in rewrite API:', error);
-
     return NextResponse.json(
-      {
-        success: false,
-        message:
-          error instanceof Error ? error.message : 'Internal server error',
-      },
+      { success: false, message: error instanceof Error ? error.message : 'Internal server error' },
       { status: 500 }
     );
   }

@@ -14,7 +14,7 @@ export default function ChatPage() {
     {
       id: 'welcome',
       role: 'assistant',
-      content: '你好！我是 HSK 学习助手。请选择你的目标 HSK 等级，我会使用该等级及以下的词汇与你对话。',
+      content: '你好！我是 HSK 学习助手。请选择你的目标 HSK 等级，我会用适合该等级的词汇和句子长度与你对话。',
     },
   ]);
   const [input, setInput] = useState('');
@@ -22,6 +22,14 @@ export default function ChatPage() {
   const [sending, setSending] = useState(false);
   const [levelLocked, setLevelLocked] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  const levelHint: Record<number, string> = {
+    1: '回复 ≤10 字，用词和短语对话',
+    2: '回复 ≤20 字，用简单短句对话',
+    3: '回复 ≤40 字，用1-2个短句对话',
+    4: '回复 ≤80 字，用简短的段落对话',
+    5: '回复 ≤150 字，用中等段落对话',
+  };
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -197,7 +205,7 @@ export default function ChatPage() {
           </button>
         </div>
         <p className="text-xs text-slate-400 mt-2 text-center">
-          按 Enter 发送 · AI 回复将自动使用 HSK {targetLevel} 级及以下词汇
+          按 Enter 发送 · HSK {targetLevel} 级 · {levelHint[targetLevel] || '自然长度的对话'}
         </p>
       </div>
     </div>

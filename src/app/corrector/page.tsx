@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { PenLine, AlertTriangle, CheckCircle2, ArrowRight, Loader2, Sparkles } from 'lucide-react';
+import { PenLine, AlertTriangle, CheckCircle2, ArrowRight, Loader2, Sparkles, Info } from 'lucide-react';
 
 interface AnalyzeResult {
   success: boolean;
@@ -77,6 +77,14 @@ export default function CorrectorPage() {
 
   const outOfLevelTokens = analyzeResult?.tokens.filter((t) => t.isOutOfLevel) || [];
 
+  const levelGuidance: Record<number, string> = {
+    1: 'HSK 1 级学习者通常接触 3-8 字的短句。建议输入单句，不超过 15 字。',
+    2: 'HSK 2 级学习者适合 5-15 字的句子。建议输入 1-2 个短句，不超过 30 字。',
+    3: 'HSK 3 级学习者可处理 10-25 字的句子。建议输入 2-3 个短句，不超过 50 字。',
+  };
+  const guidance = levelGuidance[targetLevel] ||
+    `HSK ${targetLevel} 级适合中等长度文本。较长文本将自动拆句处理。`;
+
   return (
     <div className="p-6 lg:p-10 max-w-7xl mx-auto">
       {/* Header */}
@@ -98,10 +106,14 @@ export default function CorrectorPage() {
             <textarea
               value={text}
               onChange={(e) => setText(e.target.value)}
-              placeholder="粘贴你想检测的中文文章或文本..."
-              rows={6}
+              placeholder={targetLevel <= 3 ? `输入一个 HSK ${targetLevel} 级的短句...` : '粘贴你想检测的中文文本...'}
+              rows={targetLevel <= 3 ? 3 : 6}
               className="w-full px-4 py-3 border border-slate-200 rounded-lg text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-y"
             />
+            <div className="flex items-start gap-1.5 mt-2 text-xs text-slate-500">
+              <Info size={14} className="shrink-0 mt-0.5" />
+              <span>{guidance}</span>
+            </div>
           </div>
           <div className="sm:w-48">
             <label className="block text-sm font-medium text-slate-700 mb-2">

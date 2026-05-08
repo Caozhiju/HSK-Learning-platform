@@ -3,37 +3,37 @@
     "word": "爱",
     "level": 1,
     "pinyin": "ài",
-    "definition": "动"
+    "definition": "对人或事物有很深的感情"
   },
   {
     "word": "八",
     "level": 1,
     "pinyin": "bā",
-    "definition": "数"
+    "definition": "数字，七加一"
   },
   {
     "word": "爸爸",
     "level": 1,
     "pinyin": "bàba",
-    "definition": "名"
+    "definition": "父亲，口语称呼"
   },
   {
     "word": "吧",
     "level": 1,
     "pinyin": "ba",
-    "definition": "助"
+    "definition": "表示建议或疑问"
   },
   {
     "word": "白天",
     "level": 1,
     "pinyin": "báitiān",
-    "definition": "名"
+    "definition": "太阳出来的时间"
   },
   {
     "word": "百",
     "level": 1,
     "pinyin": "bǎi",
-    "definition": "数"
+    "definition": "数字，十个十"
   },
   {
     "word": "半",
@@ -45,19 +45,19 @@
     "word": "包子",
     "level": 1,
     "pinyin": "bāozi",
-    "definition": "名"
+    "definition": "有馅的面食"
   },
   {
     "word": "杯子",
     "level": 1,
     "pinyin": "bēizi",
-    "definition": "名"
+    "definition": "喝水的容器"
   },
   {
     "word": "本",
     "level": 1,
     "pinyin": "běn",
-    "definition": "量"
+    "definition": "量词，用于书"
   },
   {
     "word": "边",
@@ -69,7 +69,7 @@
     "word": "便宜",
     "level": 1,
     "pinyin": "piányi",
-    "definition": "形"
+    "definition": "价格低，不贵"
   },
   {
     "word": "病",
@@ -81,7 +81,7 @@
     "word": "不",
     "level": 1,
     "pinyin": "bù",
-    "definition": "副"
+    "definition": "表示否定"
   },
   {
     "word": "不客气",
@@ -93,55 +93,55 @@
     "word": "不要",
     "level": 1,
     "pinyin": "búyào",
-    "definition": "副"
+    "definition": "表示禁止或拒绝"
   },
   {
     "word": "菜",
     "level": 1,
     "pinyin": "cài",
-    "definition": "名"
+    "definition": "蔬菜或做好的菜肴"
   },
   {
     "word": "茶",
     "level": 1,
     "pinyin": "chá",
-    "definition": "名"
+    "definition": "用茶叶泡的饮料"
   },
   {
     "word": "唱",
     "level": 1,
     "pinyin": "chàng",
-    "definition": "动"
+    "definition": "发出歌声"
   },
   {
     "word": "超市",
     "level": 1,
     "pinyin": "chāoshì",
-    "definition": "名"
+    "definition": "自选购物商店"
   },
   {
     "word": "车",
     "level": 1,
     "pinyin": "chē",
-    "definition": "名"
+    "definition": "陆上交通工具"
   },
   {
     "word": "吃",
     "level": 1,
     "pinyin": "chī",
-    "definition": "动"
+    "definition": "把食物放进嘴里"
   },
   {
     "word": "出租车",
     "level": 1,
     "pinyin": "chūzūchē",
-    "definition": "名"
+    "definition": "可租用的载客汽车"
   },
   {
     "word": "穿",
     "level": 1,
     "pinyin": "chuān",
-    "definition": "动"
+    "definition": "把衣服套在身上"
   },
   {
     "word": "打电话",
@@ -153,49 +153,49 @@
     "word": "大",
     "level": 1,
     "pinyin": "dà",
-    "definition": "形"
+    "definition": "体积或面积很大"
   },
   {
     "word": "大家",
     "level": 1,
     "pinyin": "dàjiā",
-    "definition": "代"
+    "definition": "众人，所有人"
   },
   {
     "word": "大学",
     "level": 1,
     "pinyin": "dàxué",
-    "definition": "名"
+    "definition": "高等教育学校"
   },
   {
     "word": "大学生",
     "level": 1,
     "pinyin": "dàxuéshēng",
-    "definition": "名"
+    "definition": "在大学读书的人"
   },
   {
     "word": "到",
     "level": 1,
     "pinyin": "dào",
-    "definition": "动"
+    "definition": "到达某个地方"
   },
   {
     "word": "的",
     "level": 1,
     "pinyin": "de",
-    "definition": "助"
+    "definition": "表示所属或修饰关系"
   },
   {
     "word": "弟弟",
     "level": 1,
     "pinyin": "dìdi",
-    "definition": "名"
+    "definition": "比自己小的男性兄弟"
   },
   {
     "word": "第",
     "level": 1,
     "pinyin": "dì",
-    "definition": "前缀"
+    "definition": "用在数词前表示顺序"
   },
   {
     "word": "点",
@@ -207,61 +207,61 @@
     "word": "电话",
     "level": 1,
     "pinyin": "diànhuà",
-    "definition": "名"
+    "definition": "用来通话的电子设备"
   },
   {
     "word": "电脑",
     "level": 1,
     "pinyin": "diànnǎo",
-    "definition": "名"
+    "definition": "用于计算和办公的机器"
   },
   {
     "word": "电视",
     "level": 1,
     "pinyin": "diànshì",
-    "definition": "名"
+    "definition": "接收并播放节目的机器"
   },
   {
     "word": "电影",
     "level": 1,
     "pinyin": "diànyǐng",
-    "definition": "名"
+    "definition": "在影院放映的影像作品"
   },
   {
     "word": "电影院",
     "level": 1,
     "pinyin": "diànyǐngyuàn",
-    "definition": "名"
+    "definition": "专门放映电影的地方"
   },
   {
     "word": "店",
     "level": 1,
     "pinyin": "diàn",
-    "definition": "名"
+    "definition": "出售商品或服务的场所"
   },
   {
     "word": "东西",
     "level": 1,
     "pinyin": "dōngxi",
-    "definition": "名"
+    "definition": "泛指各种物品"
   },
   {
     "word": "都",
     "level": 1,
     "pinyin": "dōu",
-    "definition": "副"
+    "definition": "表示全部，没有例外"
   },
   {
     "word": "读",
     "level": 1,
     "pinyin": "dú",
-    "definition": "动"
+    "definition": "看着文字并念出声"
   },
   {
     "word": "读书",
     "level": 1,
     "pinyin": "dúshū",
-    "definition": "动"
+    "definition": "阅读书籍，学习知识"
   },
   {
     "word": "对",
@@ -273,7 +273,7 @@
     "word": "对不起",
     "level": 1,
     "pinyin": "duìbuqǐ",
-    "definition": "动"
+    "definition": "表示道歉或抱歉"
   },
   {
     "word": "多",
@@ -285,49 +285,49 @@
     "word": "多少",
     "level": 1,
     "pinyin": "duōshao",
-    "definition": "代"
+    "definition": "询问数量或价格"
   },
   {
     "word": "儿子",
     "level": 1,
     "pinyin": "érzi",
-    "definition": "名"
+    "definition": "男性子女"
   },
   {
     "word": "二",
     "level": 1,
     "pinyin": "èr",
-    "definition": "数"
+    "definition": "数字，一加一"
   },
   {
     "word": "饭",
     "level": 1,
     "pinyin": "fàn",
-    "definition": "名"
+    "definition": "煮熟的谷物或正餐"
   },
   {
     "word": "饭店",
     "level": 1,
     "pinyin": "fàndiàn",
-    "definition": "名"
+    "definition": "提供餐饮服务的场所"
   },
   {
     "word": "房间",
     "level": 1,
     "pinyin": "fángjiān",
-    "definition": "名"
+    "definition": "建筑物内的居住空间"
   },
   {
     "word": "飞机",
     "level": 1,
     "pinyin": "fēijī",
-    "definition": "名"
+    "definition": "在空中飞行的交通工具"
   },
   {
     "word": "非常",
     "level": 1,
     "pinyin": "fēicháng",
-    "definition": "副"
+    "definition": "程度很高，很"
   },
   {
     "word": "分",
@@ -339,31 +339,31 @@
     "word": "分钟",
     "level": 1,
     "pinyin": "fēnzhōng",
-    "definition": "量"
+    "definition": "时间单位，一小时六十"
   },
   {
     "word": "高兴",
     "level": 1,
     "pinyin": "gāoxìng",
-    "definition": "形"
+    "definition": "心情愉快，开心"
   },
   {
     "word": "哥哥",
     "level": 1,
     "pinyin": "gēge",
-    "definition": "名"
+    "definition": "比自己大的男性兄弟"
   },
   {
     "word": "歌",
     "level": 1,
     "pinyin": "gē",
-    "definition": "名"
+    "definition": "歌曲，音乐作品"
   },
   {
     "word": "个",
     "level": 1,
     "pinyin": "gè",
-    "definition": "量"
+    "definition": "量词，用于人、物"
   },
   {
     "word": "给",
@@ -381,49 +381,49 @@
     "word": "公司",
     "level": 1,
     "pinyin": "gōngsī",
-    "definition": "名"
+    "definition": "做生意的地方"
   },
   {
     "word": "狗",
     "level": 1,
     "pinyin": "gǒu",
-    "definition": "名"
+    "definition": "一种常见的宠物"
   },
   {
     "word": "贵",
     "level": 1,
     "pinyin": "guì",
-    "definition": "形"
+    "definition": "价格高，不便宜"
   },
   {
     "word": "国",
     "level": 1,
     "pinyin": "guó",
-    "definition": "名"
+    "definition": "国家，国土"
   },
   {
     "word": "还",
     "level": 1,
     "pinyin": "hái",
-    "definition": "副"
+    "definition": "表示依然，或者补充"
   },
   {
     "word": "孩子",
     "level": 1,
     "pinyin": "háizi",
-    "definition": "名"
+    "definition": "小孩，子女"
   },
   {
     "word": "汉语",
     "level": 1,
     "pinyin": "Hànyǔ",
-    "definition": "名"
+    "definition": "中国的语言"
   },
   {
     "word": "汉字",
     "level": 1,
     "pinyin": "Hànzì",
-    "definition": "名"
+    "definition": "中文的书写符号"
   },
   {
     "word": "好",
@@ -435,25 +435,25 @@
     "word": "好吃",
     "level": 1,
     "pinyin": "hǎochī",
-    "definition": "形"
+    "definition": "味道很好"
   },
   {
     "word": "好看",
     "level": 1,
     "pinyin": "hǎokàn",
-    "definition": "形"
+    "definition": "外表漂亮"
   },
   {
     "word": "好听",
     "level": 1,
     "pinyin": "hǎotīng",
-    "definition": "形"
+    "definition": "声音悦耳"
   },
   {
     "word": "好玩儿",
     "level": 1,
     "pinyin": "hǎowánr",
-    "definition": "形"
+    "definition": "有趣，令人开心"
   },
   {
     "word": "号",
@@ -465,7 +465,7 @@
     "word": "喝",
     "level": 1,
     "pinyin": "hē",
-    "definition": "动"
+    "definition": "用嘴吞咽液体"
   },
   {
     "word": "和",
@@ -477,13 +477,13 @@
     "word": "很",
     "level": 1,
     "pinyin": "hěn",
-    "definition": "副"
+    "definition": "非常，程度深"
   },
   {
     "word": "后",
     "level": 1,
     "pinyin": "hòu",
-    "definition": "名"
+    "definition": "位置在后面，时间晚"
   },
   {
     "word": "回",
@@ -495,19 +495,19 @@
     "word": "会",
     "level": 1,
     "pinyin": "huì",
-    "definition": "动"
+    "definition": "懂得，能够，或见面"
   },
   {
     "word": "火车",
     "level": 1,
     "pinyin": "huǒchē",
-    "definition": "名"
+    "definition": "铁路上跑的交通工具"
   },
   {
     "word": "鸡蛋",
     "level": 1,
     "pinyin": "jīdàn",
-    "definition": "名"
+    "definition": "鸡生的蛋"
   },
   {
     "word": "几",
@@ -525,25 +525,25 @@
     "word": "家人",
     "level": 1,
     "pinyin": "jiārén",
-    "definition": "名"
+    "definition": "家里的亲人"
   },
   {
     "word": "见",
     "level": 1,
     "pinyin": "jiàn",
-    "definition": "动"
+    "definition": "看见，见面"
   },
   {
     "word": "件",
     "level": 1,
     "pinyin": "jiàn",
-    "definition": "量"
+    "definition": "量词，用于事情、衣服"
   },
   {
     "word": "饺子",
     "level": 1,
     "pinyin": "jiǎozi",
-    "definition": "名"
+    "definition": "一种中国面食"
   },
   {
     "word": "叫",
@@ -555,61 +555,61 @@
     "word": "姐姐",
     "level": 1,
     "pinyin": "jiějie",
-    "definition": "名"
+    "definition": "比自己大的女性同胞"
   },
   {
     "word": "今年",
     "level": 1,
     "pinyin": "jīnnián",
-    "definition": "名"
+    "definition": "现在的这一年"
   },
   {
     "word": "今天",
     "level": 1,
     "pinyin": "jīntiān",
-    "definition": "名"
+    "definition": "现在这一天"
   },
   {
     "word": "九",
     "level": 1,
     "pinyin": "jiǔ",
-    "definition": "数"
+    "definition": "数字，八加一"
   },
   {
     "word": "觉得",
     "level": 1,
     "pinyin": "juéde",
-    "definition": "动"
+    "definition": "认为，感觉"
   },
   {
     "word": "开",
     "level": 1,
     "pinyin": "kāi",
-    "definition": "动"
+    "definition": "打开，启动"
   },
   {
     "word": "开车",
     "level": 1,
     "pinyin": "kāichē",
-    "definition": "动"
+    "definition": "驾驶汽车"
   },
   {
     "word": "看",
     "level": 1,
     "pinyin": "kàn",
-    "definition": "动"
+    "definition": "用眼睛观察"
   },
   {
     "word": "看病",
     "level": 1,
     "pinyin": "kànbìng",
-    "definition": "动"
+    "definition": "去医院就医"
   },
   {
     "word": "看见",
     "level": 1,
     "pinyin": "kànjiàn",
-    "definition": "动"
+    "definition": "看到，发现"
   },
   {
     "word": "可以",
@@ -621,7 +621,7 @@
     "word": "课",
     "level": 1,
     "pinyin": "kè",
-    "definition": "名"
+    "definition": "学校里的教学"
   },
   {
     "word": "口",
@@ -633,79 +633,79 @@
     "word": "块",
     "level": 1,
     "pinyin": "kuài",
-    "definition": "量"
+    "definition": "钱币单位，元"
   },
   {
     "word": "来",
     "level": 1,
     "pinyin": "lái",
-    "definition": "动"
+    "definition": "从别处到这里"
   },
   {
     "word": "老师",
     "level": 1,
     "pinyin": "lǎoshī",
-    "definition": "名"
+    "definition": "教书的人"
   },
   {
     "word": "了",
     "level": 1,
     "pinyin": "le",
-    "definition": "助"
+    "definition": "表示动作完成"
   },
   {
     "word": "冷",
     "level": 1,
     "pinyin": "lěng",
-    "definition": "形"
+    "definition": "温度低，不热"
   },
   {
     "word": "里",
     "level": 1,
     "pinyin": "lǐ",
-    "definition": "名"
+    "definition": "内部，里面"
   },
   {
     "word": "两",
     "level": 1,
     "pinyin": "liǎng",
-    "definition": "数"
+    "definition": "数字，二"
   },
   {
     "word": "零",
     "level": 1,
     "pinyin": "líng",
-    "definition": "数"
+    "definition": "数字，没有"
   },
   {
     "word": "六",
     "level": 1,
     "pinyin": "liù",
-    "definition": "数"
+    "definition": "数字，五加一"
   },
   {
     "word": "妈妈",
     "level": 1,
     "pinyin": "māma",
-    "definition": "名"
+    "definition": "母亲，口语"
   },
   {
     "word": "吗",
     "level": 1,
     "pinyin": "ma",
-    "definition": "助"
+    "definition": "疑问助词"
   },
   {
     "word": "买",
     "level": 1,
     "pinyin": "mǎi",
-    "definition": "动"
+    "definition": "花钱拿东西"
   },
   {
     "word": "卖",
     "level": 1,
     "pinyin": "mài",
-    "definition": "动"
+    "definition": "把东西换钱"
   },
   {
     "word": "忙",
@@ -717,7 +717,7 @@
     "word": "猫",
     "level": 1,
     "pinyin": "māo",
-    "definition": "名"
+    "definition": "一种小动物"
   },
   {
     "word": "没关系",
@@ -729,7 +729,7 @@
     "word": "没事",
     "level": 1,
     "pinyin": "méishì",
-    "definition": "动"
+    "definition": "没有事情，安好"
   },
   {
     "word": "没有",
@@ -741,79 +741,79 @@
     "word": "妹妹",
     "level": 1,
     "pinyin": "mèimei",
-    "definition": "名"
+    "definition": "比自己小的女孩"
   },
   {
     "word": "们",
     "level": 1,
     "pinyin": "men",
-    "definition": "后缀"
+    "definition": "表示复数，指多个人"
   },
   {
     "word": "米饭",
     "level": 1,
     "pinyin": "mǐfàn",
-    "definition": "名"
+    "definition": "煮熟的稻米"
   },
   {
     "word": "面包",
     "level": 1,
     "pinyin": "miànbāo",
-    "definition": "名"
+    "definition": "用面粉烤制的食物"
   },
   {
     "word": "面条儿",
     "level": 1,
     "pinyin": "miàntiáor",
-    "definition": "名"
+    "definition": "长条状的面食"
   },
   {
     "word": "名字",
     "level": 1,
     "pinyin": "míngzi",
-    "definition": "名"
+    "definition": "人或事物的称呼"
   },
   {
     "word": "明年",
     "level": 1,
     "pinyin": "míngnián",
-    "definition": "名"
+    "definition": "今年的下一年"
   },
   {
     "word": "明天",
     "level": 1,
     "pinyin": "míngtiān",
-    "definition": "名"
+    "definition": "今天的下一天"
   },
   {
     "word": "哪",
     "level": 1,
     "pinyin": "nǎ",
-    "definition": "代"
+    "definition": "疑问词，问哪一个"
   },
   {
     "word": "哪儿",
     "level": 1,
     "pinyin": "nǎr",
-    "definition": "代"
+    "definition": "疑问词，问哪里"
   },
   {
     "word": "哪个",
     "level": 1,
     "pinyin": "nǎge",
-    "definition": "代"
+    "definition": "疑问词，问哪一个"
   },
   {
     "word": "哪里",
     "level": 1,
     "pinyin": "nǎlǐ",
-    "definition": "代"
+    "definition": "疑问词，问什么地方"
   },
   {
     "word": "哪些",
     "level": 1,
     "pinyin": "nǎxiē",
-    "definition": "代"
+    "definition": "疑问词，问哪几个"
   },
   {
     "word": "那",
@@ -825,61 +825,61 @@
     "word": "那边",
     "level": 1,
     "pinyin": "nàbiān",
-    "definition": "代"
+    "definition": "指较远的那处"
   },
   {
     "word": "那儿",
     "level": 1,
     "pinyin": "nàr",
-    "definition": "代"
+    "definition": "指较远的那处"
   },
   {
     "word": "那个",
     "level": 1,
     "pinyin": "nàge",
-    "definition": "代"
+    "definition": "指较远的那个"
   },
   {
     "word": "那里",
     "level": 1,
     "pinyin": "nàlǐ",
-    "definition": "代"
+    "definition": "指较远的那个地方"
   },
   {
     "word": "那些",
     "level": 1,
     "pinyin": "nàxiē",
-    "definition": "代"
+    "definition": "指较远的那些"
   },
   {
     "word": "男",
     "level": 1,
     "pinyin": "nán",
-    "definition": "形"
+    "definition": "男性的，与女相对"
   },
   {
     "word": "男朋友",
     "level": 1,
     "pinyin": "nánpéngyou",
-    "definition": "名"
+    "definition": "男性恋人"
   },
   {
     "word": "呢",
     "level": 1,
     "pinyin": "ne",
-    "definition": "助"
+    "definition": "语气词，表疑问或状态"
   },
   {
     "word": "能",
     "level": 1,
     "pinyin": "néng",
-    "definition": "动"
+    "definition": "表示有能力或可能"
   },
   {
     "word": "你",
     "level": 1,
     "pinyin": "nǐ",
-    "definition": "代"
+    "definition": "第二人称单数"
   },
   {
     "word": "你好",
@@ -891,7 +891,7 @@
     "word": "你们",
     "level": 1,
     "pinyin": "nǐmen",
-    "definition": "代"
+    "definition": "第二人称复数"
   },
   {
     "word": "年",
@@ -903,127 +903,127 @@
     "word": "您",
     "level": 1,
     "pinyin": "nín",
-    "definition": "代"
+    "definition": "对“你”的尊称"
   },
   {
     "word": "牛奶",
     "level": 1,
     "pinyin": "niúnǎi",
-    "definition": "名"
+    "definition": "一种白色饮品"
   },
   {
     "word": "女",
     "level": 1,
     "pinyin": "nǚ",
-    "definition": "形"
+    "definition": "女性，与“男”相对"
   },
   {
     "word": "女儿",
     "level": 1,
     "pinyin": "nǚ’ér",
-    "definition": "名"
+    "definition": "父母生的女孩"
   },
   {
     "word": "女朋友",
     "level": 1,
     "pinyin": "nǚpéngyou",
-    "definition": "名"
+    "definition": "男性交往的女性"
   },
   {
     "word": "女士",
     "level": 1,
     "pinyin": "nǚshì",
-    "definition": "名"
+    "definition": "对女性的尊称"
   },
   {
     "word": "朋友",
     "level": 1,
     "pinyin": "péngyou",
-    "definition": "名"
+    "definition": "彼此有交情的人"
   },
   {
     "word": "漂亮",
     "level": 1,
     "pinyin": "piàoliang",
-    "definition": "形"
+    "definition": "好看，美观"
   },
   {
     "word": "苹果",
     "level": 1,
     "pinyin": "píngguǒ",
-    "definition": "名"
+    "definition": "一种常见水果"
   },
   {
     "word": "七",
     "level": 1,
     "pinyin": "qī",
-    "definition": "数"
+    "definition": "数字，六加一"
   },
   {
     "word": "起床",
     "level": 1,
     "pinyin": "qǐchuáng",
-    "definition": "动"
+    "definition": "睡醒后离开床"
   },
   {
     "word": "千",
     "level": 1,
     "pinyin": "qiān",
-    "definition": "数"
+    "definition": "数字，一百个十"
   },
   {
     "word": "前",
     "level": 1,
     "pinyin": "qián",
-    "definition": "名"
+    "definition": "方位，与“后”相对"
   },
   {
     "word": "钱",
     "level": 1,
     "pinyin": "qián",
-    "definition": "名"
+    "definition": "货币，用于交易"
   },
   {
     "word": "请",
     "level": 1,
     "pinyin": "qǐng",
-    "definition": "动"
+    "definition": "礼貌用语，表示请求"
   },
   {
     "word": "请问",
     "level": 1,
     "pinyin": "qǐngwèn",
-    "definition": "动"
+    "definition": "礼貌地提出问题"
   },
   {
     "word": "去",
     "level": 1,
     "pinyin": "qù",
-    "definition": "动"
+    "definition": "离开这里到别处"
   },
   {
     "word": "去年",
     "level": 1,
     "pinyin": "qùnián",
-    "definition": "名"
+    "definition": "今年的前一年"
   },
   {
     "word": "热",
     "level": 1,
     "pinyin": "rè",
-    "definition": "形"
+    "definition": "温度高，与“冷”相对"
   },
   {
     "word": "人",
     "level": 1,
     "pinyin": "rén",
-    "definition": "名"
+    "definition": "人类，有智慧生物"
   },
   {
     "word": "认识",
     "level": 1,
     "pinyin": "rènshi",
-    "definition": "动"
+    "definition": "知道，了解某人或物"
   },
   {
     "word": "日",
@@ -1035,13 +1035,13 @@
     "word": "三",
     "level": 1,
     "pinyin": "sān",
-    "definition": "数"
+    "definition": "数字，二加一"
   },
   {
     "word": "商店",
     "level": 1,
     "pinyin": "shāngdiàn",
-    "definition": "名"
+    "definition": "卖东西的地方"
   },
   {
     "word": "上",
@@ -1053,25 +1053,25 @@
     "word": "上班",
     "level": 1,
     "pinyin": "shàngbān",
-    "definition": "动"
+    "definition": "去工作"
   },
   {
     "word": "上课",
     "level": 1,
     "pinyin": "shàngkè",
-    "definition": "动"
+    "definition": "在教室学习"
   },
   {
     "word": "上午",
     "level": 1,
     "pinyin": "shàngwǔ",
-    "definition": "名"
+    "definition": "中午之前的时间"
   },
   {
     "word": "上学",
     "level": 1,
     "pinyin": "shàngxué",
-    "definition": "动"
+    "definition": "去学校学习"
   },
   {
     "word": "少",
@@ -1083,157 +1083,157 @@
     "word": "谁",
     "level": 1,
     "pinyin": "shéi/shuí",
-    "definition": "代"
+    "definition": "询问人"
   },
   {
     "word": "什么",
     "level": 1,
     "pinyin": "shénme",
-    "definition": "代"
+    "definition": "询问事物"
   },
   {
     "word": "生病",
     "level": 1,
     "pinyin": "shēngbìng",
-    "definition": "动"
+    "definition": "身体不舒服"
   },
   {
     "word": "十",
     "level": 1,
     "pinyin": "shí",
-    "definition": "数"
+    "definition": "数字，九加一"
   },
   {
     "word": "时候",
     "level": 1,
     "pinyin": "shíhou",
-    "definition": "名"
+    "definition": "某个时间点"
   },
   {
     "word": "时间",
     "level": 1,
     "pinyin": "shíjiān",
-    "definition": "名"
+    "definition": "时刻或时段"
   },
   {
     "word": "事",
     "level": 1,
     "pinyin": "shì",
-    "definition": "名"
+    "definition": "事情，活动"
   },
   {
     "word": "是",
     "level": 1,
     "pinyin": "shì",
-    "definition": "动"
+    "definition": "表示肯定判断"
   },
   {
     "word": "手机",
     "level": 1,
     "pinyin": "shǒujī",
-    "definition": "名"
+    "definition": "移动电话"
   },
   {
     "word": "书",
     "level": 1,
     "pinyin": "shū",
-    "definition": "名"
+    "definition": "用来阅读的物品"
   },
   {
     "word": "书店",
     "level": 1,
     "pinyin": "shūdiàn",
-    "definition": "名"
+    "definition": "卖书的地方"
   },
   {
     "word": "水",
     "level": 1,
     "pinyin": "shuǐ",
-    "definition": "名"
+    "definition": "无色无味的液体"
   },
   {
     "word": "水果",
     "level": 1,
     "pinyin": "shuǐguǒ",
-    "definition": "名"
+    "definition": "可食用的植物果实"
   },
   {
     "word": "睡",
     "level": 1,
     "pinyin": "shuì",
-    "definition": "动"
+    "definition": "进入睡眠状态"
   },
   {
     "word": "睡觉",
     "level": 1,
     "pinyin": "shuìjiào",
-    "definition": "动"
+    "definition": "休息，进入睡眠"
   },
   {
     "word": "说",
     "level": 1,
     "pinyin": "shuō",
-    "definition": "动"
+    "definition": "用语言表达"
   },
   {
     "word": "说话",
     "level": 1,
     "pinyin": "shuōhuà",
-    "definition": "动"
+    "definition": "用语言交流"
   },
   {
     "word": "四",
     "level": 1,
     "pinyin": "sì",
-    "definition": "数"
+    "definition": "数字，三加一"
   },
   {
     "word": "岁",
     "level": 1,
     "pinyin": "suì",
-    "definition": "量"
+    "definition": "年龄的单位"
   },
   {
     "word": "他",
     "level": 1,
     "pinyin": "tā",
-    "definition": "代"
+    "definition": "指代男性"
   },
   {
     "word": "他们",
     "level": 1,
     "pinyin": "tāmen",
-    "definition": "代"
+    "definition": "指代多个人"
   },
   {
     "word": "它",
     "level": 1,
     "pinyin": "tā",
-    "definition": "代"
+    "definition": "指代事物"
   },
   {
     "word": "它们",
     "level": 1,
     "pinyin": "tāmen",
-    "definition": "代"
+    "definition": "指代多个事物"
   },
   {
     "word": "她",
     "level": 1,
     "pinyin": "tā",
-    "definition": "代"
+    "definition": "指代女性"
   },
   {
     "word": "她们",
     "level": 1,
     "pinyin": "tāmen",
-    "definition": "代"
+    "definition": "指女性复数"
   },
   {
     "word": "太",
     "level": 1,
     "pinyin": "tài",
-    "definition": "副"
+    "definition": "表示程度很高"
   },
   {
     "word": "天",
@@ -1245,109 +1245,109 @@
     "word": "天气",
     "level": 1,
     "pinyin": "tiānqì",
-    "definition": "名"
+    "definition": "大气的冷暖阴晴"
   },
   {
     "word": "听",
     "level": 1,
     "pinyin": "tīng",
-    "definition": "动"
+    "definition": "用耳朵接收声音"
   },
   {
     "word": "听见",
     "level": 1,
     "pinyin": "tīngjiàn",
-    "definition": "动"
+    "definition": "听到声音"
   },
   {
     "word": "同学",
     "level": 1,
     "pinyin": "tóngxué",
-    "definition": "名"
+    "definition": "同一学校学习的人"
   },
   {
     "word": "外",
     "level": 1,
     "pinyin": "wài",
-    "definition": "名"
+    "definition": "外面，非内部"
   },
   {
     "word": "外边",
     "level": 1,
     "pinyin": "wàibian",
-    "definition": "名"
+    "definition": "外部，外面"
   },
   {
     "word": "玩",
     "level": 1,
     "pinyin": "wán",
-    "definition": "动"
+    "definition": "游戏，娱乐"
   },
   {
     "word": "晚",
     "level": 1,
     "pinyin": "wǎn",
-    "definition": "形"
+    "definition": "时间靠后，迟"
   },
   {
     "word": "晚饭",
     "level": 1,
     "pinyin": "wǎnfàn",
-    "definition": "名"
+    "definition": "晚上的饭"
   },
   {
     "word": "晚上",
     "level": 1,
     "pinyin": "wǎnshang",
-    "definition": "名"
+    "definition": "日落到深夜的时间"
   },
   {
     "word": "喂",
     "level": 1,
     "pinyin": "wèi",
-    "definition": "叹"
+    "definition": "打招呼或叫人的声音"
   },
   {
     "word": "问",
     "level": 1,
     "pinyin": "wèn",
-    "definition": "动"
+    "definition": "提出疑问"
   },
   {
     "word": "问题",
     "level": 1,
     "pinyin": "wèntí",
-    "definition": "名"
+    "definition": "需要解答的疑问"
   },
   {
     "word": "我",
     "level": 1,
     "pinyin": "wǒ",
-    "definition": "代"
+    "definition": "第一人称单数"
   },
   {
     "word": "我们",
     "level": 1,
     "pinyin": "wǒmen",
-    "definition": "代"
+    "definition": "包括说话人在内的复数"
   },
   {
     "word": "五",
     "level": 1,
     "pinyin": "wǔ",
-    "definition": "数"
+    "definition": "数字，四加一"
   },
   {
     "word": "午饭",
     "level": 1,
     "pinyin": "wǔfàn",
-    "definition": "名"
+    "definition": "中午吃的饭"
   },
   {
     "word": "喜欢",
     "level": 1,
     "pinyin": "xǐhuan",
-    "definition": "动"
+    "definition": "对人或事有好感"
   },
   {
     "word": "下",
@@ -1359,19 +1359,19 @@
     "word": "下班",
     "level": 1,
     "pinyin": "xiàbān",
-    "definition": "动"
+    "definition": "结束工作"
   },
   {
     "word": "下课",
     "level": 1,
     "pinyin": "xiàkè",
-    "definition": "动"
+    "definition": "结束课程"
   },
   {
     "word": "下午",
     "level": 1,
     "pinyin": "xiàwǔ",
-    "definition": "名"
+    "definition": "中午之后到傍晚"
   },
   {
     "word": "下雨",
@@ -1383,19 +1383,19 @@
     "word": "先生",
     "level": 1,
     "pinyin": "xiānsheng",
-    "definition": "名"
+    "definition": "对男性的尊称"
   },
   {
     "word": "现在",
     "level": 1,
     "pinyin": "xiànzài",
-    "definition": "名"
+    "definition": "当前的时间"
   },
   {
     "word": "想",
     "level": 1,
     "pinyin": "xiǎng",
-    "definition": "动"
+    "definition": "心里希望或思考"
   },
   {
     "word": "小",
@@ -1407,127 +1407,127 @@
     "word": "小朋友",
     "level": 1,
     "pinyin": "xiǎopéngyǒu",
-    "definition": "名"
+    "definition": "年纪小的孩子"
   },
   {
     "word": "小时",
     "level": 1,
     "pinyin": "xiǎoshí",
-    "definition": "名"
+    "definition": "时间单位，60 分钟"
   },
   {
     "word": "小学",
     "level": 1,
     "pinyin": "xiǎoxué",
-    "definition": "名"
+    "definition": "初级教育学校"
   },
   {
     "word": "小学生",
     "level": 1,
     "pinyin": "xiǎoxuéshēng",
-    "definition": "名"
+    "definition": "读小学的学生"
   },
   {
     "word": "些",
     "level": 1,
     "pinyin": "xiē",
-    "definition": "量"
+    "definition": "表示少量"
   },
   {
     "word": "写",
     "level": 1,
     "pinyin": "xiě",
-    "definition": "动"
+    "definition": "用笔在纸上写字"
   },
   {
     "word": "谢谢",
     "level": 1,
     "pinyin": "xièxie",
-    "definition": "动"
+    "definition": "表示感谢"
   },
   {
     "word": "新",
     "level": 1,
     "pinyin": "xīn",
-    "definition": "形"
+    "definition": "刚出现的，不旧"
   },
   {
     "word": "星期",
     "level": 1,
     "pinyin": "xīngqī",
-    "definition": "名"
+    "definition": "一周的七天"
   },
   {
     "word": "星期日",
     "level": 1,
     "pinyin": "xīngqīrì",
-    "definition": "名"
+    "definition": "一周的最后一天"
   },
   {
     "word": "星期天",
     "level": 1,
     "pinyin": "xīngqītiān",
-    "definition": "名"
+    "definition": "一周的最后一天"
   },
   {
     "word": "休息",
     "level": 1,
     "pinyin": "xiūxi",
-    "definition": "动"
+    "definition": "停止活动，放松"
   },
   {
     "word": "学",
     "level": 1,
     "pinyin": "xué",
-    "definition": "动"
+    "definition": "获取知识或技能"
   },
   {
     "word": "学生",
     "level": 1,
     "pinyin": "xuéshēng",
-    "definition": "名"
+    "definition": "在学校学习的人"
   },
   {
     "word": "学习",
     "level": 1,
     "pinyin": "xuéxí",
-    "definition": "动"
+    "definition": "获取知识或技能"
   },
   {
     "word": "学校",
     "level": 1,
     "pinyin": "xuéxiào",
-    "definition": "名"
+    "definition": "进行教育的机构"
   },
   {
     "word": "雪",
     "level": 1,
     "pinyin": "xuě",
-    "definition": "名"
+    "definition": "冬天降落的白色晶体"
   },
   {
     "word": "要",
     "level": 1,
     "pinyin": "yào",
-    "definition": "动"
+    "definition": "希望得到或需要"
   },
   {
     "word": "也",
     "level": 1,
     "pinyin": "yě",
-    "definition": "副"
+    "definition": "表示同样"
   },
   {
     "word": "一",
     "level": 1,
     "pinyin": "yī",
-    "definition": "数"
+    "definition": "最小的正整数"
   },
   {
     "word": "一半",
     "level": 1,
     "pinyin": "yíbàn",
-    "definition": "数"
+    "definition": "整体中的两份之一"
   },
   {
     "word": "一点儿",
@@ -1551,43 +1551,43 @@
     "word": "衣服",
     "level": 1,
     "pinyin": "yīfu",
-    "definition": "名"
+    "definition": "穿在身上的织物"
   },
   {
     "word": "医生",
     "level": 1,
     "pinyin": "yīshēng",
-    "definition": "名"
+    "definition": "治病救人的人"
   },
   {
     "word": "医院",
     "level": 1,
     "pinyin": "yīyuàn",
-    "definition": "名"
+    "definition": "治病救人的地方"
   },
   {
     "word": "椅子",
     "level": 1,
     "pinyin": "yǐzi",
-    "definition": "名"
+    "definition": "坐具，有靠背"
   },
   {
     "word": "有",
     "level": 1,
     "pinyin": "yǒu",
-    "definition": "动"
+    "definition": "表示存在或拥有"
   },
   {
     "word": "有的",
     "level": 1,
     "pinyin": "yǒude",
-    "definition": "代"
+    "definition": "表示其中一部分"
   },
   {
     "word": "有点儿",
     "level": 1,
     "pinyin": "yǒudiǎnr",
-    "definition": "副"
+    "definition": "稍微，表示程度轻"
   },
   {
     "word": "有些",
@@ -1599,31 +1599,31 @@
     "word": "雨",
     "level": 1,
     "pinyin": "yǔ",
-    "definition": "名"
+    "definition": "从天空落下的水"
   },
   {
     "word": "元",
     "level": 1,
     "pinyin": "yuán",
-    "definition": "量"
+    "definition": "人民币的货币单位"
   },
   {
     "word": "月",
     "level": 1,
     "pinyin": "yuè",
-    "definition": "名"
+    "definition": "月亮或月份"
   },
   {
     "word": "再",
     "level": 1,
     "pinyin": "zài",
-    "definition": "副"
+    "definition": "表示动作重复或继续"
   },
   {
     "word": "再见",
     "level": 1,
     "pinyin": "zàijiàn",
-    "definition": "动"
+    "definition": "分别时说的话"
   },
   {
     "word": "在",
@@ -1635,73 +1635,73 @@
     "word": "早",
     "level": 1,
     "pinyin": "zǎo",
-    "definition": "形"
+    "definition": "时间靠前，早晨"
   },
   {
     "word": "早饭",
     "level": 1,
     "pinyin": "zǎofàn",
-    "definition": "名"
+    "definition": "早晨吃的饭"
   },
   {
     "word": "早上",
     "level": 1,
     "pinyin": "zǎoshang",
-    "definition": "名"
+    "definition": "早晨的时间段"
   },
   {
     "word": "怎么",
     "level": 1,
     "pinyin": "zěnme",
-    "definition": "代"
+    "definition": "询问方式或原因"
   },
   {
     "word": "怎么样",
     "level": 1,
     "pinyin": "zěnmeyàng",
-    "definition": "代"
+    "definition": "询问情况或意见"
   },
   {
     "word": "找",
     "level": 1,
     "pinyin": "zhǎo",
-    "definition": "动"
+    "definition": "寻找，寻求"
   },
   {
     "word": "这",
     "level": 1,
     "pinyin": "zhè",
-    "definition": "代"
+    "definition": "指示较近的人或物"
   },
   {
     "word": "这边",
     "level": 1,
     "pinyin": "zhèbiān",
-    "definition": "代"
+    "definition": "这一侧的方向"
   },
   {
     "word": "这儿",
     "level": 1,
     "pinyin": "zhèr",
-    "definition": "代"
+    "definition": "这里，指近处"
   },
   {
     "word": "这个",
     "level": 1,
     "pinyin": "zhège",
-    "definition": "代"
+    "definition": "指示较近的单数事物"
   },
   {
     "word": "这里",
     "level": 1,
     "pinyin": "zhèlǐ",
-    "definition": "代"
+    "definition": "指近处的地点"
   },
   {
     "word": "这些",
     "level": 1,
     "pinyin": "zhèxiē",
-    "definition": "代"
+    "definition": "指示较近的多个事物"
   },
   {
     "word": "真",
@@ -1713,85 +1713,85 @@
     "word": "正在",
     "level": 1,
     "pinyin": "zhèngzài",
-    "definition": "副"
+    "definition": "表示动作进行中"
   },
   {
     "word": "知道",
     "level": 1,
     "pinyin": "zhīdào",
-    "definition": "动"
+    "definition": "了解，明白"
   },
   {
     "word": "只",
     "level": 1,
     "pinyin": "zhī",
-    "definition": "量"
+    "definition": "仅仅，只有"
   },
   {
     "word": "中国",
     "level": 1,
     "pinyin": "Zhōngguó",
-    "definition": "名"
+    "definition": "中华人民共和国的简称"
   },
   {
     "word": "中文",
     "level": 1,
     "pinyin": "Zhōngwén",
-    "definition": "名"
+    "definition": "中国的语言"
   },
   {
     "word": "中午",
     "level": 1,
     "pinyin": "zhōngwǔ",
-    "definition": "名"
+    "definition": "白天十二点左右"
   },
   {
     "word": "中学",
     "level": 1,
     "pinyin": "zhōngxué",
-    "definition": "名"
+    "definition": "初中和高中"
   },
   {
     "word": "中学生",
     "level": 1,
     "pinyin": "zhōngxuéshēng",
-    "definition": "名"
+    "definition": "上中学的学生"
   },
   {
     "word": "住",
     "level": 1,
     "pinyin": "zhù",
-    "definition": "动"
+    "definition": "长期居住"
   },
   {
     "word": "桌子",
     "level": 1,
     "pinyin": "zhuōzi",
-    "definition": "名"
+    "definition": "放东西的家具"
   },
   {
     "word": "字",
     "level": 1,
     "pinyin": "zì",
-    "definition": "名"
+    "definition": "记录语言的符号"
   },
   {
     "word": "昨天",
     "level": 1,
     "pinyin": "zuótiān",
-    "definition": "名"
+    "definition": "今天的前一天"
   },
   {
     "word": "坐",
     "level": 1,
     "pinyin": "zuò",
-    "definition": "动"
+    "definition": "臀部着物"
   },
   {
     "word": "做",
     "level": 1,
     "pinyin": "zuò",
-    "definition": "动"
+    "definition": "进行工作或活动"
   },
   {
     "word": "做饭",
@@ -1803,7 +1803,7 @@
     "word": "啊",
     "level": 2,
     "pinyin": "a",
-    "definition": "助"
+    "definition": "叹词，表示惊讶或感叹"
   },
   {
     "word": "爱好",
@@ -1815,7 +1815,7 @@
     "word": "白色",
     "level": 2,
     "pinyin": "báisè",
-    "definition": "名"
+    "definition": "像雪的颜色"
   },
   {
     "word": "班",
@@ -1827,13 +1827,13 @@
     "word": "帮",
     "level": 2,
     "pinyin": "bāng",
-    "definition": "动"
+    "definition": "帮助，给予支持"
   },
   {
     "word": "帮忙",
     "level": 2,
     "pinyin": "bāngmáng",
-    "definition": "动"
+    "definition": "帮别人做事"
   },
   {
     "word": "包",
@@ -1845,7 +1845,7 @@
     "word": "本子",
     "level": 2,
     "pinyin": "běnzi",
-    "definition": "名"
+    "definition": "用来写字的册子"
   },
   {
     "word": "比",
@@ -1863,13 +1863,13 @@
     "word": "别",
     "level": 2,
     "pinyin": "bié",
-    "definition": "副"
+    "definition": "不要，表示禁止"
   },
   {
     "word": "不错",
     "level": 2,
     "pinyin": "búcuò",
-    "definition": "形"
+    "definition": "很好，没有错误"
   },
   {
     "word": "不好意思",
@@ -1881,49 +1881,49 @@
     "word": "车站",
     "level": 2,
     "pinyin": "chēzhàn",
-    "definition": "名"
+    "definition": "坐火车或汽车的地方"
   },
   {
     "word": "出",
     "level": 2,
     "pinyin": "chū",
-    "definition": "动"
+    "definition": "从里面到外面"
   },
   {
     "word": "出国",
     "level": 2,
     "pinyin": "chūguó",
-    "definition": "动"
+    "definition": "离开本国去外国"
   },
   {
     "word": "出来",
     "level": 2,
     "pinyin": "chūlái",
-    "definition": "动"
+    "definition": "从里面走到外面"
   },
   {
     "word": "出门",
     "level": 2,
     "pinyin": "chūmén",
-    "definition": "动"
+    "definition": "离开家去外面"
   },
   {
     "word": "出去",
     "level": 2,
     "pinyin": "chūqù",
-    "definition": "动"
+    "definition": "从里面到外面去"
   },
   {
     "word": "床",
     "level": 2,
     "pinyin": "chuáng",
-    "definition": "名"
+    "definition": "睡觉用的家具"
   },
   {
     "word": "词",
     "level": 2,
     "pinyin": "cí",
-    "definition": "名"
+    "definition": "语言里最小的单位"
   },
   {
     "word": "次",
@@ -1941,31 +1941,31 @@
     "word": "从小",
     "level": 2,
     "pinyin": "cóngxiǎo",
-    "definition": "副"
+    "definition": "从幼年时期开始"
   },
   {
     "word": "错",
     "level": 2,
     "pinyin": "cuò",
-    "definition": "形"
+    "definition": "不正确，有错误"
   },
   {
     "word": "打",
     "level": 2,
     "pinyin": "dǎ",
-    "definition": "动"
+    "definition": "击打，或进行某活动"
   },
   {
     "word": "打车",
     "level": 2,
     "pinyin": "dǎchē",
-    "definition": "动"
+    "definition": "叫出租车乘坐"
   },
   {
     "word": "打开",
     "level": 2,
     "pinyin": "dǎkāi",
-    "definition": "动"
+    "definition": "使关闭的东西开启"
   },
   {
     "word": "但",
@@ -1977,25 +1977,25 @@
     "word": "但是",
     "level": 2,
     "pinyin": "dànshì",
-    "definition": "连"
+    "definition": "表示转折关系"
   },
   {
     "word": "得",
     "level": 2,
     "pinyin": "de",
-    "definition": "助"
+    "definition": "必须，需要"
   },
   {
     "word": "地",
     "level": 2,
     "pinyin": "de",
-    "definition": "助"
+    "definition": "助词，用在动词前"
   },
   {
     "word": "地铁",
     "level": 2,
     "pinyin": "dìtiě",
-    "definition": "名"
+    "definition": "地下运行的火车"
   },
   {
     "word": "等",
@@ -2013,25 +2013,25 @@
     "word": "懂",
     "level": 2,
     "pinyin": "dǒng",
-    "definition": "动"
+    "definition": "理解，明白意思"
   },
   {
     "word": "动",
     "level": 2,
     "pinyin": "dòng",
-    "definition": "动"
+    "definition": "移动，改变位置"
   },
   {
     "word": "饭馆",
     "level": 2,
     "pinyin": "fànguǎn",
-    "definition": "名"
+    "definition": "卖饭菜的店铺"
   },
   {
     "word": "飞",
     "level": 2,
     "pinyin": "fēi",
-    "definition": "动"
+    "definition": "在空中快速移动"
   },
   {
     "word": "高",
@@ -2043,19 +2043,19 @@
     "word": "高中",
     "level": 2,
     "pinyin": "gāozhōng",
-    "definition": "名"
+    "definition": "高级中等学校"
   },
   {
     "word": "告诉",
     "level": 2,
     "pinyin": "gàosu",
-    "definition": "动"
+    "definition": "说给别人听"
   },
   {
     "word": "个子",
     "level": 2,
     "pinyin": "gèzi",
-    "definition": "名"
+    "definition": "人的身高"
   },
   {
     "word": "跟",
@@ -2067,37 +2067,37 @@
     "word": "公交车",
     "level": 2,
     "pinyin": "gōngjiāochē",
-    "definition": "名"
+    "definition": "公共汽车"
   },
   {
     "word": "过",
     "level": 2,
     "pinyin": "guò",
-    "definition": "动"
+    "definition": "表示动作完成"
   },
   {
     "word": "过",
     "level": 2,
     "pinyin": "guo",
-    "definition": "助"
+    "definition": "表示动作完成"
   },
   {
     "word": "过来",
     "level": 2,
     "pinyin": "guòlái",
-    "definition": "动"
+    "definition": "从别处到说话人处"
   },
   {
     "word": "过年",
     "level": 2,
     "pinyin": "guònián",
-    "definition": "动"
+    "definition": "庆祝农历新年"
   },
   {
     "word": "过去",
     "level": 2,
     "pinyin": "guòqù",
-    "definition": "动"
+    "definition": "从前，已发生的时间"
   },
   {
     "word": "还是",
@@ -2109,31 +2109,31 @@
     "word": "黑色",
     "level": 2,
     "pinyin": "hēisè",
-    "definition": "名"
+    "definition": "像墨或夜的颜色"
   },
   {
     "word": "红茶",
     "level": 2,
     "pinyin": "hóngchá",
-    "definition": "名"
+    "definition": "一种茶叶"
   },
   {
     "word": "红色",
     "level": 2,
     "pinyin": "hóngsè",
-    "definition": "名"
+    "definition": "像血的颜色"
   },
   {
     "word": "后面",
     "level": 2,
     "pinyin": "hòumiàn",
-    "definition": "名"
+    "definition": "位置在后的部分"
   },
   {
     "word": "花",
     "level": 2,
     "pinyin": "huā",
-    "definition": "动"
+    "definition": "植物的繁殖器官"
   },
   {
     "word": "花",
@@ -2151,37 +2151,37 @@
     "word": "坏",
     "level": 2,
     "pinyin": "huài",
-    "definition": "形"
+    "definition": "质量差，不善良"
   },
   {
     "word": "回来",
     "level": 2,
     "pinyin": "huílái",
-    "definition": "动"
+    "definition": "从别处回到原处"
   },
   {
     "word": "回去",
     "level": 2,
     "pinyin": "huíqù",
-    "definition": "动"
+    "definition": "从原处到别处"
   },
   {
     "word": "机场",
     "level": 2,
     "pinyin": "jīchǎng",
-    "definition": "名"
+    "definition": "飞机起降的地方"
   },
   {
     "word": "机票",
     "level": 2,
     "pinyin": "jīpiào",
-    "definition": "名"
+    "definition": "乘飞机的票"
   },
   {
     "word": "记得",
     "level": 2,
     "pinyin": "jìde",
-    "definition": "动"
+    "definition": "心里记住不忘"
   },
   {
     "word": "间",
@@ -2193,55 +2193,55 @@
     "word": "教",
     "level": 2,
     "pinyin": "jiāo",
-    "definition": "动"
+    "definition": "传授知识或技能"
   },
   {
     "word": "教室",
     "level": 2,
     "pinyin": "jiàoshì",
-    "definition": "名"
+    "definition": "学生上课的房间"
   },
   {
     "word": "介绍",
     "level": 2,
     "pinyin": "jièshào",
-    "definition": "动"
+    "definition": "使双方认识或了解"
   },
   {
     "word": "近",
     "level": 2,
     "pinyin": "jìn",
-    "definition": "形"
+    "definition": "距离短，不远"
   },
   {
     "word": "进",
     "level": 2,
     "pinyin": "jìn",
-    "definition": "动"
+    "definition": "从外到内"
   },
   {
     "word": "进来",
     "level": 2,
     "pinyin": "jìnlái",
-    "definition": "动"
+    "definition": "从外面走到里面"
   },
   {
     "word": "进去",
     "level": 2,
     "pinyin": "jìnqù",
-    "definition": "动"
+    "definition": "从外面进入里面"
   },
   {
     "word": "经常",
     "level": 2,
     "pinyin": "jīngcháng",
-    "definition": "副"
+    "definition": "常常，时常"
   },
   {
     "word": "酒店",
     "level": 2,
     "pinyin": "jiǔdiàn",
-    "definition": "名"
+    "definition": "提供住宿的地方"
   },
   {
     "word": "就",
@@ -2253,7 +2253,7 @@
     "word": "咖啡",
     "level": 2,
     "pinyin": "kāfēi",
-    "definition": "名"
+    "definition": "一种褐色饮料"
   },
   {
     "word": "开始",
@@ -2265,13 +2265,13 @@
     "word": "开学",
     "level": 2,
     "pinyin": "kāixué",
-    "definition": "动"
+    "definition": "学校开始上课"
   },
   {
     "word": "考",
     "level": 2,
     "pinyin": "kǎo",
-    "definition": "动"
+    "definition": "参加考试测试"
   },
   {
     "word": "考试",
@@ -2289,7 +2289,7 @@
     "word": "裤子",
     "level": 2,
     "pinyin": "kùzi",
-    "definition": "名"
+    "definition": "穿在下身的衣物"
   },
   {
     "word": "快",
@@ -2301,19 +2301,19 @@
     "word": "快乐",
     "level": 2,
     "pinyin": "kuàilè",
-    "definition": "形"
+    "definition": "高兴，心情好"
   },
   {
     "word": "快要",
     "level": 2,
     "pinyin": "kuàiyào",
-    "definition": "副"
+    "definition": "即将，马上"
   },
   {
     "word": "篮球",
     "level": 2,
     "pinyin": "lánqiú",
-    "definition": "名"
+    "definition": "一种球类运动"
   },
   {
     "word": "累",
@@ -2325,43 +2325,43 @@
     "word": "离",
     "level": 2,
     "pinyin": "lí",
-    "definition": "动"
+    "definition": "相距，距离"
   },
   {
     "word": "里面",
     "level": 2,
     "pinyin": "lǐmiàn",
-    "definition": "名"
+    "definition": "内部，里边"
   },
   {
     "word": "楼",
     "level": 2,
     "pinyin": "lóu",
-    "definition": "名"
+    "definition": "多层建筑物"
   },
   {
     "word": "路",
     "level": 2,
     "pinyin": "lù",
-    "definition": "名"
+    "definition": "供人行走的地方"
   },
   {
     "word": "路上",
     "level": 2,
     "pinyin": "lùshang",
-    "definition": "名"
+    "definition": "在行进的道路中"
   },
   {
     "word": "旅游",
     "level": 2,
     "pinyin": "lǚyóu",
-    "definition": "动"
+    "definition": "去外地游玩观光"
   },
   {
     "word": "绿茶",
     "level": 2,
     "pinyin": "lǜchá",
-    "definition": "名"
+    "definition": "未发酵的茶"
   },
   {
     "word": "绿色",
@@ -2373,7 +2373,7 @@
     "word": "慢",
     "level": 2,
     "pinyin": "màn",
-    "definition": "形"
+    "definition": "速度低，不快"
   },
   {
     "word": "没意思",
@@ -2391,19 +2391,19 @@
     "word": "门",
     "level": 2,
     "pinyin": "mén",
-    "definition": "名"
+    "definition": "房屋或车辆的出入口"
   },
   {
     "word": "门口",
     "level": 2,
     "pinyin": "ménkǒu",
-    "definition": "名"
+    "definition": "门的前面区域"
   },
   {
     "word": "门票",
     "level": 2,
     "pinyin": "ménpiào",
-    "definition": "名"
+    "definition": "进入场所的凭证"
   },
   {
     "word": "面",
@@ -2421,7 +2421,7 @@
     "word": "拿",
     "level": 2,
     "pinyin": "ná",
-    "definition": "动"
+    "definition": "用手取或握"
   },
   {
     "word": "那么",
@@ -2433,91 +2433,91 @@
     "word": "那样",
     "level": 2,
     "pinyin": "nàyàng",
-    "definition": "代"
+    "definition": "指那种样子"
   },
   {
     "word": "奶茶",
     "level": 2,
     "pinyin": "nǎichá",
-    "definition": "名"
+    "definition": "茶加牛奶的饮料"
   },
   {
     "word": "奶奶",
     "level": 2,
     "pinyin": "nǎinai",
-    "definition": "名"
+    "definition": "父亲的母亲"
   },
   {
     "word": "男孩儿",
     "level": 2,
     "pinyin": "nánháir",
-    "definition": "名"
+    "definition": "男性小孩"
   },
   {
     "word": "鸟",
     "level": 2,
     "pinyin": "niǎo",
-    "definition": "名"
+    "definition": "会飞的动物"
   },
   {
     "word": "女孩儿",
     "level": 2,
     "pinyin": "nǚháir",
-    "definition": "名"
+    "definition": "女性小孩"
   },
   {
     "word": "旁边",
     "level": 2,
     "pinyin": "pángbiān",
-    "definition": "名"
+    "definition": "靠近的地方"
   },
   {
     "word": "跑",
     "level": 2,
     "pinyin": "pǎo",
-    "definition": "动"
+    "definition": "快速用脚移动"
   },
   {
     "word": "跑步",
     "level": 2,
     "pinyin": "pǎobù",
-    "definition": "动"
+    "definition": "一种运动方式"
   },
   {
     "word": "票",
     "level": 2,
     "pinyin": "piào",
-    "definition": "名"
+    "definition": "乘车或入场凭证"
   },
   {
     "word": "妻子",
     "level": 2,
     "pinyin": "qīzi",
-    "definition": "名"
+    "definition": "丈夫的配偶"
   },
   {
     "word": "起来",
     "level": 2,
     "pinyin": "qǐlái",
-    "definition": "动"
+    "definition": "从躺坐变为站立"
   },
   {
     "word": "前面",
     "level": 2,
     "pinyin": "qiánmiàn",
-    "definition": "名"
+    "definition": "位置在前方"
   },
   {
     "word": "晴",
     "level": 2,
     "pinyin": "qíng",
-    "definition": "形"
+    "definition": "天空无云，阳光好"
   },
   {
     "word": "球",
     "level": 2,
     "pinyin": "qiú",
-    "definition": "名"
+    "definition": "圆形运动器具"
   },
   {
     "word": "让",
@@ -2529,49 +2529,49 @@
     "word": "肉",
     "level": 2,
     "pinyin": "ròu",
-    "definition": "名"
+    "definition": "动物身上的肌肉"
   },
   {
     "word": "商场",
     "level": 2,
     "pinyin": "shāngchǎng",
-    "definition": "名"
+    "definition": "卖东西的大楼"
   },
   {
     "word": "上来",
     "level": 2,
     "pinyin": "shànglái",
-    "definition": "动"
+    "definition": "从低处到高处"
   },
   {
     "word": "上面",
     "level": 2,
     "pinyin": "shàngmiàn",
-    "definition": "名"
+    "definition": "位置在高处"
   },
   {
     "word": "上去",
     "level": 2,
     "pinyin": "shàngqù",
-    "definition": "动"
+    "definition": "由低处向高处"
   },
   {
     "word": "上网",
     "level": 2,
     "pinyin": "shàngwǎng",
-    "definition": "动"
+    "definition": "连接互联网使用"
   },
   {
     "word": "身体",
     "level": 2,
     "pinyin": "shēntǐ",
-    "definition": "名"
+    "definition": "人的躯体"
   },
   {
     "word": "生日",
     "level": 2,
     "pinyin": "shēngrì",
-    "definition": "名"
+    "definition": "出生的日子"
   },
   {
     "word": "时",
@@ -2583,49 +2583,49 @@
     "word": "事情",
     "level": 2,
     "pinyin": "shìqing",
-    "definition": "名"
+    "definition": "人类的活动或事件"
   },
   {
     "word": "手",
     "level": 2,
     "pinyin": "shǒu",
-    "definition": "名"
+    "definition": "人体上肢前端拿东西的部分"
   },
   {
     "word": "手表",
     "level": 2,
     "pinyin": "shǒubiǎo",
-    "definition": "名"
+    "definition": "戴在手腕上计时的工具"
   },
   {
     "word": "书包",
     "level": 2,
     "pinyin": "shūbāo",
-    "definition": "名"
+    "definition": "背在肩上装书本的包"
   },
   {
     "word": "舒服",
     "level": 2,
     "pinyin": "shūfu",
-    "definition": "形"
+    "definition": "身体或心里感到轻松愉快"
   },
   {
     "word": "送",
     "level": 2,
     "pinyin": "sòng",
-    "definition": "动"
+    "definition": "把东西给别人或送到某处"
   },
   {
     "word": "虽然",
     "level": 2,
     "pinyin": "suīrán",
-    "definition": "连"
+    "definition": "连词，表示承认前事"
   },
   {
     "word": "所以",
     "level": 2,
     "pinyin": "suǒyǐ",
-    "definition": "连"
+    "definition": "连词，表示结果或结论"
   },
   {
     "word": "疼",
@@ -2637,13 +2637,13 @@
     "word": "踢",
     "level": 2,
     "pinyin": "tī",
-    "definition": "动"
+    "definition": "用脚撞击或蹴动物体"
   },
   {
     "word": "题",
     "level": 2,
     "pinyin": "tí",
-    "definition": "名"
+    "definition": "考试或练习的题目"
   },
   {
     "word": "条",
@@ -2655,7 +2655,7 @@
     "word": "跳舞",
     "level": 2,
     "pinyin": "tiàowǔ",
-    "definition": "动"
+    "definition": "随着音乐做有节奏的舞步"
   },
   {
     "word": "头",
@@ -2667,31 +2667,31 @@
     "word": "外国",
     "level": 2,
     "pinyin": "wàiguó",
-    "definition": "名"
+    "definition": "本国以外的国家"
   },
   {
     "word": "外面",
     "level": 2,
     "pinyin": "wàimiàn",
-    "definition": "名"
+    "definition": "物体或区域的外部"
   },
   {
     "word": "完",
     "level": 2,
     "pinyin": "wán",
-    "definition": "动"
+    "definition": "结束，没有剩余"
   },
   {
     "word": "万",
     "level": 2,
     "pinyin": "wàn",
-    "definition": "数"
+    "definition": "数字，十个千"
   },
   {
     "word": "网上",
     "level": 2,
     "pinyin": "wǎngshang",
-    "definition": "名"
+    "definition": "互联网上，网络世界"
   },
   {
     "word": "往",
@@ -2703,7 +2703,7 @@
     "word": "忘",
     "level": 2,
     "pinyin": "wàng",
-    "definition": "动"
+    "definition": "不记得，忘记某事"
   },
   {
     "word": "为什么",
@@ -2715,61 +2715,61 @@
     "word": "位",
     "level": 2,
     "pinyin": "wèi",
-    "definition": "量"
+    "definition": "量词，用于人（表尊敬）"
   },
   {
     "word": "希望",
     "level": 2,
     "pinyin": "xīwàng",
-    "definition": "动"
+    "definition": "心里想着达到某种目的"
   },
   {
     "word": "洗",
     "level": 2,
     "pinyin": "xǐ",
-    "definition": "动"
+    "definition": "用水去掉污垢"
   },
   {
     "word": "洗手间",
     "level": 2,
     "pinyin": "xǐshǒujiān",
-    "definition": "名"
+    "definition": "厕所，盥洗的地方"
   },
   {
     "word": "下来",
     "level": 2,
     "pinyin": "xiàlái",
-    "definition": "动"
+    "definition": "从高处到低处，或动作结束"
   },
   {
     "word": "下面",
     "level": 2,
     "pinyin": "xiàmiàn",
-    "definition": "名"
+    "definition": "位置在低处，或指下文"
   },
   {
     "word": "下去",
     "level": 2,
     "pinyin": "xiàqù",
-    "definition": "动"
+    "definition": "从高处到低处，或继续"
   },
   {
     "word": "小孩儿",
     "level": 2,
     "pinyin": "xiǎoháir",
-    "definition": "名"
+    "definition": "年幼的孩子"
   },
   {
     "word": "小时候",
     "level": 2,
     "pinyin": "xiǎoshíhou",
-    "definition": "名"
+    "definition": "幼年时期，童年时光"
   },
   {
     "word": "笑",
     "level": 2,
     "pinyin": "xiào",
-    "definition": "动"
+    "definition": "露出高兴的表情"
   },
   {
     "word": "姓",
@@ -2781,37 +2781,37 @@
     "word": "姓名",
     "level": 2,
     "pinyin": "xìngmíng",
-    "definition": "名"
+    "definition": "名字，姓和名"
   },
   {
     "word": "颜色",
     "level": 2,
     "pinyin": "yánsè",
-    "definition": "名"
+    "definition": "红、黄、蓝等色彩"
   },
   {
     "word": "眼睛",
     "level": 2,
     "pinyin": "yǎnjing",
-    "definition": "名"
+    "definition": "看东西的器官"
   },
   {
     "word": "药",
     "level": 2,
     "pinyin": "yào",
-    "definition": "名"
+    "definition": "治病用的东西"
   },
   {
     "word": "药店",
     "level": 2,
     "pinyin": "yàodiàn",
-    "definition": "名"
+    "definition": "卖药的地方"
   },
   {
     "word": "爷爷",
     "level": 2,
     "pinyin": "yéye",
-    "definition": "名"
+    "definition": "父亲的父亲"
   },
   {
     "word": "一会儿",
@@ -2823,19 +2823,19 @@
     "word": "一起",
     "level": 2,
     "pinyin": "yìqǐ",
-    "definition": "副"
+    "definition": "共同，一块儿"
   },
   {
     "word": "已经",
     "level": 2,
     "pinyin": "yǐjīng",
-    "definition": "副"
+    "definition": "表示动作完成"
   },
   {
     "word": "意思",
     "level": 2,
     "pinyin": "yìsi",
-    "definition": "名"
+    "definition": "含义，想法"
   },
   {
     "word": "因为",
@@ -2847,25 +2847,25 @@
     "word": "阴",
     "level": 2,
     "pinyin": "yīn",
-    "definition": "形"
+    "definition": "没有太阳，多云"
   },
   {
     "word": "游",
     "level": 2,
     "pinyin": "yóu",
-    "definition": "动"
+    "definition": "在水里移动"
   },
   {
     "word": "游泳",
     "level": 2,
     "pinyin": "yóuyǒng",
-    "definition": "动"
+    "definition": "在水里游动"
   },
   {
     "word": "有时",
     "level": 2,
     "pinyin": "yǒushí",
-    "definition": "副"
+    "definition": "偶尔，不经常"
   },
   {
     "word": "有意思",
@@ -2877,25 +2877,25 @@
     "word": "右",
     "level": 2,
     "pinyin": "yòu",
-    "definition": "名"
+    "definition": "与左相反的方向"
   },
   {
     "word": "右边",
     "level": 2,
     "pinyin": "yòubian",
-    "definition": "名"
+    "definition": "靠右的一边"
   },
   {
     "word": "鱼",
     "level": 2,
     "pinyin": "yú",
-    "definition": "名"
+    "definition": "生活在水里的动物"
   },
   {
     "word": "远",
     "level": 2,
     "pinyin": "yuǎn",
-    "definition": "形"
+    "definition": "距离长，不近"
   },
   {
     "word": "运动",
@@ -2907,37 +2907,37 @@
     "word": "站",
     "level": 2,
     "pinyin": "zhàn",
-    "definition": "名"
+    "definition": "直立，停住不动"
   },
   {
     "word": "长",
     "level": 2,
     "pinyin": "cháng",
-    "definition": "形"
+    "definition": "长度大，时间久"
   },
   {
     "word": "丈夫",
     "level": 2,
     "pinyin": "zhàngfu",
-    "definition": "名"
+    "definition": "女子的配偶"
   },
   {
     "word": "这么",
     "level": 2,
     "pinyin": "zhème",
-    "definition": "代"
+    "definition": "指示程度或方式"
   },
   {
     "word": "这样",
     "level": 2,
     "pinyin": "zhèyàng",
-    "definition": "代"
+    "definition": "指示状态或方式"
   },
   {
     "word": "着",
     "level": 2,
     "pinyin": "zhe",
-    "definition": "助"
+    "definition": "表示动作持续"
   },
   {
     "word": "正",
@@ -2955,79 +2955,79 @@
     "word": "准备",
     "level": 2,
     "pinyin": "zhǔnbèi",
-    "definition": "动"
+    "definition": "预先安排或打算"
   },
   {
     "word": "自己",
     "level": 2,
     "pinyin": "zìjǐ",
-    "definition": "代"
+    "definition": "自身，不指别人"
   },
   {
     "word": "走",
     "level": 2,
     "pinyin": "zǒu",
-    "definition": "动"
+    "definition": "步行，移动"
   },
   {
     "word": "走路",
     "level": 2,
     "pinyin": "zǒulù",
-    "definition": "动"
+    "definition": "用脚行走"
   },
   {
     "word": "足球",
     "level": 2,
     "pinyin": "zúqiú",
-    "definition": "名"
+    "definition": "一种球类运动"
   },
   {
     "word": "最",
     "level": 2,
     "pinyin": "zuì",
-    "definition": "副"
+    "definition": "程度最高"
   },
   {
     "word": "左",
     "level": 2,
     "pinyin": "zuǒ",
-    "definition": "名"
+    "definition": "方位，与右相反"
   },
   {
     "word": "左边",
     "level": 2,
     "pinyin": "zuǒbian",
-    "definition": "名"
+    "definition": "左侧的位置"
   },
   {
     "word": "阿姨",
     "level": 3,
     "pinyin": "āyí",
-    "definition": "名"
+    "definition": "对母亲的姐妹或年长女性的称呼"
   },
   {
     "word": "矮",
     "level": 3,
     "pinyin": "ǎi",
-    "definition": "形"
+    "definition": "身高不高"
   },
   {
     "word": "爱人",
     "level": 3,
     "pinyin": "àiren",
-    "definition": "名"
+    "definition": "丈夫或妻子"
   },
   {
     "word": "安静",
     "level": 3,
     "pinyin": "ānjìng",
-    "definition": "形"
+    "definition": "没有声音，不吵闹"
   },
   {
     "word": "安全",
     "level": 3,
     "pinyin": "ānquán",
-    "definition": "形"
+    "definition": "没有危险，不受威胁"
   },
   {
     "word": "把",
@@ -3039,37 +3039,37 @@
     "word": "班级",
     "level": 3,
     "pinyin": "bānjí",
-    "definition": "名"
+    "definition": "学校里的学生组织单位"
   },
   {
     "word": "搬",
     "level": 3,
     "pinyin": "bān",
-    "definition": "动"
+    "definition": "移动位置或改变住所"
   },
   {
     "word": "搬家",
     "level": 3,
     "pinyin": "bānjiā",
-    "definition": "动"
+    "definition": "把家搬到另一个地方"
   },
   {
     "word": "办",
     "level": 3,
     "pinyin": "bàn",
-    "definition": "动"
+    "definition": "处理事情或创办机构"
   },
   {
     "word": "办法",
     "level": 3,
     "pinyin": "bànfǎ",
-    "definition": "名"
+    "definition": "处理事情的方法"
   },
   {
     "word": "办公室",
     "level": 3,
     "pinyin": "bàngōngshì",
-    "definition": "名"
+    "definition": "办公的地方"
   },
   {
     "word": "半天",
@@ -3081,37 +3081,37 @@
     "word": "帮助",
     "level": 3,
     "pinyin": "bāngzhù",
-    "definition": "动"
+    "definition": "替人出力、出主意或给物质上支援"
   },
   {
     "word": "饱",
     "level": 3,
     "pinyin": "bǎo",
-    "definition": "形"
+    "definition": "吃足了，不再饿"
   },
   {
     "word": "报纸",
     "level": 3,
     "pinyin": "bàozhǐ",
-    "definition": "名"
+    "definition": "定期出版的印刷品"
   },
   {
     "word": "北",
     "level": 3,
     "pinyin": "běi",
-    "definition": "名"
+    "definition": "四个主要方向之一"
   },
   {
     "word": "北方",
     "level": 3,
     "pinyin": "běifāng",
-    "definition": "名"
+    "definition": "北边，北面的地区"
   },
   {
     "word": "被",
     "level": 3,
     "pinyin": "bèi",
-    "definition": "介"
+    "definition": "表示被动关系的介词"
   },
   {
     "word": "比较",
@@ -3123,7 +3123,7 @@
     "word": "比如",
     "level": 3,
     "pinyin": "bǐrú",
-    "definition": "动"
+    "definition": "举例说明，像这样"
   },
   {
     "word": "比赛",
@@ -3135,31 +3135,31 @@
     "word": "笔记",
     "level": 3,
     "pinyin": "bǐjì",
-    "definition": "名"
+    "definition": "听课或读书时记录的文字"
   },
   {
     "word": "笔记本",
     "level": 3,
     "pinyin": "bǐjìběn",
-    "definition": "名"
+    "definition": "用来记笔记的本子"
   },
   {
     "word": "必须",
     "level": 3,
     "pinyin": "bìxū",
-    "definition": "副"
+    "definition": "一定要，表示事理上的必要"
   },
   {
     "word": "变",
     "level": 3,
     "pinyin": "biàn",
-    "definition": "动"
+    "definition": "性质、状态或情况发生改变"
   },
   {
     "word": "变成",
     "level": 3,
     "pinyin": "biànchéng",
-    "definition": "动"
+    "definition": "由一种状态转为另一种状态"
   },
   {
     "word": "变化",
@@ -3171,31 +3171,31 @@
     "word": "遍",
     "level": 3,
     "pinyin": "biàn",
-    "definition": "量"
+    "definition": "量词，表示动作的次数"
   },
   {
     "word": "表演",
     "level": 3,
     "pinyin": "biǎoyǎn",
-    "definition": "动"
+    "definition": "把技艺或情节展现给观众看"
   },
   {
     "word": "别的",
     "level": 3,
     "pinyin": "biéde",
-    "definition": "代"
+    "definition": "其他的，另外的"
   },
   {
     "word": "别人",
     "level": 3,
     "pinyin": "biérén",
-    "definition": "代"
+    "definition": "其他人，不是自己"
   },
   {
     "word": "宾馆",
     "level": 3,
     "pinyin": "bīnguǎn",
-    "definition": "名"
+    "definition": "提供住宿的旅馆"
   },
   {
     "word": "冰",
@@ -3207,37 +3207,37 @@
     "word": "冰激凌",
     "level": 3,
     "pinyin": "bīngjīlíng",
-    "definition": "名"
+    "definition": "一种冷冻甜点"
   },
   {
     "word": "冰箱",
     "level": 3,
     "pinyin": "bīngxiāng",
-    "definition": "名"
+    "definition": "冷藏食物的电器"
   },
   {
     "word": "病人",
     "level": 3,
     "pinyin": "bìngrén",
-    "definition": "名"
+    "definition": "生病需要治疗的人"
   },
   {
     "word": "不但",
     "level": 3,
     "pinyin": "búdàn",
-    "definition": "连"
+    "definition": "不仅，表示递进"
   },
   {
     "word": "不见",
     "level": 3,
     "pinyin": "bújiàn",
-    "definition": "动"
+    "definition": "看不到，消失了"
   },
   {
     "word": "不久",
     "level": 3,
     "pinyin": "bùjiǔ",
-    "definition": "形"
+    "definition": "时间很短，快到了"
   },
   {
     "word": "不同",
@@ -3255,49 +3255,49 @@
     "word": "不用",
     "level": 3,
     "pinyin": "búyòng",
-    "definition": "副"
+    "definition": "不需要，不必"
   },
   {
     "word": "才",
     "level": 3,
     "pinyin": "cái",
-    "definition": "副"
+    "definition": "刚刚，表示时间晚"
   },
   {
     "word": "菜单",
     "level": 3,
     "pinyin": "càidān",
-    "definition": "名"
+    "definition": "列出菜品的单子"
   },
   {
     "word": "参加",
     "level": 3,
     "pinyin": "cānjiā",
-    "definition": "动"
+    "definition": "加入某项活动"
   },
   {
     "word": "草",
     "level": 3,
     "pinyin": "cǎo",
-    "definition": "名"
+    "definition": "绿色的草本植物"
   },
   {
     "word": "草地",
     "level": 3,
     "pinyin": "cǎodì",
-    "definition": "名"
+    "definition": "长满草的地面"
   },
   {
     "word": "层",
     "level": 3,
     "pinyin": "céng",
-    "definition": "量"
+    "definition": "重叠的层次或楼层"
   },
   {
     "word": "查",
     "level": 3,
     "pinyin": "chá",
-    "definition": "动"
+    "definition": "检查，调查"
   },
   {
     "word": "差",
@@ -3315,19 +3315,19 @@
     "word": "尝",
     "level": 3,
     "pinyin": "cháng",
-    "definition": "动"
+    "definition": "用嘴试味道"
   },
   {
     "word": "常",
     "level": 3,
     "pinyin": "cháng",
-    "definition": "副"
+    "definition": "经常，平常"
   },
   {
     "word": "常常",
     "level": 3,
     "pinyin": "chángcháng",
-    "definition": "副"
+    "definition": "经常，多次发生"
   },
   {
     "word": "常见",
@@ -3345,85 +3345,85 @@
     "word": "衬衫",
     "level": 3,
     "pinyin": "chènshān",
-    "definition": "名"
+    "definition": "穿在里面的上衣"
   },
   {
     "word": "成绩",
     "level": 3,
     "pinyin": "chéngjì",
-    "definition": "名"
+    "definition": "学习或工作的成果"
   },
   {
     "word": "城市",
     "level": 3,
     "pinyin": "chéngshì",
-    "definition": "名"
+    "definition": "人口密集的大地方"
   },
   {
     "word": "迟到",
     "level": 3,
     "pinyin": "chídào",
-    "definition": "动"
+    "definition": "比规定时间晚到"
   },
   {
     "word": "出发",
     "level": 3,
     "pinyin": "chūfā",
-    "definition": "动"
+    "definition": "开始前往某地"
   },
   {
     "word": "出生",
     "level": 3,
     "pinyin": "chūshēng",
-    "definition": "动"
+    "definition": "人来到世上"
   },
   {
     "word": "出院",
     "level": 3,
     "pinyin": "chūyuàn",
-    "definition": "动"
+    "definition": "病人治好离开医院"
   },
   {
     "word": "初中",
     "level": 3,
     "pinyin": "chūzhōng",
-    "definition": "名"
+    "definition": "初级中学阶段"
   },
   {
     "word": "除了",
     "level": 3,
     "pinyin": "chúle",
-    "definition": "介"
+    "definition": "不计算在内"
   },
   {
     "word": "船",
     "level": 3,
     "pinyin": "chuán",
-    "definition": "名"
+    "definition": "水上交通工具"
   },
   {
     "word": "春天",
     "level": 3,
     "pinyin": "chūntiān",
-    "definition": "名"
+    "definition": "四季中的第一季"
   },
   {
     "word": "词典",
     "level": 3,
     "pinyin": "cídiǎn",
-    "definition": "名"
+    "definition": "解释词语的书"
   },
   {
     "word": "聪明",
     "level": 3,
     "pinyin": "cōngmíng",
-    "definition": "形"
+    "definition": "智力高，反应快"
   },
   {
     "word": "打扫",
     "level": 3,
     "pinyin": "dǎsǎo",
-    "definition": "动"
+    "definition": "清理，使干净"
   },
   {
     "word": "打算",
@@ -3441,25 +3441,25 @@
     "word": "大人",
     "level": 3,
     "pinyin": "dàren",
-    "definition": "名"
+    "definition": "成年人"
   },
   {
     "word": "大小",
     "level": 3,
     "pinyin": "dàxiǎo",
-    "definition": "名"
+    "definition": "尺寸，体积"
   },
   {
     "word": "大熊猫",
     "level": 3,
     "pinyin": "dàxióngmāo",
-    "definition": "名"
+    "definition": "珍稀动物，黑白毛"
   },
   {
     "word": "大衣",
     "level": 3,
     "pinyin": "dàyī",
-    "definition": "名"
+    "definition": "穿在最外层的长衣"
   },
   {
     "word": "带",
@@ -3471,43 +3471,43 @@
     "word": "担心",
     "level": 3,
     "pinyin": "dānxīn",
-    "definition": "动"
+    "definition": "心里不放心"
   },
   {
     "word": "蛋糕",
     "level": 3,
     "pinyin": "dàngāo",
-    "definition": "名"
+    "definition": "用面粉等做的甜食"
   },
   {
     "word": "当然",
     "level": 3,
     "pinyin": "dāngrán",
-    "definition": "副"
+    "definition": "合情合理，必定"
   },
   {
     "word": "到处",
     "level": 3,
     "pinyin": "dàochù",
-    "definition": "副"
+    "definition": "各个地方"
   },
   {
     "word": "得",
     "level": 3,
     "pinyin": "dé",
-    "definition": "动"
+    "definition": "用在动词后表可能"
   },
   {
     "word": "得",
     "level": 3,
     "pinyin": "děi",
-    "definition": "动"
+    "definition": "用在动词后表可能"
   },
   {
     "word": "得到",
     "level": 3,
     "pinyin": "dédào",
-    "definition": "动"
+    "definition": "获得，取得"
   },
   {
     "word": "得分",
@@ -3519,37 +3519,37 @@
     "word": "地",
     "level": 3,
     "pinyin": "dì",
-    "definition": "名"
+    "definition": "结构助词，修饰动词"
   },
   {
     "word": "地点",
     "level": 3,
     "pinyin": "dìdiǎn",
-    "definition": "名"
+    "definition": "具体的位置"
   },
   {
     "word": "地方",
     "level": 3,
     "pinyin": "dìfang",
-    "definition": "名"
+    "definition": "区域，处所"
   },
   {
     "word": "地图",
     "level": 3,
     "pinyin": "dìtú",
-    "definition": "名"
+    "definition": "表示地理情况的图"
   },
   {
     "word": "的话",
     "level": 3,
     "pinyin": "dehuà",
-    "definition": "助"
+    "definition": "表示假设条件"
   },
   {
     "word": "灯",
     "level": 3,
     "pinyin": "dēng",
-    "definition": "名"
+    "definition": "照明用的器具"
   },
   {
     "word": "电",
@@ -3561,217 +3561,217 @@
     "word": "电梯",
     "level": 3,
     "pinyin": "diàntī",
-    "definition": "名"
+    "definition": "上下楼用的机器"
   },
   {
     "word": "电子书",
     "level": 3,
     "pinyin": "diànzǐshū",
-    "definition": "名"
+    "definition": "用电子设备看的书"
   },
   {
     "word": "丢",
     "level": 3,
     "pinyin": "diū",
-    "definition": "动"
+    "definition": "失去，找不到"
   },
   {
     "word": "东",
     "level": 3,
     "pinyin": "dōng",
-    "definition": "名"
+    "definition": "太阳升起的方向"
   },
   {
     "word": "东北",
     "level": 3,
     "pinyin": "dōngběi",
-    "definition": "名"
+    "definition": "东和北之间的方向"
   },
   {
     "word": "东方",
     "level": 3,
     "pinyin": "dōngfāng",
-    "definition": "名"
+    "definition": "东边的方向"
   },
   {
     "word": "东南",
     "level": 3,
     "pinyin": "dōngnán",
-    "definition": "名"
+    "definition": "东和南之间的方向"
   },
   {
     "word": "冬天",
     "level": 3,
     "pinyin": "dōngtiān",
-    "definition": "名"
+    "definition": "一年中最冷的季节"
   },
   {
     "word": "懂得",
     "level": 3,
     "pinyin": "dǒngde",
-    "definition": "动"
+    "definition": "知道，了解"
   },
   {
     "word": "动物",
     "level": 3,
     "pinyin": "dòngwù",
-    "definition": "名"
+    "definition": "有生命的生物"
   },
   {
     "word": "动物园",
     "level": 3,
     "pinyin": "dòngwùyuán",
-    "definition": "名"
+    "definition": "看动物的地方"
   },
   {
     "word": "短",
     "level": 3,
     "pinyin": "duǎn",
-    "definition": "形"
+    "definition": "长度小，时间少"
   },
   {
     "word": "短裤",
     "level": 3,
     "pinyin": "duǎnkù",
-    "definition": "名"
+    "definition": "短的裤子"
   },
   {
     "word": "段",
     "level": 3,
     "pinyin": "duàn",
-    "definition": "量"
+    "definition": "一部分，一段"
   },
   {
     "word": "锻炼",
     "level": 3,
     "pinyin": "duànliàn",
-    "definition": "动"
+    "definition": "通过运动强身"
   },
   {
     "word": "对话",
     "level": 3,
     "pinyin": "duìhuà",
-    "definition": "动"
+    "definition": "两人或多人说话"
   },
   {
     "word": "饿",
     "level": 3,
     "pinyin": "è",
-    "definition": "形"
+    "definition": "想吃东西的感觉"
   },
   {
     "word": "而且",
     "level": 3,
     "pinyin": "érqiě",
-    "definition": "连"
+    "definition": "表示递进关系"
   },
   {
     "word": "耳朵",
     "level": 3,
     "pinyin": "ěrduo",
-    "definition": "名"
+    "definition": "听声音的器官"
   },
   {
     "word": "耳机",
     "level": 3,
     "pinyin": "ěrjī",
-    "definition": "名"
+    "definition": "戴在耳朵上听声音"
   },
   {
     "word": "发",
     "level": 3,
     "pinyin": "fā",
-    "definition": "动"
+    "definition": "送出，产生"
   },
   {
     "word": "发烧",
     "level": 3,
     "pinyin": "fāshāo",
-    "definition": "动"
+    "definition": "体温升高生病"
   },
   {
     "word": "发生",
     "level": 3,
     "pinyin": "fāshēng",
-    "definition": "动"
+    "definition": "事情出现"
   },
   {
     "word": "发现",
     "level": 3,
     "pinyin": "fāxiàn",
-    "definition": "动"
+    "definition": "看到或找到新事物"
   },
   {
     "word": "发展",
     "level": 3,
     "pinyin": "fāzhǎn",
-    "definition": "动"
+    "definition": "事物由小变大，由弱变强"
   },
   {
     "word": "方便",
     "level": 3,
     "pinyin": "fāngbiàn",
-    "definition": "形"
+    "definition": "便利，不麻烦"
   },
   {
     "word": "方便面",
     "level": 3,
     "pinyin": "fāngbiànmiàn",
-    "definition": "名"
+    "definition": "一种速食面条"
   },
   {
     "word": "方法",
     "level": 3,
     "pinyin": "fāngfǎ",
-    "definition": "名"
+    "definition": "解决问题的办法"
   },
   {
     "word": "方向",
     "level": 3,
     "pinyin": "fāngxiàng",
-    "definition": "名"
+    "definition": "东、南、西、北等方位"
   },
   {
     "word": "房子",
     "level": 3,
     "pinyin": "fángzi",
-    "definition": "名"
+    "definition": "供人居住的建筑"
   },
   {
     "word": "放",
     "level": 3,
     "pinyin": "fàng",
-    "definition": "动"
+    "definition": "把东西放在某处"
   },
   {
     "word": "放假",
     "level": 3,
     "pinyin": "fàngjià",
-    "definition": "动"
+    "definition": "停止工作或学习休息"
   },
   {
     "word": "放心",
     "level": 3,
     "pinyin": "fàngxīn",
-    "definition": "动"
+    "definition": "心情安定，没有顾虑"
   },
   {
     "word": "放学",
     "level": 3,
     "pinyin": "fàngxué",
-    "definition": "动"
+    "definition": "学校结束一天的课程"
   },
   {
     "word": "分开",
     "level": 3,
     "pinyin": "fēnkāi",
-    "definition": "动"
+    "definition": "使不在一起，分离"
   },
   {
     "word": "风",
     "level": 3,
     "pinyin": "fēng",
-    "definition": "名"
+    "definition": "空气流动的自然现象"
   },
   {
     "word": "封",
@@ -3783,37 +3783,37 @@
     "word": "夫妻",
     "level": 3,
     "pinyin": "fūqī",
-    "definition": "名"
+    "definition": "丈夫和妻子的合称"
   },
   {
     "word": "服务",
     "level": 3,
     "pinyin": "fúwù",
-    "definition": "动"
+    "definition": "为他人做事，满足需要"
   },
   {
     "word": "附近",
     "level": 3,
     "pinyin": "fùjìn",
-    "definition": "名"
+    "definition": "靠近的地方，不远"
   },
   {
     "word": "复习",
     "level": 3,
     "pinyin": "fùxí",
-    "definition": "动"
+    "definition": "再次学习已学过的内容"
   },
   {
     "word": "该",
     "level": 3,
     "pinyin": "gāi",
-    "definition": "动"
+    "definition": "应当，表示情理上必须"
   },
   {
     "word": "感到",
     "level": 3,
     "pinyin": "gǎndào",
-    "definition": "动"
+    "definition": "感觉到，体会到某种情绪"
   },
   {
     "word": "感冒",
@@ -3831,37 +3831,37 @@
     "word": "干",
     "level": 3,
     "pinyin": "gàn",
-    "definition": "动"
+    "definition": "做，从事某种活动"
   },
   {
     "word": "干净",
     "level": 3,
     "pinyin": "gānjìng",
-    "definition": "形"
+    "definition": "没有尘土，没有污垢"
   },
   {
     "word": "刚",
     "level": 3,
     "pinyin": "gāng",
-    "definition": "副"
+    "definition": "表示动作发生在不久以前"
   },
   {
     "word": "刚才",
     "level": 3,
     "pinyin": "gāngcái",
-    "definition": "名"
+    "definition": "刚过去不久的时间"
   },
   {
     "word": "刚刚",
     "level": 3,
     "pinyin": "gānggāng",
-    "definition": "副"
+    "definition": "时间上紧接在之前"
   },
   {
     "word": "高铁",
     "level": 3,
     "pinyin": "gāotiě",
-    "definition": "名"
+    "definition": "速度很快的高速铁路"
   },
   {
     "word": "根据",
@@ -3873,37 +3873,37 @@
     "word": "更",
     "level": 3,
     "pinyin": "gèng",
-    "definition": "副"
+    "definition": "表示程度加深，更加"
   },
   {
     "word": "工作日",
     "level": 3,
     "pinyin": "gōngzuòrì",
-    "definition": "名"
+    "definition": "周一到周五的工作日子"
   },
   {
     "word": "公斤",
     "level": 3,
     "pinyin": "gōngjīn",
-    "definition": "量"
+    "definition": "重量单位，一千克"
   },
   {
     "word": "公园",
     "level": 3,
     "pinyin": "gōngyuán",
-    "definition": "名"
+    "definition": "供人游玩休息的公共场所"
   },
   {
     "word": "故事",
     "level": 3,
     "pinyin": "gùshi",
-    "definition": "名"
+    "definition": "过去发生的事或虚构情节"
   },
   {
     "word": "刮",
     "level": 3,
     "pinyin": "guā",
-    "definition": "动"
+    "definition": "风或刀等物体表面摩擦"
   },
   {
     "word": "关",
@@ -3915,7 +3915,7 @@
     "word": "关机",
     "level": 3,
     "pinyin": "guānjī",
-    "definition": "动"
+    "definition": "关闭机器电源"
   },
   {
     "word": "关系",
@@ -3927,67 +3927,67 @@
     "word": "关心",
     "level": 3,
     "pinyin": "guānxīn",
-    "definition": "动"
+    "definition": "对人或事放在心上"
   },
   {
     "word": "关于",
     "level": 3,
     "pinyin": "guānyú",
-    "definition": "介"
+    "definition": "涉及某事或某方面"
   },
   {
     "word": "关注",
     "level": 3,
     "pinyin": "guānzhù",
-    "definition": "动"
+    "definition": "重视并留意某事"
   },
   {
     "word": "国家",
     "level": 3,
     "pinyin": "guójiā",
-    "definition": "名"
+    "definition": "拥有主权和领土的政治实体"
   },
   {
     "word": "过节",
     "level": 3,
     "pinyin": "guòjié",
-    "definition": "动"
+    "definition": "庆祝传统节日"
   },
   {
     "word": "过去",
     "level": 3,
     "pinyin": "guòqù",
-    "definition": "名"
+    "definition": "时间上已发生的事"
   },
   {
     "word": "还",
     "level": 3,
     "pinyin": "huán",
-    "definition": "动"
+    "definition": "表示动作继续或程度加深"
   },
   {
     "word": "海",
     "level": 3,
     "pinyin": "hǎi",
-    "definition": "名"
+    "definition": "靠近陆地的广阔咸水区域"
   },
   {
     "word": "害怕",
     "level": 3,
     "pinyin": "hàipà",
-    "definition": "动"
+    "definition": "因危险或恐惧而紧张"
   },
   {
     "word": "好多",
     "level": 3,
     "pinyin": "hǎoduō",
-    "definition": "数"
+    "definition": "数量非常多"
   },
   {
     "word": "好久",
     "level": 3,
     "pinyin": "hǎojiǔ",
-    "definition": "形"
+    "definition": "很长的时间"
   },
   {
     "word": "好像",
@@ -3999,109 +3999,109 @@
     "word": "号码",
     "level": 3,
     "pinyin": "hàomǎ",
-    "definition": "名"
+    "definition": "数字组成的编号"
   },
   {
     "word": "合适",
     "level": 3,
     "pinyin": "héshì",
-    "definition": "形"
+    "definition": "符合实际情况或要求"
   },
   {
     "word": "河",
     "level": 3,
     "pinyin": "hé",
-    "definition": "名"
+    "definition": "天然形成的水流通道"
   },
   {
     "word": "黑板",
     "level": 3,
     "pinyin": "hēibǎn",
-    "definition": "名"
+    "definition": "教室用来写字的黑板"
   },
   {
     "word": "红绿灯",
     "level": 3,
     "pinyin": "hóng-lǜdēng",
-    "definition": "名"
+    "definition": "指挥交通的信号灯"
   },
   {
     "word": "后来",
     "level": 3,
     "pinyin": "hòulái",
-    "definition": "名"
+    "definition": "时间上在之后"
   },
   {
     "word": "后年",
     "level": 3,
     "pinyin": "hòunián",
-    "definition": "名"
+    "definition": "今年的下一年"
   },
   {
     "word": "后天",
     "level": 3,
     "pinyin": "hòutiān",
-    "definition": "名"
+    "definition": "明天的下一天"
   },
   {
     "word": "护照",
     "level": 3,
     "pinyin": "hùzhào",
-    "definition": "名"
+    "definition": "出国用的证件"
   },
   {
     "word": "花园",
     "level": 3,
     "pinyin": "huāyuán",
-    "definition": "名"
+    "definition": "种花草的地方"
   },
   {
     "word": "画家",
     "level": 3,
     "pinyin": "huàjiā",
-    "definition": "名"
+    "definition": "画画的人"
   },
   {
     "word": "欢迎",
     "level": 3,
     "pinyin": "huānyíng",
-    "definition": "动"
+    "definition": "高兴地迎接"
   },
   {
     "word": "环境",
     "level": 3,
     "pinyin": "huánjìng",
-    "definition": "名"
+    "definition": "周围的情况"
   },
   {
     "word": "换",
     "level": 3,
     "pinyin": "huàn",
-    "definition": "动"
+    "definition": "把旧的换成新的"
   },
   {
     "word": "黄色",
     "level": 3,
     "pinyin": "huángsè",
-    "definition": "名"
+    "definition": "像柠檬的颜色"
   },
   {
     "word": "回答",
     "level": 3,
     "pinyin": "huídá",
-    "definition": "动"
+    "definition": "对问题说话"
   },
   {
     "word": "会",
     "level": 3,
     "pinyin": "huì",
-    "definition": "名"
+    "definition": "懂得，掌握"
   },
   {
     "word": "会议",
     "level": 3,
     "pinyin": "huìyì",
-    "definition": "名"
+    "definition": "大家在一起讨论"
   },
   {
     "word": "或",
@@ -4113,25 +4113,25 @@
     "word": "或者",
     "level": 3,
     "pinyin": "huòzhě",
-    "definition": "连"
+    "definition": "表示选择"
   },
   {
     "word": "机会",
     "level": 3,
     "pinyin": "jīhuì",
-    "definition": "名"
+    "definition": "难得的好时机"
   },
   {
     "word": "鸡",
     "level": 3,
     "pinyin": "jī",
-    "definition": "名"
+    "definition": "一种家禽"
   },
   {
     "word": "极",
     "level": 3,
     "pinyin": "jí",
-    "definition": "副"
+    "definition": "非常，最"
   },
   {
     "word": "急",
@@ -4143,103 +4143,103 @@
     "word": "几乎",
     "level": 3,
     "pinyin": "jīhū",
-    "definition": "副"
+    "definition": "差不多，接近"
   },
   {
     "word": "记",
     "level": 3,
     "pinyin": "jì",
-    "definition": "动"
+    "definition": "把事记在脑子里"
   },
   {
     "word": "季",
     "level": 3,
     "pinyin": "jì",
-    "definition": "名"
+    "definition": "一年分四季"
   },
   {
     "word": "季节",
     "level": 3,
     "pinyin": "jìjié",
-    "definition": "名"
+    "definition": "春夏秋冬"
   },
   {
     "word": "加",
     "level": 3,
     "pinyin": "jiā",
-    "definition": "动"
+    "definition": "把数合在一起"
   },
   {
     "word": "假期",
     "level": 3,
     "pinyin": "jiàqī",
-    "definition": "名"
+    "definition": "休息的日子"
   },
   {
     "word": "坚持",
     "level": 3,
     "pinyin": "jiānchí",
-    "definition": "动"
+    "definition": "不放弃，继续做"
   },
   {
     "word": "检查",
     "level": 3,
     "pinyin": "jiǎnchá",
-    "definition": "动"
+    "definition": "查看对不对"
   },
   {
     "word": "检票",
     "level": 3,
     "pinyin": "jiǎnpiào",
-    "definition": "动"
+    "definition": "检查车票"
   },
   {
     "word": "简单",
     "level": 3,
     "pinyin": "jiǎndān",
-    "definition": "形"
+    "definition": "不复杂，容易"
   },
   {
     "word": "见面",
     "level": 3,
     "pinyin": "jiànmiàn",
-    "definition": "动"
+    "definition": "互相看见对方"
   },
   {
     "word": "健康",
     "level": 3,
     "pinyin": "jiànkāng",
-    "definition": "形"
+    "definition": "身体没有疾病"
   },
   {
     "word": "讲",
     "level": 3,
     "pinyin": "jiǎng",
-    "definition": "动"
+    "definition": "说，讲述"
   },
   {
     "word": "角",
     "level": 3,
     "pinyin": "jiǎo",
-    "definition": "量"
+    "definition": "角落，角度"
   },
   {
     "word": "脚",
     "level": 3,
     "pinyin": "jiǎo",
-    "definition": "名"
+    "definition": "人体下肢末端"
   },
   {
     "word": "接",
     "level": 3,
     "pinyin": "jiē",
-    "definition": "动"
+    "definition": "连接，接收"
   },
   {
     "word": "街",
     "level": 3,
     "pinyin": "jiē",
-    "definition": "名"
+    "definition": "城市中的道路"
   },
   {
     "word": "节",
@@ -4251,49 +4251,49 @@
     "word": "节目",
     "level": 3,
     "pinyin": "jiémù",
-    "definition": "名"
+    "definition": "电视或广播内容"
   },
   {
     "word": "节日",
     "level": 3,
     "pinyin": "jiérì",
-    "definition": "名"
+    "definition": "庆祝的特殊日子"
   },
   {
     "word": "结婚",
     "level": 3,
     "pinyin": "jiéhūn",
-    "definition": "动"
+    "definition": "男女结为夫妻"
   },
   {
     "word": "结束",
     "level": 3,
     "pinyin": "jiéshù",
-    "definition": "动"
+    "definition": "事情完结"
   },
   {
     "word": "姐妹",
     "level": 3,
     "pinyin": "jiěmèi",
-    "definition": "名"
+    "definition": "姐姐和妹妹"
   },
   {
     "word": "解决",
     "level": 3,
     "pinyin": "jiějué",
-    "definition": "动"
+    "definition": "处理并消除问题"
   },
   {
     "word": "借",
     "level": 3,
     "pinyin": "jiè",
-    "definition": "动"
+    "definition": "暂时使用他人物品"
   },
   {
     "word": "斤",
     "level": 3,
     "pinyin": "jīn",
-    "definition": "量"
+    "definition": "重量单位"
   },
   {
     "word": "经过",
@@ -4305,37 +4305,37 @@
     "word": "经理",
     "level": 3,
     "pinyin": "jīnglǐ",
-    "definition": "名"
+    "definition": "公司管理人员"
   },
   {
     "word": "久",
     "level": 3,
     "pinyin": "jiǔ",
-    "definition": "形"
+    "definition": "时间长"
   },
   {
     "word": "酒",
     "level": 3,
     "pinyin": "jiǔ",
-    "definition": "名"
+    "definition": "含酒精的饮料"
   },
   {
     "word": "旧",
     "level": 3,
     "pinyin": "jiù",
-    "definition": "形"
+    "definition": "过去的，不新"
   },
   {
     "word": "句",
     "level": 3,
     "pinyin": "jù",
-    "definition": "量"
+    "definition": "语言的最小单位"
   },
   {
     "word": "句子",
     "level": 3,
     "pinyin": "jùzi",
-    "definition": "名"
+    "definition": "由词组成的完整意思"
   },
   {
     "word": "决定",
@@ -4347,37 +4347,37 @@
     "word": "卡",
     "level": 3,
     "pinyin": "kǎ",
-    "definition": "名"
+    "definition": "卡片，卡片类物品"
   },
   {
     "word": "开花",
     "level": 3,
     "pinyin": "kāihuā",
-    "definition": "动"
+    "definition": "花朵开放"
   },
   {
     "word": "开会",
     "level": 3,
     "pinyin": "kāihuì",
-    "definition": "动"
+    "definition": "集合讨论事务"
   },
   {
     "word": "开机",
     "level": 3,
     "pinyin": "kāijī",
-    "definition": "动"
+    "definition": "打开机器电源"
   },
   {
     "word": "开心",
     "level": 3,
     "pinyin": "kāixīn",
-    "definition": "形"
+    "definition": "心情愉快"
   },
   {
     "word": "看来",
     "level": 3,
     "pinyin": "kànlái",
-    "definition": "动"
+    "definition": "表示推测或估计"
   },
   {
     "word": "可",
@@ -4389,19 +4389,19 @@
     "word": "可爱",
     "level": 3,
     "pinyin": "kě’ài",
-    "definition": "形"
+    "definition": "令人喜爱，招人喜欢"
   },
   {
     "word": "可是",
     "level": 3,
     "pinyin": "kěshì",
-    "definition": "连"
+    "definition": "表示转折，但是"
   },
   {
     "word": "渴",
     "level": 3,
     "pinyin": "kě",
-    "definition": "形"
+    "definition": "想喝水，口干"
   },
   {
     "word": "刻",
@@ -4413,55 +4413,55 @@
     "word": "客人",
     "level": 3,
     "pinyin": "kèrén",
-    "definition": "名"
+    "definition": "来访的人，顾客"
   },
   {
     "word": "课本",
     "level": 3,
     "pinyin": "kèběn",
-    "definition": "名"
+    "definition": "学校用的教科书"
   },
   {
     "word": "课文",
     "level": 3,
     "pinyin": "kèwén",
-    "definition": "名"
+    "definition": "教科书里的文章"
   },
   {
     "word": "空调",
     "level": 3,
     "pinyin": "kōngtiáo",
-    "definition": "名"
+    "definition": "调节室温的电器"
   },
   {
     "word": "哭",
     "level": 3,
     "pinyin": "kū",
-    "definition": "动"
+    "definition": "流泪，发出哭声"
   },
   {
     "word": "筷子",
     "level": 3,
     "pinyin": "kuàizi",
-    "definition": "名"
+    "definition": "吃饭用的长条工具"
   },
   {
     "word": "矿泉水",
     "level": 3,
     "pinyin": "kuàngquánshuǐ",
-    "definition": "名"
+    "definition": "瓶装饮用水"
   },
   {
     "word": "来自",
     "level": 3,
     "pinyin": "láizì",
-    "definition": "动"
+    "definition": "从某地来，出身"
   },
   {
     "word": "蓝",
     "level": 3,
     "pinyin": "lán",
-    "definition": "形"
+    "definition": "像天空的颜色"
   },
   {
     "word": "老",
@@ -4473,43 +4473,43 @@
     "word": "老人",
     "level": 3,
     "pinyin": "lǎorén",
-    "definition": "名"
+    "definition": "年纪大的人"
   },
   {
     "word": "了解",
     "level": 3,
     "pinyin": "liǎojiě",
-    "definition": "动"
+    "definition": "知道，懂得情况"
   },
   {
     "word": "离开",
     "level": 3,
     "pinyin": "líkāi",
-    "definition": "动"
+    "definition": "走开，不再在某处"
   },
   {
     "word": "礼物",
     "level": 3,
     "pinyin": "lǐwù",
-    "definition": "名"
+    "definition": "送给别人的物品"
   },
   {
     "word": "历史",
     "level": 3,
     "pinyin": "lìshǐ",
-    "definition": "名"
+    "definition": "过去发生的事"
   },
   {
     "word": "脸",
     "level": 3,
     "pinyin": "liǎn",
-    "definition": "名"
+    "definition": "头的前部，面部"
   },
   {
     "word": "练",
     "level": 3,
     "pinyin": "liàn",
-    "definition": "动"
+    "definition": "练习，反复做"
   },
   {
     "word": "练习",
@@ -4521,85 +4521,85 @@
     "word": "凉快",
     "level": 3,
     "pinyin": "liángkuai",
-    "definition": "形"
+    "definition": "温度低，感觉凉爽"
   },
   {
     "word": "辆",
     "level": 3,
     "pinyin": "liàng",
-    "definition": "量"
+    "definition": "用于车的量词"
   },
   {
     "word": "聊",
     "level": 3,
     "pinyin": "liáo",
-    "definition": "动"
+    "definition": "闲谈，说话"
   },
   {
     "word": "聊天儿",
     "level": 3,
     "pinyin": "liáotiānr",
-    "definition": "动"
+    "definition": "随便谈话"
   },
   {
     "word": "邻居",
     "level": 3,
     "pinyin": "línjū",
-    "definition": "名"
+    "definition": "住得近的人"
   },
   {
     "word": "留学",
     "level": 3,
     "pinyin": "liúxué",
-    "definition": "动"
+    "definition": "去外国学习"
   },
   {
     "word": "留学生",
     "level": 3,
     "pinyin": "liúxuéshēng",
-    "definition": "名"
+    "definition": "去外国学习的人"
   },
   {
     "word": "楼梯",
     "level": 3,
     "pinyin": "lóutī",
-    "definition": "名"
+    "definition": "上下楼用的台阶"
   },
   {
     "word": "路边",
     "level": 3,
     "pinyin": "lùbiān",
-    "definition": "名"
+    "definition": "道路的两旁"
   },
   {
     "word": "路口",
     "level": 3,
     "pinyin": "lùkǒu",
-    "definition": "名"
+    "definition": "道路交叉的地方"
   },
   {
     "word": "马",
     "level": 3,
     "pinyin": "mǎ",
-    "definition": "名"
+    "definition": "一种常见的动物"
   },
   {
     "word": "马路",
     "level": 3,
     "pinyin": "mǎlù",
-    "definition": "名"
+    "definition": "供车辆行走的道路"
   },
   {
     "word": "马上",
     "level": 3,
     "pinyin": "mǎshàng",
-    "definition": "副"
+    "definition": "立刻，很快"
   },
   {
     "word": "满意",
     "level": 3,
     "pinyin": "mǎnyì",
-    "definition": "动"
+    "definition": "符合自己的心意"
   },
   {
     "word": "毛",
@@ -4611,25 +4611,25 @@
     "word": "米",
     "level": 3,
     "pinyin": "mǐ",
-    "definition": "量"
+    "definition": "一种粮食作物"
   },
   {
     "word": "面前",
     "level": 3,
     "pinyin": "miànqián",
-    "definition": "名"
+    "definition": "在人的前面"
   },
   {
     "word": "名单",
     "level": 3,
     "pinyin": "míngdān",
-    "definition": "名"
+    "definition": "列有名字的单子"
   },
   {
     "word": "名人",
     "level": 3,
     "pinyin": "míngrén",
-    "definition": "名"
+    "definition": "有名气的人"
   },
   {
     "word": "明白",
@@ -4641,25 +4641,25 @@
     "word": "男人",
     "level": 3,
     "pinyin": "nánrén",
-    "definition": "名"
+    "definition": "成年男性"
   },
   {
     "word": "男生",
     "level": 3,
     "pinyin": "nánshēng",
-    "definition": "名"
+    "definition": "男性学生"
   },
   {
     "word": "南",
     "level": 3,
     "pinyin": "nán",
-    "definition": "名"
+    "definition": "方向，与北相对"
   },
   {
     "word": "南方",
     "level": 3,
     "pinyin": "nánfāng",
-    "definition": "名"
+    "definition": "南边的地区"
   },
   {
     "word": "难",
@@ -4671,37 +4671,37 @@
     "word": "难过",
     "level": 3,
     "pinyin": "nánguò",
-    "definition": "形"
+    "definition": "心里难受，悲伤"
   },
   {
     "word": "难看",
     "level": 3,
     "pinyin": "nánkàn",
-    "definition": "形"
+    "definition": "不好看，丑"
   },
   {
     "word": "难题",
     "level": 3,
     "pinyin": "nántí",
-    "definition": "名"
+    "definition": "很难解决的问题"
   },
   {
     "word": "难听",
     "level": 3,
     "pinyin": "nántīng",
-    "definition": "形"
+    "definition": "声音不好听"
   },
   {
     "word": "年级",
     "level": 3,
     "pinyin": "niánjí",
-    "definition": "名"
+    "definition": "学校里的等级"
   },
   {
     "word": "年轻",
     "level": 3,
     "pinyin": "niánqīng",
-    "definition": "形"
+    "definition": "年纪不大"
   },
   {
     "word": "牛",
@@ -4719,19 +4719,19 @@
     "word": "女人",
     "level": 3,
     "pinyin": "nǚrén",
-    "definition": "名"
+    "definition": "成年女性"
   },
   {
     "word": "女生",
     "level": 3,
     "pinyin": "nǚshēng",
-    "definition": "名"
+    "definition": "女性学生"
   },
   {
     "word": "爬",
     "level": 3,
     "pinyin": "pá",
-    "definition": "动"
+    "definition": "手脚并用向上移动"
   },
   {
     "word": "怕",
@@ -4743,61 +4743,61 @@
     "word": "拍照",
     "level": 3,
     "pinyin": "pāizhào",
-    "definition": "动"
+    "definition": "用相机记录影像"
   },
   {
     "word": "盘子",
     "level": 3,
     "pinyin": "pánzi",
-    "definition": "名"
+    "definition": "盛放食物的浅碟"
   },
   {
     "word": "胖",
     "level": 3,
     "pinyin": "pàng",
-    "definition": "形"
+    "definition": "脂肪多，不瘦"
   },
   {
     "word": "啤酒",
     "level": 3,
     "pinyin": "píjiǔ",
-    "definition": "名"
+    "definition": "一种含酒精饮料"
   },
   {
     "word": "平时",
     "level": 3,
     "pinyin": "píngshí",
-    "definition": "名"
+    "definition": "平常的日子"
   },
   {
     "word": "瓶子",
     "level": 3,
     "pinyin": "píngzi",
-    "definition": "名"
+    "definition": "装液体的容器"
   },
   {
     "word": "其实",
     "level": 3,
     "pinyin": "qíshí",
-    "definition": "副"
+    "definition": "实际上，真实情况"
   },
   {
     "word": "其他",
     "level": 3,
     "pinyin": "qítā",
-    "definition": "代"
+    "definition": "别的，另外的"
   },
   {
     "word": "奇怪",
     "level": 3,
     "pinyin": "qíguài",
-    "definition": "形"
+    "definition": "不寻常，难以理解"
   },
   {
     "word": "骑",
     "level": 3,
     "pinyin": "qí",
-    "definition": "动"
+    "definition": "跨坐并驾驭动物或车"
   },
   {
     "word": "起",
@@ -4809,31 +4809,31 @@
     "word": "起飞",
     "level": 3,
     "pinyin": "qǐfēi",
-    "definition": "动"
+    "definition": "飞机离开地面"
   },
   {
     "word": "汽车",
     "level": 3,
     "pinyin": "qìchē",
-    "definition": "名"
+    "definition": "四轮机动车"
   },
   {
     "word": "铅笔",
     "level": 3,
     "pinyin": "qiānbǐ",
-    "definition": "名"
+    "definition": "用石墨写字的工具"
   },
   {
     "word": "前年",
     "level": 3,
     "pinyin": "qiánnián",
-    "definition": "名"
+    "definition": "去年的前一年"
   },
   {
     "word": "前天",
     "level": 3,
     "pinyin": "qiántiān",
-    "definition": "名"
+    "definition": "昨天的前一天"
   },
   {
     "word": "清楚",
@@ -4845,121 +4845,121 @@
     "word": "请假",
     "level": 3,
     "pinyin": "qǐngjià",
-    "definition": "动"
+    "definition": "因事请求休假"
   },
   {
     "word": "请客",
     "level": 3,
     "pinyin": "qǐngkè",
-    "definition": "动"
+    "definition": "做东招待客人"
   },
   {
     "word": "秋天",
     "level": 3,
     "pinyin": "qiūtiān",
-    "definition": "名"
+    "definition": "四季中的第三季"
   },
   {
     "word": "球场",
     "level": 3,
     "pinyin": "qiúchǎng",
-    "definition": "名"
+    "definition": "进行球类运动的场地"
   },
   {
     "word": "裙子",
     "level": 3,
     "pinyin": "qúnzi",
-    "definition": "名"
+    "definition": "穿在腰以下的服装"
   },
   {
     "word": "然后",
     "level": 3,
     "pinyin": "ránhòu",
-    "definition": "连"
+    "definition": "接着，表示顺序"
   },
   {
     "word": "热情",
     "level": 3,
     "pinyin": "rèqíng",
-    "definition": "形"
+    "definition": "态度热烈友好"
   },
   {
     "word": "认得",
     "level": 3,
     "pinyin": "rènde",
-    "definition": "动"
+    "definition": "能识别，认识"
   },
   {
     "word": "认为",
     "level": 3,
     "pinyin": "rènwéi",
-    "definition": "动"
+    "definition": "觉得，持有某种看法"
   },
   {
     "word": "认真",
     "level": 3,
     "pinyin": "rènzhēn",
-    "definition": "形"
+    "definition": "态度严肃，不马虎"
   },
   {
     "word": "容易",
     "level": 3,
     "pinyin": "róngyì",
-    "definition": "形"
+    "definition": "做起来不费事"
   },
   {
     "word": "如果",
     "level": 3,
     "pinyin": "rúguǒ",
-    "definition": "连"
+    "definition": "表示假设条件"
   },
   {
     "word": "伞",
     "level": 3,
     "pinyin": "sǎn",
-    "definition": "名"
+    "definition": "遮雨或遮阳的工具"
   },
   {
     "word": "扫",
     "level": 3,
     "pinyin": "sǎo",
-    "definition": "动"
+    "definition": "用扫帚清除灰尘"
   },
   {
     "word": "沙发",
     "level": 3,
     "pinyin": "shāfā",
-    "definition": "名"
+    "definition": "一种软垫坐具"
   },
   {
     "word": "山",
     "level": 3,
     "pinyin": "shān",
-    "definition": "名"
+    "definition": "地面高耸的大土堆"
   },
   {
     "word": "上衣",
     "level": 3,
     "pinyin": "shàngyī",
-    "definition": "名"
+    "definition": "穿在身体上半部的衣服"
   },
   {
     "word": "勺子",
     "level": 3,
     "pinyin": "sháozi",
-    "definition": "名"
+    "definition": "舀取液体或食物的器具"
   },
   {
     "word": "身边",
     "level": 3,
     "pinyin": "shēnbiān",
-    "definition": "名"
+    "definition": "自己周围的地方"
   },
   {
     "word": "身高",
     "level": 3,
     "pinyin": "shēngāo",
-    "definition": "名"
+    "definition": "身体从脚到头的长度"
   },
   {
     "word": "生活",
@@ -4971,7 +4971,7 @@
     "word": "生气",
     "level": 3,
     "pinyin": "shēngqì",
-    "definition": "动"
+    "definition": "因不满而发怒"
   },
   {
     "word": "声",
@@ -4983,121 +4983,121 @@
     "word": "声音",
     "level": 3,
     "pinyin": "shēngyīn",
-    "definition": "名"
+    "definition": "物体振动发出的响动"
   },
   {
     "word": "世界",
     "level": 3,
     "pinyin": "shìjiè",
-    "definition": "名"
+    "definition": "地球上所有地方"
   },
   {
     "word": "市",
     "level": 3,
     "pinyin": "shì",
-    "definition": "名"
+    "definition": "人口密集的大城镇"
   },
   {
     "word": "试",
     "level": 3,
     "pinyin": "shì",
-    "definition": "动"
+    "definition": "尝试或检验效果"
   },
   {
     "word": "室",
     "level": 3,
     "pinyin": "shì",
-    "definition": "名"
+    "definition": "房间或特定场所"
   },
   {
     "word": "收",
     "level": 3,
     "pinyin": "shōu",
-    "definition": "动"
+    "definition": "把东西拿进来"
   },
   {
     "word": "收到",
     "level": 3,
     "pinyin": "shōudào",
-    "definition": "动"
+    "definition": "得到别人给的东西"
   },
   {
     "word": "受",
     "level": 3,
     "pinyin": "shòu",
-    "definition": "动"
+    "definition": "接受或遭受"
   },
   {
     "word": "受到",
     "level": 3,
     "pinyin": "shòudào",
-    "definition": "动"
+    "definition": "遭到某种影响或对待"
   },
   {
     "word": "瘦",
     "level": 3,
     "pinyin": "shòu",
-    "definition": "形"
+    "definition": "脂肪少，不胖"
   },
   {
     "word": "叔叔",
     "level": 3,
     "pinyin": "shūshu",
-    "definition": "名"
+    "definition": "父亲的弟弟"
   },
   {
     "word": "树",
     "level": 3,
     "pinyin": "shù",
-    "definition": "名"
+    "definition": "高大的木本植物"
   },
   {
     "word": "数学",
     "level": 3,
     "pinyin": "shùxué",
-    "definition": "名"
+    "definition": "研究数量关系的学科"
   },
   {
     "word": "刷",
     "level": 3,
     "pinyin": "shuā",
-    "definition": "动"
+    "definition": "用刷子清理或涂抹"
   },
   {
     "word": "双",
     "level": 3,
     "pinyin": "shuāng",
-    "definition": "量"
+    "definition": "两个，成对"
   },
   {
     "word": "水平",
     "level": 3,
     "pinyin": "shuǐpíng",
-    "definition": "名"
+    "definition": "能力或达到的程度"
   },
   {
     "word": "司机",
     "level": 3,
     "pinyin": "sījī",
-    "definition": "名"
+    "definition": "驾驶车辆的人"
   },
   {
     "word": "四季",
     "level": 3,
     "pinyin": "sìjì",
-    "definition": "名"
+    "definition": "春、夏、秋、冬"
   },
   {
     "word": "太阳",
     "level": 3,
     "pinyin": "tàiyáng",
-    "definition": "名"
+    "definition": "恒星，带来光和热"
   },
   {
     "word": "糖",
     "level": 3,
     "pinyin": "táng",
-    "definition": "名"
+    "definition": "甜的调味品"
   },
   {
     "word": "特别",
@@ -5109,37 +5109,37 @@
     "word": "提高",
     "level": 3,
     "pinyin": "tígāo",
-    "definition": "动"
+    "definition": "使位置、程度等上升"
   },
   {
     "word": "体育",
     "level": 3,
     "pinyin": "tǐyù",
-    "definition": "名"
+    "definition": "身体锻炼的活动"
   },
   {
     "word": "体育馆",
     "level": 3,
     "pinyin": "tǐyùguǎn",
-    "definition": "名"
+    "definition": "进行体育运动的场所"
   },
   {
     "word": "甜",
     "level": 3,
     "pinyin": "tián",
-    "definition": "形"
+    "definition": "像糖或蜜的味道"
   },
   {
     "word": "跳",
     "level": 3,
     "pinyin": "tiào",
-    "definition": "动"
+    "definition": "脚离地向上或向前"
   },
   {
     "word": "听说",
     "level": 3,
     "pinyin": "tīngshuō",
-    "definition": "动"
+    "definition": "听别人说"
   },
   {
     "word": "挺",
@@ -5151,43 +5151,43 @@
     "word": "同事",
     "level": 3,
     "pinyin": "tóngshì",
-    "definition": "名"
+    "definition": "在同一单位工作的人"
   },
   {
     "word": "同意",
     "level": 3,
     "pinyin": "tóngyì",
-    "definition": "动"
+    "definition": "对意见表示赞成"
   },
   {
     "word": "头发",
     "level": 3,
     "pinyin": "tóufa",
-    "definition": "名"
+    "definition": "长在头上的毛"
   },
   {
     "word": "突然",
     "level": 3,
     "pinyin": "tūrán",
-    "definition": "形"
+    "definition": "在短时间内发生"
   },
   {
     "word": "图书馆",
     "level": 3,
     "pinyin": "túshūguǎn",
-    "definition": "名"
+    "definition": "收藏书籍供人阅读"
   },
   {
     "word": "腿",
     "level": 3,
     "pinyin": "tuǐ",
-    "definition": "名"
+    "definition": "下肢，用于行走"
   },
   {
     "word": "外地",
     "level": 3,
     "pinyin": "wàidì",
-    "definition": "名"
+    "definition": "自己居住的城市以外"
   },
   {
     "word": "外卖",
@@ -5199,109 +5199,109 @@
     "word": "外语",
     "level": 3,
     "pinyin": "wàiyǔ",
-    "definition": "名"
+    "definition": "本国以外的语言"
   },
   {
     "word": "完成",
     "level": 3,
     "pinyin": "wánchéng",
-    "definition": "动"
+    "definition": "结束，做成"
   },
   {
     "word": "晚点",
     "level": 3,
     "pinyin": "wǎndiǎn",
-    "definition": "动"
+    "definition": "比预定时间晚"
   },
   {
     "word": "晚会",
     "level": 3,
     "pinyin": "wǎnhuì",
-    "definition": "名"
+    "definition": "晚上举行的聚会"
   },
   {
     "word": "碗",
     "level": 3,
     "pinyin": "wǎn",
-    "definition": "名"
+    "definition": "盛饭或汤的器皿"
   },
   {
     "word": "网球",
     "level": 3,
     "pinyin": "wǎngqiú",
-    "definition": "名"
+    "definition": "一种球类运动"
   },
   {
     "word": "网站",
     "level": 3,
     "pinyin": "wǎngzhàn",
-    "definition": "名"
+    "definition": "互联网上的页面"
   },
   {
     "word": "忘记",
     "level": 3,
     "pinyin": "wàngjì",
-    "definition": "动"
+    "definition": "不记得了"
   },
   {
     "word": "卫生间",
     "level": 3,
     "pinyin": "wèishēngjiān",
-    "definition": "名"
+    "definition": "上厕所的地方"
   },
   {
     "word": "为",
     "level": 3,
     "pinyin": "wèi",
-    "definition": "介"
+    "definition": "给，替"
   },
   {
     "word": "为了",
     "level": 3,
     "pinyin": "wèile",
-    "definition": "介"
+    "definition": "表示目的"
   },
   {
     "word": "文化",
     "level": 3,
     "pinyin": "wénhuà",
-    "definition": "名"
+    "definition": "社会的精神财富"
   },
   {
     "word": "屋子",
     "level": 3,
     "pinyin": "wūzi",
-    "definition": "名"
+    "definition": "房间，住宅"
   },
   {
     "word": "西",
     "level": 3,
     "pinyin": "xī",
-    "definition": "名"
+    "definition": "方向，太阳落下的地方"
   },
   {
     "word": "西北",
     "level": 3,
     "pinyin": "xīběi",
-    "definition": "名"
+    "definition": "西和北之间的方向"
   },
   {
     "word": "西方",
     "level": 3,
     "pinyin": "xīfāng",
-    "definition": "名"
+    "definition": "西边的方向"
   },
   {
     "word": "西瓜",
     "level": 3,
     "pinyin": "xīguā",
-    "definition": "名"
+    "definition": "一种夏季水果"
   },
   {
     "word": "西南",
     "level": 3,
     "pinyin": "xīnán",
-    "definition": "名"
+    "definition": "西和南之间的方向"
   },
   {
     "word": "习惯",
@@ -5313,55 +5313,55 @@
     "word": "洗衣机",
     "level": 3,
     "pinyin": "xǐyījī",
-    "definition": "名"
+    "definition": "洗衣服的机器"
   },
   {
     "word": "洗澡",
     "level": 3,
     "pinyin": "xǐzǎo",
-    "definition": "动"
+    "definition": "用水清洗身体"
   },
   {
     "word": "喜爱",
     "level": 3,
     "pinyin": "xǐ’ài",
-    "definition": "动"
+    "definition": "喜欢，爱"
   },
   {
     "word": "夏天",
     "level": 3,
     "pinyin": "xiàtiān",
-    "definition": "名"
+    "definition": "四季中最热的季节"
   },
   {
     "word": "先",
     "level": 3,
     "pinyin": "xiān",
-    "definition": "副"
+    "definition": "时间在前"
   },
   {
     "word": "相机",
     "level": 3,
     "pinyin": "xiàngjī",
-    "definition": "名"
+    "definition": "拍照用的机器"
   },
   {
     "word": "相信",
     "level": 3,
     "pinyin": "xiāngxìn",
-    "definition": "动"
+    "definition": "认为正确，不怀疑"
   },
   {
     "word": "香蕉",
     "level": 3,
     "pinyin": "xiāngjiāo",
-    "definition": "名"
+    "definition": "一种黄色水果"
   },
   {
     "word": "箱子",
     "level": 3,
     "pinyin": "xiāngzi",
-    "definition": "名"
+    "definition": "装东西的容器"
   },
   {
     "word": "向",
@@ -5379,7 +5379,7 @@
     "word": "小区",
     "level": 3,
     "pinyin": "xiǎoqū",
-    "definition": "名"
+    "definition": "居民居住的区域"
   },
   {
     "word": "小心",
@@ -5391,43 +5391,43 @@
     "word": "校园",
     "level": 3,
     "pinyin": "xiàoyuán",
-    "definition": "名"
+    "definition": "学校里的地方"
   },
   {
     "word": "校长",
     "level": 3,
     "pinyin": "xiàozhǎng",
-    "definition": "名"
+    "definition": "学校的负责人"
   },
   {
     "word": "鞋",
     "level": 3,
     "pinyin": "xié",
-    "definition": "名"
+    "definition": "穿在脚上的物品"
   },
   {
     "word": "心里",
     "level": 3,
     "pinyin": "xīnlǐ",
-    "definition": "名"
+    "definition": "内心，思想感情"
   },
   {
     "word": "新年",
     "level": 3,
     "pinyin": "xīnnián",
-    "definition": "名"
+    "definition": "公历一月一日"
   },
   {
     "word": "新闻",
     "level": 3,
     "pinyin": "xīnwén",
-    "definition": "名"
+    "definition": "最近发生的事"
   },
   {
     "word": "新鲜",
     "level": 3,
     "pinyin": "xīnxiān",
-    "definition": "形"
+    "definition": "刚生产，未变质"
   },
   {
     "word": "信",
@@ -5439,7 +5439,7 @@
     "word": "信用卡",
     "level": 3,
     "pinyin": "xìnyòngkǎ",
-    "definition": "名"
+    "definition": "银行发的支付卡"
   },
   {
     "word": "行",
@@ -5451,19 +5451,19 @@
     "word": "行李",
     "level": 3,
     "pinyin": "xíngli",
-    "definition": "名"
+    "definition": "出门带的包裹"
   },
   {
     "word": "兴趣",
     "level": 3,
     "pinyin": "xìngqù",
-    "definition": "名"
+    "definition": "对事物喜爱的情绪"
   },
   {
     "word": "休假",
     "level": 3,
     "pinyin": "xiūjià",
-    "definition": "动"
+    "definition": "暂时停止工作"
   },
   {
     "word": "需要",
@@ -5475,43 +5475,43 @@
     "word": "选",
     "level": 3,
     "pinyin": "xuǎn",
-    "definition": "动"
+    "definition": "从几个中挑一个"
   },
   {
     "word": "选择",
     "level": 3,
     "pinyin": "xuǎnzé",
-    "definition": "动"
+    "definition": "挑选，决定"
   },
   {
     "word": "学期",
     "level": 3,
     "pinyin": "xuéqī",
-    "definition": "名"
+    "definition": "一学年的分段"
   },
   {
     "word": "牙",
     "level": 3,
     "pinyin": "yá",
-    "definition": "名"
+    "definition": "咀嚼食物的器官"
   },
   {
     "word": "牙刷",
     "level": 3,
     "pinyin": "yáshuā",
-    "definition": "名"
+    "definition": "刷牙用的工具"
   },
   {
     "word": "羊",
     "level": 3,
     "pinyin": "yáng",
-    "definition": "名"
+    "definition": "一种温顺的牲畜"
   },
   {
     "word": "养",
     "level": 3,
     "pinyin": "yǎng",
-    "definition": "动"
+    "definition": "饲养，培育"
   },
   {
     "word": "要求",
@@ -5523,19 +5523,19 @@
     "word": "页",
     "level": 3,
     "pinyin": "yè",
-    "definition": "量"
+    "definition": "书的一张纸"
   },
   {
     "word": "一般",
     "level": 3,
     "pinyin": "yìbān",
-    "definition": "形"
+    "definition": "普通，通常"
   },
   {
     "word": "一边",
     "level": 3,
     "pinyin": "yìbiān",
-    "definition": "副"
+    "definition": "一侧，同时做"
   },
   {
     "word": "一定",
@@ -5547,7 +5547,7 @@
     "word": "一共",
     "level": 3,
     "pinyin": "yígòng",
-    "definition": "副"
+    "definition": "总计，合起来"
   },
   {
     "word": "一块儿",
@@ -5559,79 +5559,79 @@
     "word": "一样",
     "level": 3,
     "pinyin": "yíyàng",
-    "definition": "形"
+    "definition": "相同，没有区别"
   },
   {
     "word": "一直",
     "level": 3,
     "pinyin": "yìzhí",
-    "definition": "副"
+    "definition": "始终，不间断"
   },
   {
     "word": "以后",
     "level": 3,
     "pinyin": "yǐhòu",
-    "definition": "名"
+    "definition": "某个时间之后"
   },
   {
     "word": "以前",
     "level": 3,
     "pinyin": "yǐqián",
-    "definition": "名"
+    "definition": "某个时间之前"
   },
   {
     "word": "以上",
     "level": 3,
     "pinyin": "yǐshàng",
-    "definition": "名"
+    "definition": "上面的，更高的"
   },
   {
     "word": "以外",
     "level": 3,
     "pinyin": "yǐwài",
-    "definition": "名"
+    "definition": "超出某个范围"
   },
   {
     "word": "以为",
     "level": 3,
     "pinyin": "yǐwéi",
-    "definition": "动"
+    "definition": "心里认为，常指想错"
   },
   {
     "word": "以下",
     "level": 3,
     "pinyin": "yǐxià",
-    "definition": "名"
+    "definition": "位置或等级在下方"
   },
   {
     "word": "音乐",
     "level": 3,
     "pinyin": "yīnyuè",
-    "definition": "名"
+    "definition": "有旋律和节奏的声音"
   },
   {
     "word": "银行",
     "level": 3,
     "pinyin": "yínháng",
-    "definition": "名"
+    "definition": "办理存款贷款的地方"
   },
   {
     "word": "银行卡",
     "level": 3,
     "pinyin": "yínhángkǎ",
-    "definition": "名"
+    "definition": "银行发行的支付卡片"
   },
   {
     "word": "饮料",
     "level": 3,
     "pinyin": "yǐnliào",
-    "definition": "名"
+    "definition": "可以喝的液体"
   },
   {
     "word": "应该",
     "level": 3,
     "pinyin": "yīnggāi",
-    "definition": "动"
+    "definition": "表示情理上必须"
   },
   {
     "word": "影响",
@@ -5643,31 +5643,31 @@
     "word": "用",
     "level": 3,
     "pinyin": "yòng",
-    "definition": "动"
+    "definition": "使用，使事物发挥作用"
   },
   {
     "word": "邮件",
     "level": 3,
     "pinyin": "yóujiàn",
-    "definition": "名"
+    "definition": "通过邮局或网络发送的信"
   },
   {
     "word": "邮箱",
     "level": 3,
     "pinyin": "yóuxiāng",
-    "definition": "名"
+    "definition": "收信或存信的箱子"
   },
   {
     "word": "游客",
     "level": 3,
     "pinyin": "yóukè",
-    "definition": "名"
+    "definition": "外出游玩的人"
   },
   {
     "word": "游戏",
     "level": 3,
     "pinyin": "yóuxì",
-    "definition": "名"
+    "definition": "娱乐活动，玩耍"
   },
   {
     "word": "有关",
@@ -5679,103 +5679,103 @@
     "word": "有名",
     "level": 3,
     "pinyin": "yǒumíng",
-    "definition": "形"
+    "definition": "名字大家都知道"
   },
   {
     "word": "有用",
     "level": 3,
     "pinyin": "yǒuyòng",
-    "definition": "形"
+    "definition": "能发挥作用，有帮助"
   },
   {
     "word": "又",
     "level": 3,
     "pinyin": "yòu",
-    "definition": "副"
+    "definition": "表示重复或并列"
   },
   {
     "word": "羽毛球",
     "level": 3,
     "pinyin": "yǔmáoqiú",
-    "definition": "名"
+    "definition": "一种球类运动"
   },
   {
     "word": "雨衣",
     "level": 3,
     "pinyin": "yǔyī",
-    "definition": "名"
+    "definition": "下雨时穿的衣服"
   },
   {
     "word": "语言",
     "level": 3,
     "pinyin": "yǔyán",
-    "definition": "名"
+    "definition": "人类交流的工具"
   },
   {
     "word": "遇到",
     "level": 3,
     "pinyin": "yùdào",
-    "definition": "动"
+    "definition": "碰见，偶然看见"
   },
   {
     "word": "遇见",
     "level": 3,
     "pinyin": "yùjiàn",
-    "definition": "动"
+    "definition": "碰到，见面"
   },
   {
     "word": "员",
     "level": 3,
     "pinyin": "yuán",
-    "definition": "后缀"
+    "definition": "指从事某种工作的人"
   },
   {
     "word": "园",
     "level": 3,
     "pinyin": "yuán",
-    "definition": "名"
+    "definition": "种植花草树木的地方"
   },
   {
     "word": "愿意",
     "level": 3,
     "pinyin": "yuànyì",
-    "definition": "动"
+    "definition": "心里同意，乐意"
   },
   {
     "word": "月亮",
     "level": 3,
     "pinyin": "yuèliang",
-    "definition": "名"
+    "definition": "夜晚天空中的卫星"
   },
   {
     "word": "越",
     "level": 3,
     "pinyin": "yuè",
-    "definition": "副"
+    "definition": "表示程度随条件变化"
   },
   {
     "word": "运动会",
     "level": 3,
     "pinyin": "yùndònghuì",
-    "definition": "名"
+    "definition": "体育比赛活动"
   },
   {
     "word": "运动员",
     "level": 3,
     "pinyin": "yùndòngyuán",
-    "definition": "名"
+    "definition": "参加体育比赛的人"
   },
   {
     "word": "咱们",
     "level": 3,
     "pinyin": "zánmen",
-    "definition": "代"
+    "definition": "包括说话人和听话人"
   },
   {
     "word": "脏",
     "level": 3,
     "pinyin": "zāng",
-    "definition": "形"
+    "definition": "不干净，有污垢"
   },
   {
     "word": "怎么办",
@@ -5787,13 +5787,13 @@
     "word": "怎样",
     "level": 3,
     "pinyin": "zěnyàng",
-    "definition": "代"
+    "definition": "询问方式或情况"
   },
   {
     "word": "站",
     "level": 3,
     "pinyin": "zhàn",
-    "definition": "动"
+    "definition": "直立，或停止不动"
   },
   {
     "word": "张",
@@ -5811,43 +5811,43 @@
     "word": "照",
     "level": 3,
     "pinyin": "zhào",
-    "definition": "动"
+    "definition": "对着镜子看，或拍摄"
   },
   {
     "word": "照顾",
     "level": 3,
     "pinyin": "zhàogù",
-    "definition": "动"
+    "definition": "关心并帮助他人"
   },
   {
     "word": "照片",
     "level": 3,
     "pinyin": "zhàopiàn",
-    "definition": "名"
+    "definition": "用相机拍下的影像"
   },
   {
     "word": "照相",
     "level": 3,
     "pinyin": "zhàoxiàng",
-    "definition": "动"
+    "definition": "拍摄照片的动作"
   },
   {
     "word": "着急",
     "level": 3,
     "pinyin": "zháojí",
-    "definition": "形"
+    "definition": "心里焦急，不安"
   },
   {
     "word": "直到",
     "level": 3,
     "pinyin": "zhídào",
-    "definition": "动"
+    "definition": "一直到某个时间"
   },
   {
     "word": "只",
     "level": 3,
     "pinyin": "zhǐ",
-    "definition": "副"
+    "definition": "仅仅，唯独"
   },
   {
     "word": "只能",
@@ -5865,67 +5865,67 @@
     "word": "只要",
     "level": 3,
     "pinyin": "zhǐyào",
-    "definition": "连"
+    "definition": "表示必要条件"
   },
   {
     "word": "只有",
     "level": 3,
     "pinyin": "zhǐyǒu",
-    "definition": "连"
+    "definition": "唯一的情况"
   },
   {
     "word": "纸",
     "level": 3,
     "pinyin": "zhǐ",
-    "definition": "名"
+    "definition": "写字画画的材料"
   },
   {
     "word": "中",
     "level": 3,
     "pinyin": "zhōng",
-    "definition": "名"
+    "definition": "中间，或中国"
   },
   {
     "word": "中间",
     "level": 3,
     "pinyin": "zhōngjiān",
-    "definition": "名"
+    "definition": "两物或两方之间"
   },
   {
     "word": "终于",
     "level": 3,
     "pinyin": "zhōngyú",
-    "definition": "副"
+    "definition": "经过努力最后"
   },
   {
     "word": "种",
     "level": 3,
     "pinyin": "zhǒng",
-    "definition": "量"
+    "definition": "种植，或种类"
   },
   {
     "word": "重要",
     "level": 3,
     "pinyin": "zhòngyào",
-    "definition": "形"
+    "definition": "具有重大意义"
   },
   {
     "word": "周末",
     "level": 3,
     "pinyin": "zhōumò",
-    "definition": "名"
+    "definition": "星期六和星期日"
   },
   {
     "word": "主要",
     "level": 3,
     "pinyin": "zhǔyào",
-    "definition": "形"
+    "definition": "最重要的部分"
   },
   {
     "word": "住院",
     "level": 3,
     "pinyin": "zhùyuàn",
-    "definition": "动"
+    "definition": "因病住在医院治疗"
   },
   {
     "word": "注意",
@@ -6003,31 +6003,31 @@
     "word": "啊",
     "level": 4,
     "pinyin": "ā",
-    "definition": "叹"
+    "definition": "叹词，表惊讶或语气"
   },
   {
     "word": "爱情",
     "level": 4,
     "pinyin": "àiqíng",
-    "definition": "名"
+    "definition": "男女之间相爱的感情"
   },
   {
     "word": "爱心",
     "level": 4,
     "pinyin": "àixīn",
-    "definition": "名"
+    "definition": "关爱他人的心意"
   },
   {
     "word": "安检",
     "level": 4,
     "pinyin": "ānjiǎn",
-    "definition": "动"
+    "definition": "安全检查的简称"
   },
   {
     "word": "安排",
     "level": 4,
     "pinyin": "ānpái",
-    "definition": "动"
+    "definition": "有条理地处理事务"
   },
   {
     "word": "按",
@@ -6039,37 +6039,37 @@
     "word": "按时",
     "level": 4,
     "pinyin": "ànshí",
-    "definition": "副"
+    "definition": "依照规定的时间"
   },
   {
     "word": "按照",
     "level": 4,
     "pinyin": "ànzhào",
-    "definition": "介"
+    "definition": "根据，依照某种标准"
   },
   {
     "word": "白酒",
     "level": 4,
     "pinyin": "báijiǔ",
-    "definition": "名"
+    "definition": "中国传统的蒸馏酒"
   },
   {
     "word": "办公",
     "level": 4,
     "pinyin": "bàngōng",
-    "definition": "动"
+    "definition": "在办公室处理公务"
   },
   {
     "word": "办理",
     "level": 4,
     "pinyin": "bànlǐ",
-    "definition": "动"
+    "definition": "处理，操办具体事务"
   },
   {
     "word": "办事",
     "level": 4,
     "pinyin": "bànshì",
-    "definition": "动"
+    "definition": "处理事情或任务"
   },
   {
     "word": "棒",
@@ -6081,7 +6081,7 @@
     "word": "保护",
     "level": 4,
     "pinyin": "bǎohù",
-    "definition": "动"
+    "definition": "尽力照顾，使不受损"
   },
   {
     "word": "保证",
@@ -6093,55 +6093,55 @@
     "word": "报考",
     "level": 4,
     "pinyin": "bàokǎo",
-    "definition": "动"
+    "definition": "报名并参加考试"
   },
   {
     "word": "报名",
     "level": 4,
     "pinyin": "bàomíng",
-    "definition": "动"
+    "definition": "登记姓名，表示参加"
   },
   {
     "word": "抱",
     "level": 4,
     "pinyin": "bào",
-    "definition": "动"
+    "definition": "用手臂围住"
   },
   {
     "word": "抱歉",
     "level": 4,
     "pinyin": "bàoqiàn",
-    "definition": "形"
+    "definition": "心中不安，觉得对不起"
   },
   {
     "word": "北部",
     "level": 4,
     "pinyin": "běibù",
-    "definition": "名"
+    "definition": "北面的区域或方向"
   },
   {
     "word": "背",
     "level": 4,
     "pinyin": "bēi",
-    "definition": "动"
+    "definition": "人或动物躯干的后部"
   },
   {
     "word": "背包",
     "level": 4,
     "pinyin": "bēibāo",
-    "definition": "名"
+    "definition": "背在背上的包"
   },
   {
     "word": "倍",
     "level": 4,
     "pinyin": "bèi",
-    "definition": "量"
+    "definition": "跟原数相等的数"
   },
   {
     "word": "本科",
     "level": 4,
     "pinyin": "běnkē",
-    "definition": "名"
+    "definition": "大学本科学制"
   },
   {
     "word": "本来",
@@ -6153,25 +6153,25 @@
     "word": "笨",
     "level": 4,
     "pinyin": "bèn",
-    "definition": "形"
+    "definition": "智力不高，不聪明"
   },
   {
     "word": "鼻子",
     "level": 4,
     "pinyin": "bízi",
-    "definition": "名"
+    "definition": "嗅觉和呼吸的器官"
   },
   {
     "word": "笔试",
     "level": 4,
     "pinyin": "bǐshì",
-    "definition": "动"
+    "definition": "用书面文字进行的考试"
   },
   {
     "word": "毕业",
     "level": 4,
     "pinyin": "bìyè",
-    "definition": "动"
+    "definition": "完成学业，结束学习"
   },
   {
     "word": "毕业生",
@@ -6381,37 +6381,37 @@
     "word": "餐厅",
     "level": 4,
     "pinyin": "cāntīng",
-    "definition": "名"
+    "definition": "吃饭的地方"
   },
   {
     "word": "操场",
     "level": 4,
     "pinyin": "cāochǎng",
-    "definition": "名"
+    "definition": "运动锻炼的场地"
   },
   {
     "word": "厕所",
     "level": 4,
     "pinyin": "cèsuǒ",
-    "definition": "名"
+    "definition": "上厕所的地方"
   },
   {
     "word": "查看",
     "level": 4,
     "pinyin": "chákàn",
-    "definition": "动"
+    "definition": "检查并观看"
   },
   {
     "word": "查找",
     "level": 4,
     "pinyin": "cházhǎo",
-    "definition": "动"
+    "definition": "寻找并找到"
   },
   {
     "word": "茶叶",
     "level": 4,
     "pinyin": "cháyè",
-    "definition": "名"
+    "definition": "泡茶的叶子"
   },
   {
     "word": "差点儿",
@@ -6423,37 +6423,37 @@
     "word": "产生",
     "level": 4,
     "pinyin": "chǎnshēng",
-    "definition": "动"
+    "definition": "由某种原因形成"
   },
   {
     "word": "厂",
     "level": 4,
     "pinyin": "chǎng",
-    "definition": "名"
+    "definition": "制造产品的地方"
   },
   {
     "word": "场",
     "level": 4,
     "pinyin": "chǎng",
-    "definition": "量"
+    "definition": "进行活动的空地"
   },
   {
     "word": "超过",
     "level": 4,
     "pinyin": "chāoguò",
-    "definition": "动"
+    "definition": "数量或程度更高"
   },
   {
     "word": "车速",
     "level": 4,
     "pinyin": "chēsù",
-    "definition": "名"
+    "definition": "车辆行驶的速度"
   },
   {
     "word": "车位",
     "level": 4,
     "pinyin": "chēwèi",
-    "definition": "名"
+    "definition": "停放车辆的位置"
   },
   {
     "word": "成功",
@@ -6465,55 +6465,55 @@
     "word": "成为",
     "level": 4,
     "pinyin": "chéngwéi",
-    "definition": "动"
+    "definition": "变成某种身份"
   },
   {
     "word": "诚实",
     "level": 4,
     "pinyin": "chéngshí",
-    "definition": "形"
+    "definition": "不说谎，讲真话"
   },
   {
     "word": "城",
     "level": 4,
     "pinyin": "chéng",
-    "definition": "名"
+    "definition": "人口密集的大城市"
   },
   {
     "word": "乘",
     "level": 4,
     "pinyin": "chéng",
-    "definition": "动"
+    "definition": "坐（车、船等）"
   },
   {
     "word": "乘客",
     "level": 4,
     "pinyin": "chéngkè",
-    "definition": "名"
+    "definition": "乘坐交通工具的人"
   },
   {
     "word": "乘坐",
     "level": 4,
     "pinyin": "chéngzuò",
-    "definition": "动"
+    "definition": "搭乘交通工具"
   },
   {
     "word": "吃惊",
     "level": 4,
     "pinyin": "chījīng",
-    "definition": "动"
+    "definition": "感到意外和惊讶"
   },
   {
     "word": "迟",
     "level": 4,
     "pinyin": "chí",
-    "definition": "形"
+    "definition": "比规定时间晚"
   },
   {
     "word": "出差",
     "level": 4,
     "pinyin": "chūchāi",
-    "definition": "动"
+    "definition": "因公外出办事"
   },
   {
     "word": "出口",
@@ -6525,61 +6525,61 @@
     "word": "出现",
     "level": 4,
     "pinyin": "chūxiàn",
-    "definition": "动"
+    "definition": "显露出来"
   },
   {
     "word": "出行",
     "level": 4,
     "pinyin": "chūxíng",
-    "definition": "动"
+    "definition": "外出旅行或办事"
   },
   {
     "word": "出租",
     "level": 4,
     "pinyin": "chūzū",
-    "definition": "动"
+    "definition": "把东西租给别人"
   },
   {
     "word": "厨房",
     "level": 4,
     "pinyin": "chúfáng",
-    "definition": "名"
+    "definition": "做饭的地方"
   },
   {
     "word": "厨师",
     "level": 4,
     "pinyin": "chúshī",
-    "definition": "名"
+    "definition": "做饭的专业人员"
   },
   {
     "word": "窗",
     "level": 4,
     "pinyin": "chuāng",
-    "definition": "名"
+    "definition": "墙上透光的洞口"
   },
   {
     "word": "窗户",
     "level": 4,
     "pinyin": "chuānghu",
-    "definition": "名"
+    "definition": "墙上透光的洞口"
   },
   {
     "word": "吹",
     "level": 4,
     "pinyin": "chuī",
-    "definition": "动"
+    "definition": "让气体流动"
   },
   {
     "word": "词语",
     "level": 4,
     "pinyin": "cíyǔ",
-    "definition": "名"
+    "definition": "词和短语的统称"
   },
   {
     "word": "此",
     "level": 4,
     "pinyin": "cǐ",
-    "definition": "代"
+    "definition": "这，这个"
   },
   {
     "word": "此次",
@@ -6591,55 +6591,55 @@
     "word": "此外",
     "level": 4,
     "pinyin": "cǐwài",
-    "definition": "连"
+    "definition": "除了这个以外"
   },
   {
     "word": "从此",
     "level": 4,
     "pinyin": "cóngcǐ",
-    "definition": "副"
+    "definition": "从这个时候起"
   },
   {
     "word": "从来",
     "level": 4,
     "pinyin": "cónglái",
-    "definition": "副"
+    "definition": "从过去到现在"
   },
   {
     "word": "从中",
     "level": 4,
     "pinyin": "cóngzhōng",
-    "definition": "副"
+    "definition": "从中间或里面"
   },
   {
     "word": "粗",
     "level": 4,
     "pinyin": "cū",
-    "definition": "形"
+    "definition": "不细，不精细"
   },
   {
     "word": "粗心",
     "level": 4,
     "pinyin": "cūxīn",
-    "definition": "形"
+    "definition": "做事不仔细"
   },
   {
     "word": "村",
     "level": 4,
     "pinyin": "cūn",
-    "definition": "名"
+    "definition": "农村，村庄"
   },
   {
     "word": "存",
     "level": 4,
     "pinyin": "cún",
-    "definition": "动"
+    "definition": "保存，存在"
   },
   {
     "word": "错过",
     "level": 4,
     "pinyin": "cuòguò",
-    "definition": "动"
+    "definition": "没抓住机会"
   },
   {
     "word": "错误",
@@ -6651,55 +6651,55 @@
     "word": "达到",
     "level": 4,
     "pinyin": "dádào",
-    "definition": "动"
+    "definition": "实现目标或程度"
   },
   {
     "word": "答",
     "level": 4,
     "pinyin": "dá",
-    "definition": "动"
+    "definition": "回答，答复"
   },
   {
     "word": "答案",
     "level": 4,
     "pinyin": "dá’àn",
-    "definition": "名"
+    "definition": "对问题的回答"
   },
   {
     "word": "答应",
     "level": 4,
     "pinyin": "dāying",
-    "definition": "动"
+    "definition": "口头同意请求"
   },
   {
     "word": "打败",
     "level": 4,
     "pinyin": "dǎbài",
-    "definition": "动"
+    "definition": "战胜对手"
   },
   {
     "word": "打工",
     "level": 4,
     "pinyin": "dǎgōng",
-    "definition": "动"
+    "definition": "受雇做临时工"
   },
   {
     "word": "打扰",
     "level": 4,
     "pinyin": "dǎrǎo",
-    "definition": "动"
+    "definition": "干扰别人休息"
   },
   {
     "word": "打印",
     "level": 4,
     "pinyin": "dǎyìn",
-    "definition": "动"
+    "definition": "用机器印文字"
   },
   {
     "word": "打印机",
     "level": 4,
     "pinyin": "dǎyìnjī",
-    "definition": "名"
+    "definition": "打印文件的机器"
   },
   {
     "word": "打招呼",
@@ -6711,91 +6711,91 @@
     "word": "打折",
     "level": 4,
     "pinyin": "dǎzhé",
-    "definition": "动"
+    "definition": "降低商品原价"
   },
   {
     "word": "打针",
     "level": 4,
     "pinyin": "dǎzhēn",
-    "definition": "动"
+    "definition": "用针筒注射药物"
   },
   {
     "word": "大巴",
     "level": 4,
     "pinyin": "dàbā",
-    "definition": "名"
+    "definition": "大型公共汽车"
   },
   {
     "word": "大大",
     "level": 4,
     "pinyin": "dàdà",
-    "definition": "副"
+    "definition": "形容程度很高"
   },
   {
     "word": "大夫",
     "level": 4,
     "pinyin": "dàifu",
-    "definition": "名"
+    "definition": "医生，口语"
   },
   {
     "word": "大量",
     "level": 4,
     "pinyin": "dàliàng",
-    "definition": "形"
+    "definition": "数量很多"
   },
   {
     "word": "大赛",
     "level": 4,
     "pinyin": "dàsài",
-    "definition": "名"
+    "definition": "规模大的比赛"
   },
   {
     "word": "大厅",
     "level": 4,
     "pinyin": "dàtīng",
-    "definition": "名"
+    "definition": "建筑物内的大房间"
   },
   {
     "word": "大约",
     "level": 4,
     "pinyin": "dàyuē",
-    "definition": "副"
+    "definition": "大概，表示估计"
   },
   {
     "word": "大自然",
     "level": 4,
     "pinyin": "dàzìrán",
-    "definition": "名"
+    "definition": "自然界"
   },
   {
     "word": "待",
     "level": 4,
     "pinyin": "dāi",
-    "definition": "动"
+    "definition": "停留，等待"
   },
   {
     "word": "袋子",
     "level": 4,
     "pinyin": "dàizi",
-    "definition": "名"
+    "definition": "装东西的容器"
   },
   {
     "word": "戴",
     "level": 4,
     "pinyin": "dài",
-    "definition": "动"
+    "definition": "把东西加在头面等"
   },
   {
     "word": "单位",
     "level": 4,
     "pinyin": "dānwèi",
-    "definition": "名"
+    "definition": "工作机构或计量标准"
   },
   {
     "word": "弹",
     "level": 4,
     "pinyin": "tán",
-    "definition": "动"
+    "definition": "用手指拨动或投掷"
   },
   {
     "word": "当",
@@ -6807,13 +6807,13 @@
     "word": "当时",
     "level": 4,
     "pinyin": "dāngshí",
-    "definition": "名"
+    "definition": "过去某个时候"
   },
   {
     "word": "刀",
     "level": 4,
     "pinyin": "dāo",
-    "definition": "名"
+    "definition": "切东西的工具"
   },
   {
     "word": "导游",
@@ -6825,13 +6825,13 @@
     "word": "到底",
     "level": 4,
     "pinyin": "dàodǐ",
-    "definition": "副"
+    "definition": "究竟，表示追问"
   },
   {
     "word": "到来",
     "level": 4,
     "pinyin": "dàolái",
-    "definition": "动"
+    "definition": "来到，到达"
   },
   {
     "word": "倒",
@@ -6849,37 +6849,37 @@
     "word": "道路",
     "level": 4,
     "pinyin": "dàolù",
-    "definition": "名"
+    "definition": "供行走的路"
   },
   {
     "word": "道歉",
     "level": 4,
     "pinyin": "dàoqiàn",
-    "definition": "动"
+    "definition": "表示歉意"
   },
   {
     "word": "得意",
     "level": 4,
     "pinyin": "déyì",
-    "definition": "形"
+    "definition": "感到满意骄傲"
   },
   {
     "word": "地球",
     "level": 4,
     "pinyin": "dìqiú",
-    "definition": "名"
+    "definition": "我们居住的星球"
   },
   {
     "word": "地址",
     "level": 4,
     "pinyin": "dìzhǐ",
-    "definition": "名"
+    "definition": "居住或工作的地点"
   },
   {
     "word": "登机",
     "level": 4,
     "pinyin": "dēngjī",
-    "definition": "动"
+    "definition": "登上飞机"
   },
   {
     "word": "等",
@@ -6891,7 +6891,7 @@
     "word": "等到",
     "level": 4,
     "pinyin": "děngdào",
-    "definition": "介"
+    "definition": "一直到某个时候"
   },
   {
     "word": "低",
@@ -6903,127 +6903,127 @@
     "word": "低价",
     "level": 4,
     "pinyin": "dījià",
-    "definition": "名"
+    "definition": "价格很低"
   },
   {
     "word": "低温",
     "level": 4,
     "pinyin": "dīwēn",
-    "definition": "名"
+    "definition": "温度很低"
   },
   {
     "word": "低于",
     "level": 4,
     "pinyin": "dīyú",
-    "definition": "动"
+    "definition": "比……低"
   },
   {
     "word": "底",
     "level": 4,
     "pinyin": "dǐ",
-    "definition": "名"
+    "definition": "最下面的部分"
   },
   {
     "word": "底下",
     "level": 4,
     "pinyin": "dǐxia",
-    "definition": "名"
+    "definition": "在……下面"
   },
   {
     "word": "点名",
     "level": 4,
     "pinyin": "diǎnmíng",
-    "definition": "动"
+    "definition": "叫名字核对"
   },
   {
     "word": "点头",
     "level": 4,
     "pinyin": "diǎntóu",
-    "definition": "动"
+    "definition": "头向下动表示同意"
   },
   {
     "word": "电动车",
     "level": 4,
     "pinyin": "diàndòngchē",
-    "definition": "名"
+    "definition": "用电驱动的车"
   },
   {
     "word": "电视剧",
     "level": 4,
     "pinyin": "diànshìjù",
-    "definition": "名"
+    "definition": "电视上演的剧集"
   },
   {
     "word": "调查",
     "level": 4,
     "pinyin": "diàochá",
-    "definition": "动"
+    "definition": "了解情况"
   },
   {
     "word": "掉",
     "level": 4,
     "pinyin": "diào",
-    "definition": "动"
+    "definition": "落下或丢失"
   },
   {
     "word": "订",
     "level": 4,
     "pinyin": "dìng",
-    "definition": "动"
+    "definition": "预先约定"
   },
   {
     "word": "定",
     "level": 4,
     "pinyin": "dìng",
-    "definition": "动"
+    "definition": "决定或固定"
   },
   {
     "word": "东部",
     "level": 4,
     "pinyin": "dōngbù",
-    "definition": "名"
+    "definition": "东边的区域"
   },
   {
     "word": "动车",
     "level": 4,
     "pinyin": "dòngchē",
-    "definition": "名"
+    "definition": "高速列车的一种"
   },
   {
     "word": "动作",
     "level": 4,
     "pinyin": "dòngzuò",
-    "definition": "名"
+    "definition": "身体活动"
   },
   {
     "word": "读者",
     "level": 4,
     "pinyin": "dúzhě",
-    "definition": "名"
+    "definition": "看书的人"
   },
   {
     "word": "堵车",
     "level": 4,
     "pinyin": "dǔchē",
-    "definition": "动"
+    "definition": "车辆堵塞"
   },
   {
     "word": "肚子",
     "level": 4,
     "pinyin": "dùzi",
-    "definition": "名"
+    "definition": "腹部"
   },
   {
     "word": "度假",
     "level": 4,
     "pinyin": "dùjià",
-    "definition": "动"
+    "definition": "去外地休息"
   },
   {
     "word": "短信",
     "level": 4,
     "pinyin": "duǎnxìn",
-    "definition": "名"
+    "definition": "手机短消息"
   },
   {
     "word": "队",
@@ -7035,31 +7035,31 @@
     "word": "队员",
     "level": 4,
     "pinyin": "duìyuán",
-    "definition": "名"
+    "definition": "团队中的一员"
   },
   {
     "word": "队长",
     "level": 4,
     "pinyin": "duìzhǎng",
-    "definition": "名"
+    "definition": "团队的领导者"
   },
   {
     "word": "对方",
     "level": 4,
     "pinyin": "duìfāng",
-    "definition": "名"
+    "definition": "相对的一方"
   },
   {
     "word": "对面",
     "level": 4,
     "pinyin": "duìmiàn",
-    "definition": "名"
+    "definition": "正对着的地方"
   },
   {
     "word": "对于",
     "level": 4,
     "pinyin": "duìyú",
-    "definition": "介"
+    "definition": "关于，针对"
   },
   {
     "word": "顿",
@@ -7071,55 +7071,55 @@
     "word": "多么",
     "level": 4,
     "pinyin": "duōme",
-    "definition": "副"
+    "definition": "表示程度很高"
   },
   {
     "word": "多数",
     "level": 4,
     "pinyin": "duōshù",
-    "definition": "名"
+    "definition": "数量超过一半"
   },
   {
     "word": "多样",
     "level": 4,
     "pinyin": "duōyàng",
-    "definition": "形"
+    "definition": "种类很多"
   },
   {
     "word": "儿童",
     "level": 4,
     "pinyin": "értóng",
-    "definition": "名"
+    "definition": "年纪小的孩子"
   },
   {
     "word": "而",
     "level": 4,
     "pinyin": "ér",
-    "definition": "连"
+    "definition": "连接词，表转折或顺承"
   },
   {
     "word": "发出",
     "level": 4,
     "pinyin": "fāchū",
-    "definition": "动"
+    "definition": "产生并送出"
   },
   {
     "word": "发送",
     "level": 4,
     "pinyin": "fāsòng",
-    "definition": "动"
+    "definition": "把东西或信息送出"
   },
   {
     "word": "法",
     "level": 4,
     "pinyin": "fǎ",
-    "definition": "名"
+    "definition": "方法，或指法律"
   },
   {
     "word": "法律",
     "level": 4,
     "pinyin": "fǎlǜ",
-    "definition": "名"
+    "definition": "国家制定的规则"
   },
   {
     "word": "翻译",
@@ -7137,49 +7137,49 @@
     "word": "烦恼",
     "level": 4,
     "pinyin": "fánnǎo",
-    "definition": "形"
+    "definition": "烦闷苦恼"
   },
   {
     "word": "反对",
     "level": 4,
     "pinyin": "fǎnduì",
-    "definition": "动"
+    "definition": "不赞成，持不同意见"
   },
   {
     "word": "方面",
     "level": 4,
     "pinyin": "fāngmiàn",
-    "definition": "名"
+    "definition": "事物的某一部分"
   },
   {
     "word": "方式",
     "level": 4,
     "pinyin": "fāngshì",
-    "definition": "名"
+    "definition": "做事的方法和形式"
   },
   {
     "word": "房东",
     "level": 4,
     "pinyin": "fángdōng",
-    "definition": "名"
+    "definition": "出租房子的人"
   },
   {
     "word": "房租",
     "level": 4,
     "pinyin": "fángzū",
-    "definition": "名"
+    "definition": "租房子要交的钱"
   },
   {
     "word": "放弃",
     "level": 4,
     "pinyin": "fàngqì",
-    "definition": "动"
+    "definition": "不再坚持或拥有"
   },
   {
     "word": "放松",
     "level": 4,
     "pinyin": "fàngsōng",
-    "definition": "动"
+    "definition": "使心情或身体不紧张"
   },
   {
     "word": "费",
@@ -7191,85 +7191,85 @@
     "word": "费用",
     "level": 4,
     "pinyin": "fèiyong",
-    "definition": "名"
+    "definition": "做事花的钱"
   },
   {
     "word": "分数",
     "level": 4,
     "pinyin": "fēnshù",
-    "definition": "名"
+    "definition": "考试或比赛的成绩"
   },
   {
     "word": "分为",
     "level": 4,
     "pinyin": "fēnwéi",
-    "definition": "动"
+    "definition": "分成几个部分"
   },
   {
     "word": "份",
     "level": 4,
     "pinyin": "fèn",
-    "definition": "量"
+    "definition": "量词，用于整体的一部分"
   },
   {
     "word": "丰富",
     "level": 4,
     "pinyin": "fēngfù",
-    "definition": "形"
+    "definition": "种类多或数量大"
   },
   {
     "word": "风景",
     "level": 4,
     "pinyin": "fēngjǐng",
-    "definition": "名"
+    "definition": "自然或人文的景色"
   },
   {
     "word": "否则",
     "level": 4,
     "pinyin": "fǒuzé",
-    "definition": "连"
+    "definition": "如果不这样"
   },
   {
     "word": "符合",
     "level": 4,
     "pinyin": "fúhé",
-    "definition": "动"
+    "definition": "与事实或要求一致"
   },
   {
     "word": "幅",
     "level": 4,
     "pinyin": "fú",
-    "definition": "量"
+    "definition": "量词，用于布帛、图画"
   },
   {
     "word": "父母",
     "level": 4,
     "pinyin": "fùmǔ",
-    "definition": "名"
+    "definition": "父亲和母亲的合称"
   },
   {
     "word": "父女",
     "level": 4,
     "pinyin": "fùnǚ",
-    "definition": "名"
+    "definition": "父亲和女儿的关系"
   },
   {
     "word": "父亲",
     "level": 4,
     "pinyin": "fùqīn",
-    "definition": "名"
+    "definition": "有子女的男子，爸爸"
   },
   {
     "word": "父子",
     "level": 4,
     "pinyin": "fùzǐ",
-    "definition": "名"
+    "definition": "父亲和儿子的关系"
   },
   {
     "word": "付",
     "level": 4,
     "pinyin": "fù",
-    "definition": "动"
+    "definition": "给钱，交给"
   },
   {
     "word": "负责",
@@ -7281,67 +7281,67 @@
     "word": "负责人",
     "level": 4,
     "pinyin": "fùzérén",
-    "definition": "名"
+    "definition": "主管某项工作的人"
   },
   {
     "word": "复印",
     "level": 4,
     "pinyin": "fùyìn",
-    "definition": "动"
+    "definition": "用机器复制文件"
   },
   {
     "word": "复杂",
     "level": 4,
     "pinyin": "fùzá",
-    "definition": "形"
+    "definition": "多而杂，头绪多"
   },
   {
     "word": "改",
     "level": 4,
     "pinyin": "gǎi",
-    "definition": "动"
+    "definition": "改变，修改"
   },
   {
     "word": "改变",
     "level": 4,
     "pinyin": "gǎibiàn",
-    "definition": "动"
+    "definition": "事物变得不同"
   },
   {
     "word": "赶",
     "level": 4,
     "pinyin": "gǎn",
-    "definition": "动"
+    "definition": "加快行动，追逐"
   },
   {
     "word": "赶紧",
     "level": 4,
     "pinyin": "gǎnjǐn",
-    "definition": "副"
+    "definition": "抓紧时间，快点"
   },
   {
     "word": "赶快",
     "level": 4,
     "pinyin": "gǎnkuài",
-    "definition": "副"
+    "definition": "迅速行动，快点"
   },
   {
     "word": "赶上",
     "level": 4,
     "pinyin": "gǎnshàng",
-    "definition": "动"
+    "definition": "追上，达到要求"
   },
   {
     "word": "敢",
     "level": 4,
     "pinyin": "gǎn",
-    "definition": "动"
+    "definition": "有勇气做某事"
   },
   {
     "word": "感",
     "level": 4,
     "pinyin": "gǎn",
-    "definition": "后缀"
+    "definition": "感觉，情感"
   },
   {
     "word": "感动",
@@ -7359,13 +7359,13 @@
     "word": "感情",
     "level": 4,
     "pinyin": "gǎnqíng",
-    "definition": "名"
+    "definition": "对人或事物的态度"
   },
   {
     "word": "感人",
     "level": 4,
     "pinyin": "gǎnrén",
-    "definition": "形"
+    "definition": "令人感动"
   },
   {
     "word": "感受",
@@ -7377,7 +7377,7 @@
     "word": "感谢",
     "level": 4,
     "pinyin": "gǎnxiè",
-    "definition": "动"
+    "definition": "用言语行动表示谢意"
   },
   {
     "word": "干",
@@ -7389,67 +7389,67 @@
     "word": "干杯",
     "level": 4,
     "pinyin": "gānbēi",
-    "definition": "动"
+    "definition": "举杯饮酒表示祝贺"
   },
   {
     "word": "干活儿",
     "level": 4,
     "pinyin": "gànhuór",
-    "definition": "动"
+    "definition": "从事体力或脑力劳动"
   },
   {
     "word": "钢琴",
     "level": 4,
     "pinyin": "gāngqín",
-    "definition": "名"
+    "definition": "一种键盘乐器"
   },
   {
     "word": "高价",
     "level": 4,
     "pinyin": "gāojià",
-    "definition": "名"
+    "definition": "很高的价格"
   },
   {
     "word": "高考",
     "level": 4,
     "pinyin": "gāokǎo",
-    "definition": "名"
+    "definition": "大学入学考试"
   },
   {
     "word": "高速",
     "level": 4,
     "pinyin": "gāosù",
-    "definition": "形"
+    "definition": "速度非常快"
   },
   {
     "word": "高温",
     "level": 4,
     "pinyin": "gāowēn",
-    "definition": "名"
+    "definition": "温度很高"
   },
   {
     "word": "高于",
     "level": 4,
     "pinyin": "gāoyú",
-    "definition": "动"
+    "definition": "比...高"
   },
   {
     "word": "胳膊",
     "level": 4,
     "pinyin": "gēbo",
-    "definition": "名"
+    "definition": "手臂"
   },
   {
     "word": "歌声",
     "level": 4,
     "pinyin": "gēshēng",
-    "definition": "名"
+    "definition": "唱歌的声音"
   },
   {
     "word": "歌手",
     "level": 4,
     "pinyin": "gēshǒu",
-    "definition": "名"
+    "definition": "唱歌的人"
   },
   {
     "word": "各",
@@ -7461,7 +7461,7 @@
     "word": "各地",
     "level": 4,
     "pinyin": "gèdì",
-    "definition": "名"
+    "definition": "各个地方"
   },
   {
     "word": "各个",
@@ -7473,79 +7473,79 @@
     "word": "各位",
     "level": 4,
     "pinyin": "gèwèi",
-    "definition": "代"
+    "definition": "大家"
   },
   {
     "word": "各种",
     "level": 4,
     "pinyin": "gèzhǒng",
-    "definition": "代"
+    "definition": "多种多样的"
   },
   {
     "word": "更加",
     "level": 4,
     "pinyin": "gèngjiā",
-    "definition": "副"
+    "definition": "程度加深"
   },
   {
     "word": "工厂",
     "level": 4,
     "pinyin": "gōngchǎng",
-    "definition": "名"
+    "definition": "制造产品的地方"
   },
   {
     "word": "工人",
     "level": 4,
     "pinyin": "gōngrén",
-    "definition": "名"
+    "definition": "在工厂工作的人"
   },
   {
     "word": "工资",
     "level": 4,
     "pinyin": "gōngzī",
-    "definition": "名"
+    "definition": "工作得到的钱"
   },
   {
     "word": "公共",
     "level": 4,
     "pinyin": "gōnggòng",
-    "definition": "形"
+    "definition": "大家共有的"
   },
   {
     "word": "公里",
     "level": 4,
     "pinyin": "gōnglǐ",
-    "definition": "量"
+    "definition": "长度单位"
   },
   {
     "word": "公路",
     "level": 4,
     "pinyin": "gōnglù",
-    "definition": "名"
+    "definition": "供汽车行驶的路"
   },
   {
     "word": "功夫",
     "level": 4,
     "pinyin": "gōngfu",
-    "definition": "名"
+    "definition": "武术或本领"
   },
   {
     "word": "功课",
     "level": 4,
     "pinyin": "gōngkè",
-    "definition": "名"
+    "definition": "学校布置的作业"
   },
   {
     "word": "共",
     "level": 4,
     "pinyin": "gòng",
-    "definition": "副"
+    "definition": "总共"
   },
   {
     "word": "共同",
     "level": 4,
     "pinyin": "gòngtóng",
-    "definition": "形"
+    "definition": "一起"
   },
   {
     "word": "购买",
@@ -7557,7 +7557,7 @@
     "word": "购物",
     "level": 4,
     "pinyin": "gòuwù",
-    "definition": "动"
+    "definition": "买东西"
   },
   {
     "word": "够",
@@ -7569,37 +7569,37 @@
     "word": "估计",
     "level": 4,
     "pinyin": "gūjì",
-    "definition": "动"
+    "definition": "大概推测"
   },
   {
     "word": "姑娘",
     "level": 4,
     "pinyin": "gūniang",
-    "definition": "名"
+    "definition": "年轻女子"
   },
   {
     "word": "鼓励",
     "level": 4,
     "pinyin": "gǔlì",
-    "definition": "动"
+    "definition": "激发，勉励"
   },
   {
     "word": "故意",
     "level": 4,
     "pinyin": "gùyì",
-    "definition": "副"
+    "definition": "有意，存心"
   },
   {
     "word": "顾客",
     "level": 4,
     "pinyin": "gùkè",
-    "definition": "名"
+    "definition": "买东西的人"
   },
   {
     "word": "挂",
     "level": 4,
     "pinyin": "guà",
-    "definition": "动"
+    "definition": "悬挂，打电话"
   },
   {
     "word": "关键",
@@ -7611,13 +7611,13 @@
     "word": "观看",
     "level": 4,
     "pinyin": "guānkàn",
-    "definition": "动"
+    "definition": "看，观赏"
   },
   {
     "word": "观众",
     "level": 4,
     "pinyin": "guānzhòng",
-    "definition": "名"
+    "definition": "看演出的人"
   },
   {
     "word": "管",
@@ -7629,7 +7629,7 @@
     "word": "管理",
     "level": 4,
     "pinyin": "guǎnlǐ",
-    "definition": "动"
+    "definition": "负责，管束"
   },
   {
     "word": "光",
@@ -7647,13 +7647,13 @@
     "word": "广告",
     "level": 4,
     "pinyin": "guǎnggào",
-    "definition": "名"
+    "definition": "宣传商品"
   },
   {
     "word": "逛",
     "level": 4,
     "pinyin": "guàng",
-    "definition": "动"
+    "definition": "闲游，散步"
   },
   {
     "word": "规定",
@@ -7665,7 +7665,7 @@
     "word": "国籍",
     "level": 4,
     "pinyin": "guójí",
-    "definition": "名"
+    "definition": "属于哪个国家"
   },
   {
     "word": "国际",
@@ -7677,73 +7677,73 @@
     "word": "果汁",
     "level": 4,
     "pinyin": "guǒzhī",
-    "definition": "名"
+    "definition": "水果榨的汁"
   },
   {
     "word": "过程",
     "level": 4,
     "pinyin": "guòchéng",
-    "definition": "名"
+    "definition": "事情经过"
   },
   {
     "word": "咳",
     "level": 4,
     "pinyin": "ké",
-    "definition": "动"
+    "definition": "喉咙发声"
   },
   {
     "word": "咳嗽",
     "level": 4,
     "pinyin": "késou",
-    "definition": "动"
+    "definition": "喉咙不适发声"
   },
   {
     "word": "海洋",
     "level": 4,
     "pinyin": "hǎiyáng",
-    "definition": "名"
+    "definition": "大海"
   },
   {
     "word": "害羞",
     "level": 4,
     "pinyin": "hàixiū",
-    "definition": "形"
+    "definition": "不好意思"
   },
   {
     "word": "寒假",
     "level": 4,
     "pinyin": "hánjià",
-    "definition": "名"
+    "definition": "冬天的假期"
   },
   {
     "word": "寒冷",
     "level": 4,
     "pinyin": "hánlěng",
-    "definition": "形"
+    "definition": "很冷"
   },
   {
     "word": "喊",
     "level": 4,
     "pinyin": "hǎn",
-    "definition": "动"
+    "definition": "大声叫"
   },
   {
     "word": "汗",
     "level": 4,
     "pinyin": "hàn",
-    "definition": "名"
+    "definition": "身体出的水"
   },
   {
     "word": "航班",
     "level": 4,
     "pinyin": "hángbān",
-    "definition": "名"
+    "definition": "飞机班次"
   },
   {
     "word": "好处",
     "level": 4,
     "pinyin": "hǎochù",
-    "definition": "名"
+    "definition": "有利的地方"
   },
   {
     "word": "好好",
@@ -7755,79 +7755,79 @@
     "word": "好笑",
     "level": 4,
     "pinyin": "hǎoxiào",
-    "definition": "形"
+    "definition": "有趣，可笑"
   },
   {
     "word": "合格",
     "level": 4,
     "pinyin": "hégé",
-    "definition": "形"
+    "definition": "符合标准"
   },
   {
     "word": "盒子",
     "level": 4,
     "pinyin": "hézi",
-    "definition": "名"
+    "definition": "装东西的容器"
   },
   {
     "word": "红包",
     "level": 4,
     "pinyin": "hóngbāo",
-    "definition": "名"
+    "definition": "装钱的红色信封"
   },
   {
     "word": "后悔",
     "level": 4,
     "pinyin": "hòuhuǐ",
-    "definition": "动"
+    "definition": "做错了事心里懊恼"
   },
   {
     "word": "厚",
     "level": 4,
     "pinyin": "hòu",
-    "definition": "形"
+    "definition": "扁平物体上下距离大"
   },
   {
     "word": "忽然",
     "level": 4,
     "pinyin": "hūrán",
-    "definition": "副"
+    "definition": "动作或情况突然发生"
   },
   {
     "word": "互联网",
     "level": 4,
     "pinyin": "hùliánwǎng",
-    "definition": "名"
+    "definition": "连接全球的计算机网络"
   },
   {
     "word": "互相",
     "level": 4,
     "pinyin": "hùxiāng",
-    "definition": "副"
+    "definition": "彼此对待，双方一样"
   },
   {
     "word": "护士",
     "level": 4,
     "pinyin": "hùshi",
-    "definition": "名"
+    "definition": "在医院照顾病人的人"
   },
   {
     "word": "话剧",
     "level": 4,
     "pinyin": "huàjù",
-    "definition": "名"
+    "definition": "以对话为主的戏剧"
   },
   {
     "word": "怀疑",
     "level": 4,
     "pinyin": "huáiyí",
-    "definition": "动"
+    "definition": "心中不信任或猜测"
   },
   {
     "word": "坏处",
     "level": 4,
     "pinyin": "huàichù",
-    "definition": "名"
+    "definition": "不好的方面或影响"
   },
   {
     "word": "环保",
@@ -7839,13 +7839,13 @@
     "word": "换乘",
     "level": 4,
     "pinyin": "huànchéng",
-    "definition": "动"
+    "definition": "中途更换交通工具"
   },
   {
     "word": "回复",
     "level": 4,
     "pinyin": "huífù",
-    "definition": "动"
+    "definition": "回答或恢复原状"
   },
   {
     "word": "回信",
@@ -7857,13 +7857,13 @@
     "word": "回忆",
     "level": 4,
     "pinyin": "huíyì",
-    "definition": "动"
+    "definition": "回想过去的事情"
   },
   {
     "word": "会员",
     "level": 4,
     "pinyin": "huìyuán",
-    "definition": "名"
+    "definition": "加入组织或俱乐部的人"
   },
   {
     "word": "活",
@@ -7881,7 +7881,7 @@
     "word": "活泼",
     "level": 4,
     "pinyin": "huópō",
-    "definition": "形"
+    "definition": "生动自然，不呆板"
   },
   {
     "word": "火",
@@ -7893,37 +7893,37 @@
     "word": "货",
     "level": 4,
     "pinyin": "huò",
-    "definition": "名"
+    "definition": "货物，商品"
   },
   {
     "word": "获得",
     "level": 4,
     "pinyin": "huòdé",
-    "definition": "动"
+    "definition": "得到，取得"
   },
   {
     "word": "获奖",
     "level": 4,
     "pinyin": "huòjiǎng",
-    "definition": "动"
+    "definition": "得到奖项或荣誉"
   },
   {
     "word": "获取",
     "level": 4,
     "pinyin": "huòqǔ",
-    "definition": "动"
+    "definition": "取得，得到"
   },
   {
     "word": "积极",
     "level": 4,
     "pinyin": "jījí",
-    "definition": "形"
+    "definition": "主动进取，不消极"
   },
   {
     "word": "积累",
     "level": 4,
     "pinyin": "jīlěi",
-    "definition": "动"
+    "definition": "逐渐聚集，慢慢增多"
   },
   {
     "word": "基本",
@@ -7935,13 +7935,13 @@
     "word": "基本上",
     "level": 4,
     "pinyin": "jīběnshàng",
-    "definition": "副"
+    "definition": "大体上，主要部分"
   },
   {
     "word": "基础",
     "level": 4,
     "pinyin": "jīchǔ",
-    "definition": "名"
+    "definition": "事物发展的根本或起点"
   },
   {
     "word": "激动",
@@ -7959,7 +7959,7 @@
     "word": "即使",
     "level": 4,
     "pinyin": "jíshǐ",
-    "definition": "连"
+    "definition": "表示假设的让步"
   },
   {
     "word": "计划",
@@ -7971,13 +7971,13 @@
     "word": "记者",
     "level": 4,
     "pinyin": "jìzhě",
-    "definition": "名"
+    "definition": "从事新闻报道工作的人"
   },
   {
     "word": "技术",
     "level": 4,
     "pinyin": "jìshù",
-    "definition": "名"
+    "definition": "掌握专门的知识或技能"
   },
   {
     "word": "既",
@@ -7989,127 +7989,127 @@
     "word": "既然",
     "level": 4,
     "pinyin": "jìrán",
-    "definition": "连"
+    "definition": "表示先提出前提"
   },
   {
     "word": "继续",
     "level": 4,
     "pinyin": "jìxù",
-    "definition": "动"
+    "definition": "接着做，不间断"
   },
   {
     "word": "寄",
     "level": 4,
     "pinyin": "jì",
-    "definition": "动"
+    "definition": "通过邮局送东西"
   },
   {
     "word": "加班",
     "level": 4,
     "pinyin": "jiābān",
-    "definition": "动"
+    "definition": "在正常工作时间外工作"
   },
   {
     "word": "加快",
     "level": 4,
     "pinyin": "jiākuài",
-    "definition": "动"
+    "definition": "使速度变快"
   },
   {
     "word": "加强",
     "level": 4,
     "pinyin": "jiāqiáng",
-    "definition": "动"
+    "definition": "使更坚强或更有效"
   },
   {
     "word": "加入",
     "level": 4,
     "pinyin": "jiārù",
-    "definition": "动"
+    "definition": "参加到组织或活动中"
   },
   {
     "word": "加上",
     "level": 4,
     "pinyin": "jiāshàng",
-    "definition": "连"
+    "definition": "另外添加"
   },
   {
     "word": "加油",
     "level": 4,
     "pinyin": "jiāyóu",
-    "definition": "动"
+    "definition": "为加油打气或加油"
   },
   {
     "word": "加油站",
     "level": 4,
     "pinyin": "jiāyóuzhàn",
-    "definition": "名"
+    "definition": "给车辆加燃料的地方"
   },
   {
     "word": "家具",
     "level": 4,
     "pinyin": "jiājù",
-    "definition": "名"
+    "definition": "家里用的器具"
   },
   {
     "word": "家庭",
     "level": 4,
     "pinyin": "jiātíng",
-    "definition": "名"
+    "definition": "由亲属组成的生活单位"
   },
   {
     "word": "家乡",
     "level": 4,
     "pinyin": "jiāxiāng",
-    "definition": "名"
+    "definition": "自己出生或长大的地方"
   },
   {
     "word": "家长",
     "level": 4,
     "pinyin": "jiāzhǎng",
-    "definition": "名"
+    "definition": "家庭中的长辈"
   },
   {
     "word": "假",
     "level": 4,
     "pinyin": "jiǎ",
-    "definition": "形"
+    "definition": "不真实或休息的日子"
   },
   {
     "word": "假日",
     "level": 4,
     "pinyin": "jiàrì",
-    "definition": "名"
+    "definition": "休息或庆祝的日子"
   },
   {
     "word": "价格",
     "level": 4,
     "pinyin": "jiàgé",
-    "definition": "名"
+    "definition": "商品的价值表现"
   },
   {
     "word": "价钱",
     "level": 4,
     "pinyin": "jiàqián",
-    "definition": "名"
+    "definition": "商品的价格"
   },
   {
     "word": "减",
     "level": 4,
     "pinyin": "jiǎn",
-    "definition": "动"
+    "definition": "去掉一部分"
   },
   {
     "word": "减轻",
     "level": 4,
     "pinyin": "jiǎnqīng",
-    "definition": "动"
+    "definition": "使重量或负担变小"
   },
   {
     "word": "减少",
     "level": 4,
     "pinyin": "jiǎnshǎo",
-    "definition": "动"
+    "definition": "数量变少"
   },
   {
     "word": "建议",
@@ -8121,19 +8121,19 @@
     "word": "健身",
     "level": 4,
     "pinyin": "jiànshēn",
-    "definition": "动"
+    "definition": "锻炼身体"
   },
   {
     "word": "健身房",
     "level": 4,
     "pinyin": "jiànshēnfáng",
-    "definition": "名"
+    "definition": "专门锻炼身体的场所"
   },
   {
     "word": "江",
     "level": 4,
     "pinyin": "jiāng",
-    "definition": "名"
+    "definition": "大的河流"
   },
   {
     "word": "将",
@@ -8145,13 +8145,13 @@
     "word": "将来",
     "level": 4,
     "pinyin": "jiānglái",
-    "definition": "名"
+    "definition": "未来的时间"
   },
   {
     "word": "将要",
     "level": 4,
     "pinyin": "jiāngyào",
-    "definition": "副"
+    "definition": "即将发生"
   },
   {
     "word": "奖",
@@ -8163,43 +8163,43 @@
     "word": "奖金",
     "level": 4,
     "pinyin": "jiǎngjīn",
-    "definition": "名"
+    "definition": "奖励给的钱"
   },
   {
     "word": "奖学金",
     "level": 4,
     "pinyin": "jiǎngxuéjīn",
-    "definition": "名"
+    "definition": "奖励学生的钱"
   },
   {
     "word": "降",
     "level": 4,
     "pinyin": "jiàng",
-    "definition": "动"
+    "definition": "从高到低"
   },
   {
     "word": "降低",
     "level": 4,
     "pinyin": "jiàngdī",
-    "definition": "动"
+    "definition": "使程度下降"
   },
   {
     "word": "降价",
     "level": 4,
     "pinyin": "jiàngjià",
-    "definition": "动"
+    "definition": "价格变低"
   },
   {
     "word": "降落",
     "level": 4,
     "pinyin": "jiàngluò",
-    "definition": "动"
+    "definition": "从空中落下"
   },
   {
     "word": "降温",
     "level": 4,
     "pinyin": "jiàngwēn",
-    "definition": "动"
+    "definition": "温度变低"
   },
   {
     "word": "交",
@@ -8211,25 +8211,25 @@
     "word": "交警",
     "level": 4,
     "pinyin": "jiāojǐng",
-    "definition": "名"
+    "definition": "管理交通的警察"
   },
   {
     "word": "交流",
     "level": 4,
     "pinyin": "jiāoliú",
-    "definition": "动"
+    "definition": "互相沟通信息"
   },
   {
     "word": "交通",
     "level": 4,
     "pinyin": "jiāotōng",
-    "definition": "名"
+    "definition": "运输和通行"
   },
   {
     "word": "郊区",
     "level": 4,
     "pinyin": "jiāoqū",
-    "definition": "名"
+    "definition": "城市外围地区"
   },
   {
     "word": "骄傲",
@@ -8241,31 +8241,31 @@
     "word": "叫作",
     "level": 4,
     "pinyin": "jiàozuò",
-    "definition": "动"
+    "definition": "名字是"
   },
   {
     "word": "教练",
     "level": 4,
     "pinyin": "jiàoliàn",
-    "definition": "名"
+    "definition": "指导训练的人"
   },
   {
     "word": "教师",
     "level": 4,
     "pinyin": "jiàoshī",
-    "definition": "名"
+    "definition": "教书育人的老师"
   },
   {
     "word": "教授",
     "level": 4,
     "pinyin": "jiàoshòu",
-    "definition": "名"
+    "definition": "大学高级教师"
   },
   {
     "word": "教学",
     "level": 4,
     "pinyin": "jiàoxué",
-    "definition": "名"
+    "definition": "教书和育人"
   },
   {
     "word": "教育",
@@ -8277,7 +8277,7 @@
     "word": "接受",
     "level": 4,
     "pinyin": "jiēshòu",
-    "definition": "动"
+    "definition": "同意并收下"
   },
   {
     "word": "接着",
@@ -8289,19 +8289,19 @@
     "word": "街道",
     "level": 4,
     "pinyin": "jiēdào",
-    "definition": "名"
+    "definition": "城市里的道路"
   },
   {
     "word": "节假日",
     "level": 4,
     "pinyin": "jiéjiàrì",
-    "definition": "名"
+    "definition": "节日和假日"
   },
   {
     "word": "节约",
     "level": 4,
     "pinyin": "jiéyuē",
-    "definition": "动"
+    "definition": "节省不浪费"
   },
   {
     "word": "结果",
@@ -8313,31 +8313,31 @@
     "word": "结账",
     "level": 4,
     "pinyin": "jiézhàng",
-    "definition": "动"
+    "definition": "算清账目"
   },
   {
     "word": "解释",
     "level": 4,
     "pinyin": "jiěshì",
-    "definition": "动"
+    "definition": "说明含义"
   },
   {
     "word": "今后",
     "level": 4,
     "pinyin": "jīnhòu",
-    "definition": "名"
+    "definition": "从今以后"
   },
   {
     "word": "仅",
     "level": 4,
     "pinyin": "jǐn",
-    "definition": "副"
+    "definition": "只，只有"
   },
   {
     "word": "仅仅",
     "level": 4,
     "pinyin": "jǐnjǐn",
-    "definition": "副"
+    "definition": "只，仅仅"
   },
   {
     "word": "尽管",
@@ -8349,31 +8349,31 @@
     "word": "紧张",
     "level": 4,
     "pinyin": "jǐnzhāng",
-    "definition": "形"
+    "definition": "精神不安或肌肉紧绷"
   },
   {
     "word": "进入",
     "level": 4,
     "pinyin": "jìnrù",
-    "definition": "动"
+    "definition": "进到里面去"
   },
   {
     "word": "进行",
     "level": 4,
     "pinyin": "jìnxíng",
-    "definition": "动"
+    "definition": "从事某项活动"
   },
   {
     "word": "禁止",
     "level": 4,
     "pinyin": "jìnzhǐ",
-    "definition": "动"
+    "definition": "不准许，不允许"
   },
   {
     "word": "京剧",
     "level": 4,
     "pinyin": "jīngjù",
-    "definition": "名"
+    "definition": "中国著名传统戏曲"
   },
   {
     "word": "经济",
@@ -8391,55 +8391,55 @@
     "word": "经验",
     "level": 4,
     "pinyin": "jīngyàn",
-    "definition": "名"
+    "definition": "从实践中获得的知识"
   },
   {
     "word": "精彩",
     "level": 4,
     "pinyin": "jīngcǎi",
-    "definition": "形"
+    "definition": "出色，绝妙"
   },
   {
     "word": "景点",
     "level": 4,
     "pinyin": "jǐngdiǎn",
-    "definition": "名"
+    "definition": "风景优美的地方"
   },
   {
     "word": "景区",
     "level": 4,
     "pinyin": "jǐngqū",
-    "definition": "名"
+    "definition": "供游览的特定区域"
   },
   {
     "word": "景色",
     "level": 4,
     "pinyin": "jǐngsè",
-    "definition": "名"
+    "definition": "风景，景象"
   },
   {
     "word": "警察",
     "level": 4,
     "pinyin": "jǐngchá",
-    "definition": "名"
+    "definition": "维护治安的人员"
   },
   {
     "word": "竞争",
     "level": 4,
     "pinyin": "jìngzhēng",
-    "definition": "动"
+    "definition": "互相争胜"
   },
   {
     "word": "竟然",
     "level": 4,
     "pinyin": "jìngrán",
-    "definition": "副"
+    "definition": "出乎意料地"
   },
   {
     "word": "镜子",
     "level": 4,
     "pinyin": "jìngzi",
-    "definition": "名"
+    "definition": "照出影像的器具"
   },
   {
     "word": "究竟",
@@ -8457,37 +8457,37 @@
     "word": "举",
     "level": 4,
     "pinyin": "jǔ",
-    "definition": "动"
+    "definition": "向上托，抬起"
   },
   {
     "word": "举办",
     "level": 4,
     "pinyin": "jǔbàn",
-    "definition": "动"
+    "definition": "主办（活动）"
   },
   {
     "word": "举例",
     "level": 4,
     "pinyin": "jǔlì",
-    "definition": "动"
+    "definition": "举出例子"
   },
   {
     "word": "举行",
     "level": 4,
     "pinyin": "jǔxíng",
-    "definition": "动"
+    "definition": "进行（会议等）"
   },
   {
     "word": "拒绝",
     "level": 4,
     "pinyin": "jùjué",
-    "definition": "动"
+    "definition": "不接受（请求等）"
   },
   {
     "word": "剧院",
     "level": 4,
     "pinyin": "jùyuàn",
-    "definition": "名"
+    "definition": "演出戏剧的场所"
   },
   {
     "word": "距离",
@@ -8499,13 +8499,13 @@
     "word": "聚",
     "level": 4,
     "pinyin": "jù",
-    "definition": "动"
+    "definition": "聚集，集合"
   },
   {
     "word": "聚餐",
     "level": 4,
     "pinyin": "jùcān",
-    "definition": "动"
+    "definition": "聚在一起吃饭"
   },
   {
     "word": "聚会",
@@ -8523,7 +8523,7 @@
     "word": "看法",
     "level": 4,
     "pinyin": "kànfǎ",
-    "definition": "名"
+    "definition": "对事物的观点"
   },
   {
     "word": "考虑",
@@ -8727,25 +8727,25 @@
     "word": "老家",
     "level": 4,
     "pinyin": "lǎojiā",
-    "definition": "名"
+    "definition": "出生或祖辈居住的地方"
   },
   {
     "word": "老年",
     "level": 4,
     "pinyin": "lǎonián",
-    "definition": "名"
+    "definition": "人年纪很大的时期"
   },
   {
     "word": "老是",
     "level": 4,
     "pinyin": "lǎoshì",
-    "definition": "副"
+    "definition": "一直，总是"
   },
   {
     "word": "冷静",
     "level": 4,
     "pinyin": "lěngjìng",
-    "definition": "形"
+    "definition": "头脑清醒，不冲动"
   },
   {
     "word": "礼貌",
@@ -8757,13 +8757,13 @@
     "word": "理发",
     "level": 4,
     "pinyin": "lǐfà",
-    "definition": "动"
+    "definition": "修剪头发"
   },
   {
     "word": "理解",
     "level": 4,
     "pinyin": "lǐjiě",
-    "definition": "动"
+    "definition": "懂，明白"
   },
   {
     "word": "理想",
@@ -8775,25 +8775,25 @@
     "word": "力气",
     "level": 4,
     "pinyin": "lìqi",
-    "definition": "名"
+    "definition": "身体能用的力量"
   },
   {
     "word": "厉害",
     "level": 4,
     "pinyin": "lìhai",
-    "definition": "形"
+    "definition": "程度深，能力强"
   },
   {
     "word": "例如",
     "level": 4,
     "pinyin": "lìrú",
-    "definition": "动"
+    "definition": "比如，举例说明"
   },
   {
     "word": "例子",
     "level": 4,
     "pinyin": "lìzi",
-    "definition": "名"
+    "definition": "用来证明或说明的事例"
   },
   {
     "word": "俩",
@@ -8811,19 +8811,19 @@
     "word": "联系",
     "level": 4,
     "pinyin": "liánxì",
-    "definition": "动"
+    "definition": "彼此接上关系"
   },
   {
     "word": "凉",
     "level": 4,
     "pinyin": "liáng",
-    "definition": "形"
+    "definition": "温度低，不热"
   },
   {
     "word": "两",
     "level": 4,
     "pinyin": "liǎng",
-    "definition": "量"
+    "definition": "数词，二"
   },
   {
     "word": "亮",
@@ -8835,7 +8835,7 @@
     "word": "量",
     "level": 4,
     "pinyin": "liáng",
-    "definition": "动"
+    "definition": "测量，数量"
   },
   {
     "word": "列",
@@ -8847,19 +8847,19 @@
     "word": "零花钱",
     "level": 4,
     "pinyin": "línghuāqián",
-    "definition": "名"
+    "definition": "平时随意花的钱"
   },
   {
     "word": "零钱",
     "level": 4,
     "pinyin": "língqián",
-    "definition": "名"
+    "definition": "小额的钱币"
   },
   {
     "word": "零食",
     "level": 4,
     "pinyin": "língshí",
-    "definition": "名"
+    "definition": "正餐外吃的食物"
   },
   {
     "word": "零下",
@@ -8883,61 +8883,61 @@
     "word": "流",
     "level": 4,
     "pinyin": "liú",
-    "definition": "动"
+    "definition": "液体移动，流动"
   },
   {
     "word": "流利",
     "level": 4,
     "pinyin": "liúlì",
-    "definition": "形"
+    "definition": "说话或写作顺畅"
   },
   {
     "word": "流行",
     "level": 4,
     "pinyin": "liúxíng",
-    "definition": "动"
+    "definition": "广泛传播，盛行"
   },
   {
     "word": "留",
     "level": 4,
     "pinyin": "liú",
-    "definition": "动"
+    "definition": "停止在，保留"
   },
   {
     "word": "留下",
     "level": 4,
     "pinyin": "liúxia",
-    "definition": "动"
+    "definition": "保留，不带走"
   },
   {
     "word": "路过",
     "level": 4,
     "pinyin": "lùguò",
-    "definition": "动"
+    "definition": "经过某地"
   },
   {
     "word": "旅馆",
     "level": 4,
     "pinyin": "lǚguǎn",
-    "definition": "名"
+    "definition": "供人住宿的地方"
   },
   {
     "word": "旅客",
     "level": 4,
     "pinyin": "lǚkè",
-    "definition": "名"
+    "definition": "旅行的人"
   },
   {
     "word": "旅行",
     "level": 4,
     "pinyin": "lǚxíng",
-    "definition": "动"
+    "definition": "去外地游玩或办事"
   },
   {
     "word": "律师",
     "level": 4,
     "pinyin": "lǜshī",
-    "definition": "名"
+    "definition": "专门打官司的人"
   },
   {
     "word": "乱",
@@ -8949,7 +8949,7 @@
     "word": "落",
     "level": 4,
     "pinyin": "luò",
-    "definition": "动"
+    "definition": "掉下来或留下"
   },
   {
     "word": "麻烦",
@@ -8961,7 +8961,7 @@
     "word": "馒头",
     "level": 4,
     "pinyin": "mántou",
-    "definition": "名"
+    "definition": "一种没有馅的面食"
   },
   {
     "word": "满",
@@ -8973,49 +8973,49 @@
     "word": "毛巾",
     "level": 4,
     "pinyin": "máojīn",
-    "definition": "名"
+    "definition": "用来擦脸或擦身的布"
   },
   {
     "word": "毛衣",
     "level": 4,
     "pinyin": "máoyī",
-    "definition": "名"
+    "definition": "用毛线织成的上衣"
   },
   {
     "word": "帽子",
     "level": 4,
     "pinyin": "màozi",
-    "definition": "名"
+    "definition": "戴在头上保暖或装饰"
   },
   {
     "word": "美",
     "level": 4,
     "pinyin": "měi",
-    "definition": "形"
+    "definition": "好看，令人满意"
   },
   {
     "word": "美好",
     "level": 4,
     "pinyin": "měihǎo",
-    "definition": "形"
+    "definition": "生活或事物很理想"
   },
   {
     "word": "美景",
     "level": 4,
     "pinyin": "měijǐng",
-    "definition": "名"
+    "definition": "美丽的自然景色"
   },
   {
     "word": "美丽",
     "level": 4,
     "pinyin": "měilì",
-    "definition": "形"
+    "definition": "好看，漂亮"
   },
   {
     "word": "美食",
     "level": 4,
     "pinyin": "měishí",
-    "definition": "名"
+    "definition": "味道好的食物"
   },
   {
     "word": "梦",
@@ -9033,85 +9033,85 @@
     "word": "密码",
     "level": 4,
     "pinyin": "mìmǎ",
-    "definition": "名"
+    "definition": "用来保密的号码或字"
   },
   {
     "word": "免费",
     "level": 4,
     "pinyin": "miǎnfèi",
-    "definition": "动"
+    "definition": "不用付钱"
   },
   {
     "word": "面对",
     "level": 4,
     "pinyin": "miànduì",
-    "definition": "动"
+    "definition": "正对着，或勇敢应对"
   },
   {
     "word": "面试",
     "level": 4,
     "pinyin": "miànshì",
-    "definition": "动"
+    "definition": "通过谈话来考核"
   },
   {
     "word": "秒",
     "level": 4,
     "pinyin": "miǎo",
-    "definition": "量"
+    "definition": "时间单位，一分钟的六十分之一"
   },
   {
     "word": "民族",
     "level": 4,
     "pinyin": "mínzú",
-    "definition": "名"
+    "definition": "具有共同文化的人群"
   },
   {
     "word": "末",
     "level": 4,
     "pinyin": "mò",
-    "definition": "名"
+    "definition": "最后，或结尾部分"
   },
   {
     "word": "母女",
     "level": 4,
     "pinyin": "mǔnǚ",
-    "definition": "名"
+    "definition": "母亲和女儿"
   },
   {
     "word": "母亲",
     "level": 4,
     "pinyin": "mǔqīn",
-    "definition": "名"
+    "definition": "妈妈，生养自己的人"
   },
   {
     "word": "母子",
     "level": 4,
     "pinyin": "mǔzǐ",
-    "definition": "名"
+    "definition": "母亲和儿子"
   },
   {
     "word": "目标",
     "level": 4,
     "pinyin": "mùbiāo",
-    "definition": "名"
+    "definition": "想要达到的境地或结果"
   },
   {
     "word": "目的",
     "level": 4,
     "pinyin": "mùdì",
-    "definition": "名"
+    "definition": "想要达到的结果"
   },
   {
     "word": "目的地",
     "level": 4,
     "pinyin": "mùdìdì",
-    "definition": "名"
+    "definition": "要去的地方"
   },
   {
     "word": "目前",
     "level": 4,
     "pinyin": "mùqián",
-    "definition": "名"
+    "definition": "现在这个时候"
   },
   {
     "word": "耐心",
@@ -9123,55 +9123,55 @@
     "word": "男士",
     "level": 4,
     "pinyin": "nánshì",
-    "definition": "名"
+    "definition": "对男子的尊称"
   },
   {
     "word": "男性",
     "level": 4,
     "pinyin": "nánxìng",
-    "definition": "名"
+    "definition": "男人，性别分类"
   },
   {
     "word": "南部",
     "level": 4,
     "pinyin": "nánbù",
-    "definition": "名"
+    "definition": "南边的区域"
   },
   {
     "word": "难道",
     "level": 4,
     "pinyin": "nándào",
-    "definition": "副"
+    "definition": "表示反问语气"
   },
   {
     "word": "难受",
     "level": 4,
     "pinyin": "nánshòu",
-    "definition": "形"
+    "definition": "身体或心里不舒服"
   },
   {
     "word": "难忘",
     "level": 4,
     "pinyin": "nánwàng",
-    "definition": "动"
+    "definition": "难以忘记"
   },
   {
     "word": "内",
     "level": 4,
     "pinyin": "nèi",
-    "definition": "名"
+    "definition": "里面，内部"
   },
   {
     "word": "内容",
     "level": 4,
     "pinyin": "nèiróng",
-    "definition": "名"
+    "definition": "事物包含的东西"
   },
   {
     "word": "内心",
     "level": 4,
     "pinyin": "nèixīn",
-    "definition": "名"
+    "definition": "心里的想法"
   },
   {
     "word": "能否",
@@ -9183,49 +9183,49 @@
     "word": "能够",
     "level": 4,
     "pinyin": "nénggòu",
-    "definition": "动"
+    "definition": "有能力做某事"
   },
   {
     "word": "能力",
     "level": 4,
     "pinyin": "nénglì",
-    "definition": "名"
+    "definition": "做事的本领"
   },
   {
     "word": "嗯",
     "level": 4,
     "pinyin": "ǹg",
-    "definition": "叹"
+    "definition": "表示思考或应答"
   },
   {
     "word": "年底",
     "level": 4,
     "pinyin": "niándǐ",
-    "definition": "名"
+    "definition": "一年的最后"
   },
   {
     "word": "年龄",
     "level": 4,
     "pinyin": "niánlíng",
-    "definition": "名"
+    "definition": "岁数，多大"
   },
   {
     "word": "农村",
     "level": 4,
     "pinyin": "nóngcūn",
-    "definition": "名"
+    "definition": "以农业为主的地区"
   },
   {
     "word": "弄",
     "level": 4,
     "pinyin": "nòng",
-    "definition": "动"
+    "definition": "做，干，搞"
   },
   {
     "word": "女性",
     "level": 4,
     "pinyin": "nǚxìng",
-    "definition": "名"
+    "definition": "女人，性别分类"
   },
   {
     "word": "暖和",
@@ -9255,61 +9255,61 @@
     "word": "排队",
     "level": 4,
     "pinyin": "páiduì",
-    "definition": "动"
+    "definition": "按顺序站成一排"
   },
   {
     "word": "排球",
     "level": 4,
     "pinyin": "páiqiú",
-    "definition": "名"
+    "definition": "一种球类运动"
   },
   {
     "word": "牌",
     "level": 4,
     "pinyin": "pái",
-    "definition": "名"
+    "definition": "扁平的标识物"
   },
   {
     "word": "牌子",
     "level": 4,
     "pinyin": "páizi",
-    "definition": "名"
+    "definition": "品牌，商标"
   },
   {
     "word": "判断",
     "level": 4,
     "pinyin": "pànduàn",
-    "definition": "动"
+    "definition": "辨别，下结论"
   },
   {
     "word": "陪",
     "level": 4,
     "pinyin": "péi",
-    "definition": "动"
+    "definition": "陪伴，陪同"
   },
   {
     "word": "批评",
     "level": 4,
     "pinyin": "pīpíng",
-    "definition": "动"
+    "definition": "指出缺点错误"
   },
   {
     "word": "皮肤",
     "level": 4,
     "pinyin": "pífū",
-    "definition": "名"
+    "definition": "人体表面的组织"
   },
   {
     "word": "皮鞋",
     "level": 4,
     "pinyin": "píxié",
-    "definition": "名"
+    "definition": "用皮革做的鞋"
   },
   {
     "word": "脾气",
     "level": 4,
     "pinyin": "píqi",
-    "definition": "名"
+    "definition": "性格，情绪特点"
   },
   {
     "word": "篇",
@@ -9327,7 +9327,7 @@
     "word": "乒乓球",
     "level": 4,
     "pinyin": "pīngpāngqiú",
-    "definition": "名"
+    "definition": "一种球类运动"
   },
   {
     "word": "平常",
@@ -9345,67 +9345,67 @@
     "word": "葡萄",
     "level": 4,
     "pinyin": "pútao",
-    "definition": "名"
+    "definition": "一种圆形水果"
   },
   {
     "word": "葡萄酒",
     "level": 4,
     "pinyin": "pútaojiǔ",
-    "definition": "名"
+    "definition": "用葡萄酿的酒"
   },
   {
     "word": "普遍",
     "level": 4,
     "pinyin": "pǔbiàn",
-    "definition": "形"
+    "definition": "广泛存在，常见"
   },
   {
     "word": "普通",
     "level": 4,
     "pinyin": "pǔtōng",
-    "definition": "形"
+    "definition": "平常，不特殊"
   },
   {
     "word": "普通话",
     "level": 4,
     "pinyin": "pǔtōnghuà",
-    "definition": "名"
+    "definition": "中国标准汉语"
   },
   {
     "word": "期",
     "level": 4,
     "pinyin": "qī",
-    "definition": "量"
+    "definition": "规定的时间段"
   },
   {
     "word": "期末",
     "level": 4,
     "pinyin": "qīmò",
-    "definition": "名"
+    "definition": "学期最后阶段"
   },
   {
     "word": "期中",
     "level": 4,
     "pinyin": "qīzhōng",
-    "definition": "名"
+    "definition": "学期中间阶段"
   },
   {
     "word": "其次",
     "level": 4,
     "pinyin": "qícì",
-    "definition": "代"
+    "definition": "第二，次要的"
   },
   {
     "word": "其中",
     "level": 4,
     "pinyin": "qízhōng",
-    "definition": "名"
+    "definition": "那里面，那之中"
   },
   {
     "word": "起到",
     "level": 4,
     "pinyin": "qǐdào",
-    "definition": "动"
+    "definition": "产生某种作用"
   },
   {
     "word": "气",
@@ -9417,31 +9417,31 @@
     "word": "气候",
     "level": 4,
     "pinyin": "qìhòu",
-    "definition": "名"
+    "definition": "某地长期天气"
   },
   {
     "word": "气温",
     "level": 4,
     "pinyin": "qìwēn",
-    "definition": "名"
+    "definition": "空气的冷热程度"
   },
   {
     "word": "汽水",
     "level": 4,
     "pinyin": "qìshuǐ",
-    "definition": "名"
+    "definition": "含二氧化碳饮料"
   },
   {
     "word": "千克",
     "level": 4,
     "pinyin": "qiānkè",
-    "definition": "量"
+    "definition": "重量单位，公斤"
   },
   {
     "word": "千万",
     "level": 4,
     "pinyin": "qiānwàn",
-    "definition": "副"
+    "definition": "务必，一定"
   },
   {
     "word": "签证",
@@ -9453,103 +9453,103 @@
     "word": "前方",
     "level": 4,
     "pinyin": "qiánfāng",
-    "definition": "名"
+    "definition": "前面的方向"
   },
   {
     "word": "前后",
     "level": 4,
     "pinyin": "qiánhòu",
-    "definition": "名"
+    "definition": "前面和后面"
   },
   {
     "word": "强",
     "level": 4,
     "pinyin": "qiáng",
-    "definition": "形"
+    "definition": "力量大，坚固"
   },
   {
     "word": "敲",
     "level": 4,
     "pinyin": "qiāo",
-    "definition": "动"
+    "definition": "用手或物击打"
   },
   {
     "word": "桥",
     "level": 4,
     "pinyin": "qiáo",
-    "definition": "名"
+    "definition": "架在水上的通道"
   },
   {
     "word": "巧",
     "level": 4,
     "pinyin": "qiǎo",
-    "definition": "形"
+    "definition": "灵巧，有技巧"
   },
   {
     "word": "巧克力",
     "level": 4,
     "pinyin": "qiǎokèlì",
-    "definition": "名"
+    "definition": "一种甜食"
   },
   {
     "word": "亲戚",
     "level": 4,
     "pinyin": "qīnqi",
-    "definition": "名"
+    "definition": "有血缘或婚姻关系的人"
   },
   {
     "word": "琴",
     "level": 4,
     "pinyin": "qín",
-    "definition": "名"
+    "definition": "一种乐器"
   },
   {
     "word": "青年",
     "level": 4,
     "pinyin": "qīngnián",
-    "definition": "名"
+    "definition": "年轻的人"
   },
   {
     "word": "轻",
     "level": 4,
     "pinyin": "qīng",
-    "definition": "形"
+    "definition": "重量小，不重"
   },
   {
     "word": "轻松",
     "level": 4,
     "pinyin": "qīngsōng",
-    "definition": "形"
+    "definition": "不紧张，不费力"
   },
   {
     "word": "情况",
     "level": 4,
     "pinyin": "qíngkuàng",
-    "definition": "名"
+    "definition": "事物表现出的状态"
   },
   {
     "word": "庆祝",
     "level": 4,
     "pinyin": "qìngzhù",
-    "definition": "动"
+    "definition": "为喜事举行活动"
   },
   {
     "word": "球队",
     "level": 4,
     "pinyin": "qiúduì",
-    "definition": "名"
+    "definition": "一起打球的人"
   },
   {
     "word": "球迷",
     "level": 4,
     "pinyin": "qiúmí",
-    "definition": "名"
+    "definition": "非常喜欢球类运动的人"
   },
   {
     "word": "区",
     "level": 4,
     "pinyin": "qū",
-    "definition": "名"
+    "definition": "城市或行政划分"
   },
   {
     "word": "区别",
@@ -9561,19 +9561,19 @@
     "word": "取",
     "level": 4,
     "pinyin": "qǔ",
-    "definition": "动"
+    "definition": "拿，得到"
   },
   {
     "word": "取得",
     "level": 4,
     "pinyin": "qǔdé",
-    "definition": "动"
+    "definition": "获得，得到"
   },
   {
     "word": "取消",
     "level": 4,
     "pinyin": "qǔxiāo",
-    "definition": "动"
+    "definition": "使不再有效"
   },
   {
     "word": "全",
@@ -9585,61 +9585,61 @@
     "word": "全部",
     "level": 4,
     "pinyin": "quánbù",
-    "definition": "名"
+    "definition": "所有，整个"
   },
   {
     "word": "全都",
     "level": 4,
     "pinyin": "quándōu",
-    "definition": "副"
+    "definition": "全部，没有例外"
   },
   {
     "word": "全球",
     "level": 4,
     "pinyin": "quánqiú",
-    "definition": "名"
+    "definition": "全世界"
   },
   {
     "word": "全身",
     "level": 4,
     "pinyin": "quánshēn",
-    "definition": "名"
+    "definition": "整个身体"
   },
   {
     "word": "缺",
     "level": 4,
     "pinyin": "quē",
-    "definition": "动"
+    "definition": "缺少，不够"
   },
   {
     "word": "缺点",
     "level": 4,
     "pinyin": "quēdiǎn",
-    "definition": "名"
+    "definition": "不足之处"
   },
   {
     "word": "缺少",
     "level": 4,
     "pinyin": "quēshǎo",
-    "definition": "动"
+    "definition": "没有或不够"
   },
   {
     "word": "却",
     "level": 4,
     "pinyin": "què",
-    "definition": "副"
+    "definition": "表示转折"
   },
   {
     "word": "确实",
     "level": 4,
     "pinyin": "quèshí",
-    "definition": "副"
+    "definition": "真实，的确"
   },
   {
     "word": "然而",
     "level": 4,
     "pinyin": "rán’ér",
-    "definition": "连"
+    "definition": "但是，表示转折"
   },
   {
     "word": "热闹",
@@ -9651,193 +9651,193 @@
     "word": "人生",
     "level": 4,
     "pinyin": "rénshēng",
-    "definition": "名"
+    "definition": "人的一生"
   },
   {
     "word": "人数",
     "level": 4,
     "pinyin": "rénshù",
-    "definition": "名"
+    "definition": "人的数量"
   },
   {
     "word": "人员",
     "level": 4,
     "pinyin": "rényuán",
-    "definition": "名"
+    "definition": "指人，多指工作的人"
   },
   {
     "word": "任何",
     "level": 4,
     "pinyin": "rènhé",
-    "definition": "代"
+    "definition": "不论什么"
   },
   {
     "word": "任务",
     "level": 4,
     "pinyin": "rènwu",
-    "definition": "名"
+    "definition": "被指派的工作"
   },
   {
     "word": "扔",
     "level": 4,
     "pinyin": "rēng",
-    "definition": "动"
+    "definition": "丢，抛弃"
   },
   {
     "word": "仍",
     "level": 4,
     "pinyin": "réng",
-    "definition": "副"
+    "definition": "依旧，照样"
   },
   {
     "word": "仍然",
     "level": 4,
     "pinyin": "réngrán",
-    "definition": "副"
+    "definition": "情况持续不变"
   },
   {
     "word": "日常",
     "level": 4,
     "pinyin": "rìcháng",
-    "definition": "形"
+    "definition": "平常，每天"
   },
   {
     "word": "日记",
     "level": 4,
     "pinyin": "rìjì",
-    "definition": "名"
+    "definition": "每天记录的事"
   },
   {
     "word": "日期",
     "level": 4,
     "pinyin": "rìqī",
-    "definition": "名"
+    "definition": "具体的日子"
   },
   {
     "word": "日子",
     "level": 4,
     "pinyin": "rìzi",
-    "definition": "名"
+    "definition": "时间，生活"
   },
   {
     "word": "入",
     "level": 4,
     "pinyin": "rù",
-    "definition": "动"
+    "definition": "进去，进入"
   },
   {
     "word": "入口",
     "level": 4,
     "pinyin": "rùkǒu",
-    "definition": "名"
+    "definition": "进出的门"
   },
   {
     "word": "入学",
     "level": 4,
     "pinyin": "rùxué",
-    "definition": "动"
+    "definition": "进入学校学习"
   },
   {
     "word": "入住",
     "level": 4,
     "pinyin": "rùzhù",
-    "definition": "动"
+    "definition": "住进旅馆或房子"
   },
   {
     "word": "散步",
     "level": 4,
     "pinyin": "sànbù",
-    "definition": "动"
+    "definition": "悠闲地走"
   },
   {
     "word": "扫码",
     "level": 4,
     "pinyin": "sǎomǎ",
-    "definition": "动"
+    "definition": "扫描条形码"
   },
   {
     "word": "森林",
     "level": 4,
     "pinyin": "sēnlín",
-    "definition": "名"
+    "definition": "很多树的地方"
   },
   {
     "word": "伤心",
     "level": 4,
     "pinyin": "shāngxīn",
-    "definition": "形"
+    "definition": "心里难过"
   },
   {
     "word": "商量",
     "level": 4,
     "pinyin": "shāngliang",
-    "definition": "动"
+    "definition": "交换意见"
   },
   {
     "word": "商品",
     "level": 4,
     "pinyin": "shāngpǐn",
-    "definition": "名"
+    "definition": "用来买卖的东西"
   },
   {
     "word": "上门",
     "level": 4,
     "pinyin": "shàngmén",
-    "definition": "动"
+    "definition": "到别人家里"
   },
   {
     "word": "稍",
     "level": 4,
     "pinyin": "shāo",
-    "definition": "副"
+    "definition": "稍微，一点点"
   },
   {
     "word": "稍微",
     "level": 4,
     "pinyin": "shāowēi",
-    "definition": "副"
+    "definition": "数量不多，程度不深"
   },
   {
     "word": "少见",
     "level": 4,
     "pinyin": "shǎojiàn",
-    "definition": "形"
+    "definition": "不常看见"
   },
   {
     "word": "少量",
     "level": 4,
     "pinyin": "shǎoliàng",
-    "definition": "形"
+    "definition": "数量很少"
   },
   {
     "word": "少年",
     "level": 4,
     "pinyin": "shàonián",
-    "definition": "名"
+    "definition": "十岁到十五六岁"
   },
   {
     "word": "少数",
     "level": 4,
     "pinyin": "shǎoshù",
-    "definition": "名"
+    "definition": "数量少的一部分"
   },
   {
     "word": "社会",
     "level": 4,
     "pinyin": "shèhuì",
-    "definition": "名"
+    "definition": "由人组成的群体"
   },
   {
     "word": "摄氏度",
     "level": 4,
     "pinyin": "shèshìdù",
-    "definition": "量"
+    "definition": "温度的计量单位"
   },
   {
     "word": "申请",
     "level": 4,
     "pinyin": "shēnqǐng",
-    "definition": "动"
+    "definition": "向上级提出请求"
   },
   {
     "word": "身",
@@ -9849,7 +9849,7 @@
     "word": "身份证",
     "level": 4,
     "pinyin": "shēnfènzhèng",
-    "definition": "名"
+    "definition": "证明身份的证件"
   },
   {
     "word": "深",
@@ -9861,13 +9861,13 @@
     "word": "甚至",
     "level": 4,
     "pinyin": "shènzhì",
-    "definition": "连"
+    "definition": "表示强调突出"
   },
   {
     "word": "生",
     "level": 4,
     "pinyin": "shēng",
-    "definition": "动"
+    "definition": "出生，活着"
   },
   {
     "word": "生",
@@ -9879,25 +9879,25 @@
     "word": "生命",
     "level": 4,
     "pinyin": "shēngmìng",
-    "definition": "名"
+    "definition": "生物生存的状态"
   },
   {
     "word": "生意",
     "level": 4,
     "pinyin": "shēngyi",
-    "definition": "名"
+    "definition": "商业买卖活动"
   },
   {
     "word": "省",
     "level": 4,
     "pinyin": "shěng",
-    "definition": "名"
+    "definition": "节省，行政区划"
   },
   {
     "word": "剩",
     "level": 4,
     "pinyin": "shèng",
-    "definition": "动"
+    "definition": "剩余，留下"
   },
   {
     "word": "失败",
@@ -9909,7 +9909,7 @@
     "word": "失去",
     "level": 4,
     "pinyin": "shīqù",
-    "definition": "动"
+    "definition": "不再拥有"
   },
   {
     "word": "失望",
@@ -9921,19 +9921,19 @@
     "word": "师傅",
     "level": 4,
     "pinyin": "shīfu",
-    "definition": "名"
+    "definition": "对技艺人的尊称"
   },
   {
     "word": "师生",
     "level": 4,
     "pinyin": "shīshēng",
-    "definition": "名"
+    "definition": "老师和学生"
   },
   {
     "word": "十分",
     "level": 4,
     "pinyin": "shífēn",
-    "definition": "副"
+    "definition": "非常，很"
   },
   {
     "word": "十字路口",
@@ -9945,7 +9945,7 @@
     "word": "时间表",
     "level": 4,
     "pinyin": "shíjiānbiǎo",
-    "definition": "名"
+    "definition": "安排时间的表"
   },
   {
     "word": "实际",
@@ -9957,7 +9957,7 @@
     "word": "实际上",
     "level": 4,
     "pinyin": "shíjìshàng",
-    "definition": "副"
+    "definition": "真实的情况"
   },
   {
     "word": "实在",
@@ -9969,91 +9969,91 @@
     "word": "食品",
     "level": 4,
     "pinyin": "shípǐn",
-    "definition": "名"
+    "definition": "加工过的食物"
   },
   {
     "word": "食堂",
     "level": 4,
     "pinyin": "shítáng",
-    "definition": "名"
+    "definition": "集体吃饭的地方"
   },
   {
     "word": "食物",
     "level": 4,
     "pinyin": "shíwù",
-    "definition": "名"
+    "definition": "可以吃的东西"
   },
   {
     "word": "使",
     "level": 4,
     "pinyin": "shǐ",
-    "definition": "动"
+    "definition": "让，致使"
   },
   {
     "word": "使馆",
     "level": 4,
     "pinyin": "shǐguǎn",
-    "definition": "名"
+    "definition": "外交代表机构"
   },
   {
     "word": "使用",
     "level": 4,
     "pinyin": "shǐyòng",
-    "definition": "动"
+    "definition": "使事物发挥作用"
   },
   {
     "word": "世纪",
     "level": 4,
     "pinyin": "shìjì",
-    "definition": "名"
+    "definition": "一百年"
   },
   {
     "word": "市场",
     "level": 4,
     "pinyin": "shìchǎng",
-    "definition": "名"
+    "definition": "买卖商品的地方"
   },
   {
     "word": "市区",
     "level": 4,
     "pinyin": "shìqū",
-    "definition": "名"
+    "definition": "城市中心区域"
   },
   {
     "word": "视频",
     "level": 4,
     "pinyin": "shìpín",
-    "definition": "名"
+    "definition": "动态影像文件"
   },
   {
     "word": "试题",
     "level": 4,
     "pinyin": "shìtí",
-    "definition": "名"
+    "definition": "考试用的题目"
   },
   {
     "word": "是否",
     "level": 4,
     "pinyin": "shìfǒu",
-    "definition": "副"
+    "definition": "是不是"
   },
   {
     "word": "适合",
     "level": 4,
     "pinyin": "shìhé",
-    "definition": "动"
+    "definition": "符合情况或要求"
   },
   {
     "word": "适应",
     "level": 4,
     "pinyin": "shìyìng",
-    "definition": "动"
+    "definition": "适应新环境"
   },
   {
     "word": "收费",
     "level": 4,
     "pinyin": "shōufèi",
-    "definition": "动"
+    "definition": "收取费用"
   },
   {
     "word": "收入",
@@ -10065,25 +10065,25 @@
     "word": "收拾",
     "level": 4,
     "pinyin": "shōushi",
-    "definition": "动"
+    "definition": "整理或修理"
   },
   {
     "word": "收听",
     "level": 4,
     "pinyin": "shōutīng",
-    "definition": "动"
+    "definition": "听广播节目"
   },
   {
     "word": "首",
     "level": 4,
     "pinyin": "shǒu",
-    "definition": "量"
+    "definition": "第一或头"
   },
   {
     "word": "首都",
     "level": 4,
     "pinyin": "shǒudū",
-    "definition": "名"
+    "definition": "国家政治中心"
   },
   {
     "word": "首先",
@@ -10095,49 +10095,49 @@
     "word": "受不了",
     "level": 4,
     "pinyin": "shòubuliǎo",
-    "definition": "动"
+    "definition": "无法忍受"
   },
   {
     "word": "受伤",
     "level": 4,
     "pinyin": "shòushāng",
-    "definition": "动"
+    "definition": "身体受到损伤"
   },
   {
     "word": "售票员",
     "level": 4,
     "pinyin": "shòupiàoyuán",
-    "definition": "名"
+    "definition": "卖票的工作人员"
   },
   {
     "word": "输",
     "level": 4,
     "pinyin": "shū",
-    "definition": "动"
+    "definition": "比赛失败"
   },
   {
     "word": "熟",
     "level": 4,
     "pinyin": "shú/shóu",
-    "definition": "形"
+    "definition": "食物煮熟或熟练"
   },
   {
     "word": "熟悉",
     "level": 4,
     "pinyin": "shúxi",
-    "definition": "动"
+    "definition": "了解得很清楚"
   },
   {
     "word": "暑假",
     "level": 4,
     "pinyin": "shǔjià",
-    "definition": "名"
+    "definition": "夏季的假期"
   },
   {
     "word": "树林",
     "level": 4,
     "pinyin": "shùlín",
-    "definition": "名"
+    "definition": "成片的树木"
   },
   {
     "word": "数",
@@ -10149,43 +10149,43 @@
     "word": "数量",
     "level": 4,
     "pinyin": "shùliàng",
-    "definition": "名"
+    "definition": "事物的多少"
   },
   {
     "word": "数字",
     "level": 4,
     "pinyin": "shùzì",
-    "definition": "名"
+    "definition": "表示数目的符号"
   },
   {
     "word": "帅",
     "level": 4,
     "pinyin": "shuài",
-    "definition": "形"
+    "definition": "英俊或指挥"
   },
   {
     "word": "顺便",
     "level": 4,
     "pinyin": "shùnbiàn",
-    "definition": "副"
+    "definition": "做某事时顺带做另一事"
   },
   {
     "word": "顺利",
     "level": 4,
     "pinyin": "shùnlì",
-    "definition": "形"
+    "definition": "没有阻碍，进展通畅"
   },
   {
     "word": "顺序",
     "level": 4,
     "pinyin": "shùnxù",
-    "definition": "名"
+    "definition": "事物排列的先后次序"
   },
   {
     "word": "说法",
     "level": 4,
     "pinyin": "shuōfǎ",
-    "definition": "名"
+    "definition": "对事情的看法或解释"
   },
   {
     "word": "说明",
@@ -10197,13 +10197,13 @@
     "word": "说明书",
     "level": 4,
     "pinyin": "shuōmíngshū",
-    "definition": "名"
+    "definition": "介绍产品用法的文字"
   },
   {
     "word": "硕士",
     "level": 4,
     "pinyin": "shuòshì",
-    "definition": "名"
+    "definition": "比学士高一级学位"
   },
   {
     "word": "死",
@@ -10215,25 +10215,25 @@
     "word": "速度",
     "level": 4,
     "pinyin": "sùdù",
-    "definition": "名"
+    "definition": "物体运动的快慢程度"
   },
   {
     "word": "塑料",
     "level": 4,
     "pinyin": "sùliào",
-    "definition": "名"
+    "definition": "一种人工合成材料"
   },
   {
     "word": "酸",
     "level": 4,
     "pinyin": "suān",
-    "definition": "形"
+    "definition": "像醋那样的味道"
   },
   {
     "word": "酸奶",
     "level": 4,
     "pinyin": "suānnǎi",
-    "definition": "名"
+    "definition": "发酵制成的酸味奶制品"
   },
   {
     "word": "算",
@@ -10251,19 +10251,19 @@
     "word": "随着",
     "level": 4,
     "pinyin": "suízhe",
-    "definition": "介"
+    "definition": "跟着，伴随某种情况"
   },
   {
     "word": "孙女",
     "level": 4,
     "pinyin": "sūnnǚ",
-    "definition": "名"
+    "definition": "儿子的女儿"
   },
   {
     "word": "孙子",
     "level": 4,
     "pinyin": "sūnzi",
-    "definition": "名"
+    "definition": "儿子的儿子"
   },
   {
     "word": "所有",
@@ -10281,49 +10281,49 @@
     "word": "抬",
     "level": 4,
     "pinyin": "tái",
-    "definition": "动"
+    "definition": "双手共同举起物体"
   },
   {
     "word": "抬头",
     "level": 4,
     "pinyin": "táitóu",
-    "definition": "动"
+    "definition": "抬起头向上看"
   },
   {
     "word": "态度",
     "level": 4,
     "pinyin": "tàidù",
-    "definition": "名"
+    "definition": "对人对事的看法和表现"
   },
   {
     "word": "谈",
     "level": 4,
     "pinyin": "tán",
-    "definition": "动"
+    "definition": "说话，讨论事情"
   },
   {
     "word": "汤",
     "level": 4,
     "pinyin": "tāng",
-    "definition": "名"
+    "definition": "加水煮成的带汁食物"
   },
   {
     "word": "躺",
     "level": 4,
     "pinyin": "tǎng",
-    "definition": "动"
+    "definition": "身体平放休息"
   },
   {
     "word": "趟",
     "level": 4,
     "pinyin": "tàng",
-    "definition": "量"
+    "definition": "量词，用于走动的次数"
   },
   {
     "word": "讨论",
     "level": 4,
     "pinyin": "tǎolùn",
-    "definition": "动"
+    "definition": "就问题交换意见"
   },
   {
     "word": "讨厌",
@@ -10335,109 +10335,109 @@
     "word": "特点",
     "level": 4,
     "pinyin": "tèdiǎn",
-    "definition": "名"
+    "definition": "人或事物独特的地方"
   },
   {
     "word": "提",
     "level": 4,
     "pinyin": "tí",
-    "definition": "动"
+    "definition": "用手举起或提出"
   },
   {
     "word": "提出",
     "level": 4,
     "pinyin": "tíchū",
-    "definition": "动"
+    "definition": "把意见或问题说出来"
   },
   {
     "word": "提到",
     "level": 4,
     "pinyin": "tídào",
-    "definition": "动"
+    "definition": "说话时涉及某事"
   },
   {
     "word": "提供",
     "level": 4,
     "pinyin": "tígōng",
-    "definition": "动"
+    "definition": "供给，拿出"
   },
   {
     "word": "提前",
     "level": 4,
     "pinyin": "tíqián",
-    "definition": "动"
+    "definition": "比预定时间早"
   },
   {
     "word": "提醒",
     "level": 4,
     "pinyin": "tíxǐng",
-    "definition": "动"
+    "definition": "使人注意或记起"
   },
   {
     "word": "体检",
     "level": 4,
     "pinyin": "tǐjiǎn",
-    "definition": "动"
+    "definition": "检查身体"
   },
   {
     "word": "体温",
     "level": 4,
     "pinyin": "tǐwēn",
-    "definition": "名"
+    "definition": "身体的温度"
   },
   {
     "word": "体重",
     "level": 4,
     "pinyin": "tǐzhòng",
-    "definition": "名"
+    "definition": "身体的重量"
   },
   {
     "word": "填写",
     "level": 4,
     "pinyin": "tiánxiě",
-    "definition": "动"
+    "definition": "把内容填入表格"
   },
   {
     "word": "条件",
     "level": 4,
     "pinyin": "tiáojiàn",
-    "definition": "名"
+    "definition": "事物存在或发展的状况"
   },
   {
     "word": "听力",
     "level": 4,
     "pinyin": "tīnglì",
-    "definition": "名"
+    "definition": "听的能力"
   },
   {
     "word": "听众",
     "level": 4,
     "pinyin": "tīngzhòng",
-    "definition": "名"
+    "definition": "听讲话或演出的人"
   },
   {
     "word": "停",
     "level": 4,
     "pinyin": "tíng",
-    "definition": "动"
+    "definition": "不再进行或移动"
   },
   {
     "word": "停车",
     "level": 4,
     "pinyin": "tíngchē",
-    "definition": "动"
+    "definition": "把车停住"
   },
   {
     "word": "停车场",
     "level": 4,
     "pinyin": "tíngchēchǎng",
-    "definition": "名"
+    "definition": "停放车辆的场所"
   },
   {
     "word": "停止",
     "level": 4,
     "pinyin": "tíngzhǐ",
-    "definition": "动"
+    "definition": "不再进行"
   },
   {
     "word": "通",
@@ -10467,19 +10467,19 @@
     "word": "同样",
     "level": 4,
     "pinyin": "tóngyàng",
-    "definition": "形"
+    "definition": "一样，没有区别"
   },
   {
     "word": "童年",
     "level": 4,
     "pinyin": "tóngnián",
-    "definition": "名"
+    "definition": "儿童时期"
   },
   {
     "word": "桶",
     "level": 4,
     "pinyin": "tǒng",
-    "definition": "名"
+    "definition": "盛水的圆筒形容器"
   },
   {
     "word": "痛",
@@ -10491,7 +10491,7 @@
     "word": "头痛",
     "level": 4,
     "pinyin": "tóutòng",
-    "definition": "形"
+    "definition": "头部疼痛"
   },
   {
     "word": "图",
@@ -10503,7 +10503,7 @@
     "word": "图片",
     "level": 4,
     "pinyin": "túpiàn",
-    "definition": "名"
+    "definition": "画或照片"
   },
   {
     "word": "土",
@@ -10515,43 +10515,43 @@
     "word": "推",
     "level": 4,
     "pinyin": "tuī",
-    "definition": "动"
+    "definition": "用力使物体移动"
   },
   {
     "word": "推迟",
     "level": 4,
     "pinyin": "tuīchí",
-    "definition": "动"
+    "definition": "把时间往后延"
   },
   {
     "word": "推出",
     "level": 4,
     "pinyin": "tuīchū",
-    "definition": "动"
+    "definition": "使新产品等出现"
   },
   {
     "word": "脱",
     "level": 4,
     "pinyin": "tuō",
-    "definition": "动"
+    "definition": "去掉衣物等"
   },
   {
     "word": "袜子",
     "level": 4,
     "pinyin": "wàzi",
-    "definition": "名"
+    "definition": "穿在脚上的织物"
   },
   {
     "word": "外出",
     "level": 4,
     "pinyin": "wàichū",
-    "definition": "动"
+    "definition": "到外面去"
   },
   {
     "word": "外套",
     "level": 4,
     "pinyin": "wàitào",
-    "definition": "名"
+    "definition": "穿在最外面的衣服"
   },
   {
     "word": "完全",
@@ -10563,43 +10563,43 @@
     "word": "晚安",
     "level": 4,
     "pinyin": "wǎn’ān",
-    "definition": "动"
+    "definition": "晚上睡觉前的问候"
   },
   {
     "word": "晚餐",
     "level": 4,
     "pinyin": "wǎncān",
-    "definition": "名"
+    "definition": "晚上吃的饭"
   },
   {
     "word": "网购",
     "level": 4,
     "pinyin": "wǎnggòu",
-    "definition": "动"
+    "definition": "在网上买东西"
   },
   {
     "word": "网页",
     "level": 4,
     "pinyin": "wǎngyè",
-    "definition": "名"
+    "definition": "网站上的一个页面"
   },
   {
     "word": "网友",
     "level": 4,
     "pinyin": "wǎngyǒu",
-    "definition": "名"
+    "definition": "在网上认识的朋友"
   },
   {
     "word": "网址",
     "level": 4,
     "pinyin": "wǎngzhǐ",
-    "definition": "名"
+    "definition": "网站的网络地址"
   },
   {
     "word": "往往",
     "level": 4,
     "pinyin": "wǎngwǎng",
-    "definition": "副"
+    "definition": "表示某种情况经常发生"
   },
   {
     "word": "危险",
@@ -10617,85 +10617,85 @@
     "word": "为",
     "level": 4,
     "pinyin": "wéi",
-    "definition": "动"
+    "definition": "为了，给，替"
   },
   {
     "word": "味",
     "level": 4,
     "pinyin": "wèi",
-    "definition": "名"
+    "definition": "舌头尝到的感觉"
   },
   {
     "word": "味道",
     "level": 4,
     "pinyin": "wèidào",
-    "definition": "名"
+    "definition": "舌头尝到的感觉"
   },
   {
     "word": "温度",
     "level": 4,
     "pinyin": "wēndù",
-    "definition": "名"
+    "definition": "物体冷热程度"
   },
   {
     "word": "文件",
     "level": 4,
     "pinyin": "wénjiàn",
-    "definition": "名"
+    "definition": "电脑里存储的资料"
   },
   {
     "word": "文章",
     "level": 4,
     "pinyin": "wénzhāng",
-    "definition": "名"
+    "definition": "写成的文字作品"
   },
   {
     "word": "文字",
     "level": 4,
     "pinyin": "wénzì",
-    "definition": "名"
+    "definition": "记录语言的符号"
   },
   {
     "word": "闻",
     "level": 4,
     "pinyin": "wén",
-    "definition": "动"
+    "definition": "用鼻子辨别气味"
   },
   {
     "word": "污染",
     "level": 4,
     "pinyin": "wūrǎn",
-    "definition": "动"
+    "definition": "环境被有害物质弄脏"
   },
   {
     "word": "无",
     "level": 4,
     "pinyin": "wú",
-    "definition": "动"
+    "definition": "没有"
   },
   {
     "word": "无法",
     "level": 4,
     "pinyin": "wúfǎ",
-    "definition": "动"
+    "definition": "没有办法"
   },
   {
     "word": "无聊",
     "level": 4,
     "pinyin": "wúliáo",
-    "definition": "形"
+    "definition": "因无事做而烦闷"
   },
   {
     "word": "无论",
     "level": 4,
     "pinyin": "wúlùn",
-    "definition": "连"
+    "definition": "不管，不论"
   },
   {
     "word": "午餐",
     "level": 4,
     "pinyin": "wǔcān",
-    "definition": "名"
+    "definition": "中午吃的饭"
   },
   {
     "word": "误会",
@@ -10707,67 +10707,67 @@
     "word": "吸",
     "level": 4,
     "pinyin": "xī",
-    "definition": "动"
+    "definition": "把气体或液体吸入"
   },
   {
     "word": "吸引",
     "level": 4,
     "pinyin": "xīyǐn",
-    "definition": "动"
+    "definition": "把别人的注意力引过来"
   },
   {
     "word": "西部",
     "level": 4,
     "pinyin": "xībù",
-    "definition": "名"
+    "definition": "国家的西边地区"
   },
   {
     "word": "西红柿",
     "level": 4,
     "pinyin": "xīhóngshì",
-    "definition": "名"
+    "definition": "一种红色的蔬菜"
   },
   {
     "word": "细",
     "level": 4,
     "pinyin": "xì",
-    "definition": "形"
+    "definition": "直径小，不粗"
   },
   {
     "word": "细心",
     "level": 4,
     "pinyin": "xìxīn",
-    "definition": "形"
+    "definition": "做事认真，不马虎"
   },
   {
     "word": "下降",
     "level": 4,
     "pinyin": "xiàjiàng",
-    "definition": "动"
+    "definition": "从高往低走"
   },
   {
     "word": "鲜",
     "level": 4,
     "pinyin": "xiān",
-    "definition": "形"
+    "definition": "味道好，颜色亮"
   },
   {
     "word": "鲜花",
     "level": 4,
     "pinyin": "xiānhuā",
-    "definition": "名"
+    "definition": "新鲜的花朵"
   },
   {
     "word": "咸",
     "level": 4,
     "pinyin": "xián",
-    "definition": "形"
+    "definition": "像盐一样的味道"
   },
   {
     "word": "现金",
     "level": 4,
     "pinyin": "xiànjīn",
-    "definition": "名"
+    "definition": "现钱，纸币和硬币"
   },
   {
     "word": "现有",
@@ -10779,25 +10779,25 @@
     "word": "线上",
     "level": 4,
     "pinyin": "xiànshàng",
-    "definition": "名"
+    "definition": "互联网上进行的"
   },
   {
     "word": "线下",
     "level": 4,
     "pinyin": "xiànxià",
-    "definition": "名"
+    "definition": "互联网外进行的"
   },
   {
     "word": "羡慕",
     "level": 4,
     "pinyin": "xiànmù",
-    "definition": "动"
+    "definition": "希望自己有别人有的"
   },
   {
     "word": "相比",
     "level": 4,
     "pinyin": "xiāngbǐ",
-    "definition": "动"
+    "definition": "互相比较"
   },
   {
     "word": "相反",
@@ -10809,25 +10809,25 @@
     "word": "相互",
     "level": 4,
     "pinyin": "xiānghù",
-    "definition": "副"
+    "definition": "彼此，互相"
   },
   {
     "word": "相同",
     "level": 4,
     "pinyin": "xiāngtóng",
-    "definition": "形"
+    "definition": "一样，没有区别"
   },
   {
     "word": "香",
     "level": 4,
     "pinyin": "xiāng",
-    "definition": "形"
+    "definition": "气味好闻"
   },
   {
     "word": "详细",
     "level": 4,
     "pinyin": "xiángxì",
-    "definition": "形"
+    "definition": "内容多，不简略"
   },
   {
     "word": "响",
@@ -10839,49 +10839,49 @@
     "word": "想法",
     "level": 4,
     "pinyin": "xiǎngfǎ",
-    "definition": "名"
+    "definition": "心里的念头"
   },
   {
     "word": "项",
     "level": 4,
     "pinyin": "xiàng",
-    "definition": "量"
+    "definition": "量词，用于项目"
   },
   {
     "word": "消息",
     "level": 4,
     "pinyin": "xiāoxi",
-    "definition": "名"
+    "definition": "关于人或事的信息"
   },
   {
     "word": "小吃",
     "level": 4,
     "pinyin": "xiǎochī",
-    "definition": "名"
+    "definition": "小份的零食或点心"
   },
   {
     "word": "小伙子",
     "level": 4,
     "pinyin": "xiǎohuǒzi",
-    "definition": "名"
+    "definition": "年轻男子"
   },
   {
     "word": "小说",
     "level": 4,
     "pinyin": "xiǎoshuō",
-    "definition": "名"
+    "definition": "虚构的长篇故事"
   },
   {
     "word": "小组",
     "level": 4,
     "pinyin": "xiǎozǔ",
-    "definition": "名"
+    "definition": "几个人组成的小团体"
   },
   {
     "word": "效果",
     "level": 4,
     "pinyin": "xiàoguǒ",
-    "definition": "名"
+    "definition": "做事产生的结果"
   },
   {
     "word": "笑话",
@@ -10893,7 +10893,7 @@
     "word": "心",
     "level": 4,
     "pinyin": "xīn",
-    "definition": "名"
+    "definition": "心脏，也指思想感情"
   },
   {
     "word": "心情",
@@ -11403,19 +11403,19 @@
     "word": "远离",
     "level": 4,
     "pinyin": "yuǎnlí",
-    "definition": "动"
+    "definition": "离得很远，不接近"
   },
   {
     "word": "院长",
     "level": 4,
     "pinyin": "yuànzhǎng",
-    "definition": "名"
+    "definition": "医院或学院的负责人"
   },
   {
     "word": "院子",
     "level": 4,
     "pinyin": "yuànzi",
-    "definition": "名"
+    "definition": "房屋周围的空地"
   },
   {
     "word": "约",
@@ -11433,43 +11433,43 @@
     "word": "月饼",
     "level": 4,
     "pinyin": "yuèbing",
-    "definition": "名"
+    "definition": "中秋节吃的圆形糕点"
   },
   {
     "word": "月份",
     "level": 4,
     "pinyin": "yuèfèn",
-    "definition": "名"
+    "definition": "一年中的十二个月份"
   },
   {
     "word": "阅读",
     "level": 4,
     "pinyin": "yuèdú",
-    "definition": "动"
+    "definition": "看书或文章"
   },
   {
     "word": "云",
     "level": 4,
     "pinyin": "yún",
-    "definition": "名"
+    "definition": "天空中的白色水汽团"
   },
   {
     "word": "允许",
     "level": 4,
     "pinyin": "yǔnxǔ",
-    "definition": "动"
+    "definition": "同意，准许做某事"
   },
   {
     "word": "杂志",
     "level": 4,
     "pinyin": "zázhì",
-    "definition": "名"
+    "definition": "定期出版的刊物"
   },
   {
     "word": "再次",
     "level": 4,
     "pinyin": "zàicì",
-    "definition": "副"
+    "definition": "又一次，第二次"
   },
   {
     "word": "再说",
@@ -11481,67 +11481,67 @@
     "word": "暂时",
     "level": 4,
     "pinyin": "zànshí",
-    "definition": "形"
+    "definition": "短时间，目前"
   },
   {
     "word": "暂停",
     "level": 4,
     "pinyin": "zàntíng",
-    "definition": "动"
+    "definition": "暂时停止"
   },
   {
     "word": "早餐",
     "level": 4,
     "pinyin": "zǎocān",
-    "definition": "名"
+    "definition": "早上吃的饭"
   },
   {
     "word": "早晨",
     "level": 4,
     "pinyin": "zǎochen",
-    "definition": "名"
+    "definition": "天刚亮到上午的时间"
   },
   {
     "word": "责任",
     "level": 4,
     "pinyin": "zérèn",
-    "definition": "名"
+    "definition": "应尽的义务或任务"
   },
   {
     "word": "增加",
     "level": 4,
     "pinyin": "zēngjiā",
-    "definition": "动"
+    "definition": "数量变多"
   },
   {
     "word": "增长",
     "level": 4,
     "pinyin": "zēngzhǎng",
-    "definition": "动"
+    "definition": "增加，提高"
   },
   {
     "word": "招聘",
     "level": 4,
     "pinyin": "zhāopìn",
-    "definition": "动"
+    "definition": "招收新工作人员"
   },
   {
     "word": "者",
     "level": 4,
     "pinyin": "zhě",
-    "definition": "助"
+    "definition": "做某事的人"
   },
   {
     "word": "着",
     "level": 4,
     "pinyin": "zháo",
-    "definition": "动"
+    "definition": "表示动作或状态持续"
   },
   {
     "word": "着火",
     "level": 4,
     "pinyin": "zháohuǒ",
-    "definition": "动"
+    "definition": "失火，燃烧起来"
   },
   {
     "word": "真正",
@@ -11553,25 +11553,25 @@
     "word": "整",
     "level": 4,
     "pinyin": "zhěng",
-    "definition": "形"
+    "definition": "完整，全部"
   },
   {
     "word": "整个",
     "level": 4,
     "pinyin": "zhěnggè",
-    "definition": "形"
+    "definition": "全部，整体"
   },
   {
     "word": "整理",
     "level": 4,
     "pinyin": "zhěnglǐ",
-    "definition": "动"
+    "definition": "使有条理，收拾"
   },
   {
     "word": "正常",
     "level": 4,
     "pinyin": "zhèngcháng",
-    "definition": "形"
+    "definition": "符合一般标准，不异常"
   },
   {
     "word": "正好",

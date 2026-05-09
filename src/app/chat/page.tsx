@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { MessageCircle, Send, User, Bot, Loader2, Sparkles, Eye, EyeOff, Menu, Plus, Trash2, Clock, Cpu, Wifi } from 'lucide-react';
+import { MessageCircle, Send, User, Bot, Loader2, Sparkles, Eye, EyeOff, Menu, Plus, Trash2, Clock } from 'lucide-react';
 import { useT } from '@/lib/i18n';
 
 interface TokenInfo {
@@ -81,49 +81,7 @@ export default function ChatPage() {
   const [input, setInput] = useState('');
   const [sending, setSending] = useState(false);
   const [showLevels, setShowLevels] = useState(true);
-  const [useWebLLM, setUseWebLLM] = useState(false);
-  const [modelLoading, setModelLoading] = useState(false);
-  const [modelProgress, setModelProgress] = useState('');
   const messagesEndRef = useRef<HTMLDivElement>(null);
-
-  // 动态导入 WebLLM（避免 SSR 时加载 WebGPU 模块）
-  const webLLMRef = useRef<any>(null);
-
-  // 检测 WebGPU 并加载模型
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      try {
-        const mod = await import('@/lib/web-llm');
-        if (cancelled) return;
-        webLLMRef.current = mod;
-
-        if (mod.isWebGPUSupported()) {
-          setUseWebLLM(true);
-          setModelLoading(true);
-          setModelProgress('正在加载模型...');
-          await mod.loadModel((p: { text: string; progress: number }) => {
-            if (!cancelled && p.progress < 1) {
-              setModelProgress(`加载模型中 ${Math.round(p.progress * 100)}%`);
-            }
-          });
-          if (!cancelled) {
-            setModelLoading(false);
-            setModelProgress('本地模型已就绪');
-            setTimeout(() => setModelProgress(''), 2000);
-          }
-        }
-      } catch (err: any) {
-        if (!cancelled) {
-          console.warn('WebLLM 不可用，使用 API:', err.message);
-          setUseWebLLM(false);
-          setModelLoading(false);
-          setModelProgress('');
-        }
-      }
-    })();
-    return () => { cancelled = true; };
-  }, []);
 
   const active = sessions.find((s) => s.id === activeId) || sessions[0];
   const messages = active?.messages || [];
@@ -189,28 +147,15 @@ export default function ChatPage() {
       let reply: string;
       let tokens = null;
 
-      if (useWebLLM && webLLMRef.current?.isEngineReady()) {
-        // 使用浏览器本地模型
-        let systemPrompt = '';
-        if (targetLevel <= 2) {
-          systemPrompt = `你是中文教师。只用简单词汇，回复在20字以内。`;
-        }
-        const msgs = systemPrompt
-          ? [{ role: 'system' as const, content: systemPrompt }, ...history]
-          : history;
-        reply = await webLLMRef.current.chatWithWebLLM(msgs, { maxTokens: 150, temperature: 0.7 });
-      } else {
-        // 使用服务端 API
-        const res = await fetch('/api/chat', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ messages: history, targetLevel }),
-        });
-        const data = await res.json();
-        if (!data.success) throw new Error(data.message || 'Chat failed');
-        reply = data.reply;
-        tokens = data.tokens || null;
-      }
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ messages: history, targetLevel }),
+      });
+      const data = await res.json();
+      if (!data.success) throw new Error(data.message || 'Chat failed');
+      reply = data.reply;
+      tokens = data.tokens || null;
 
       const assistantMsg: Message = {
         id: (Date.now() + 1).toString(),
@@ -357,25 +302,6 @@ export default function ChatPage() {
           </div>
 
           <div className="ml-auto flex items-center gap-2">
-            {/* Model status */}
-            {modelLoading && (
-              <span className="text-[10px] text-amber-600 flex items-center gap-1">
-                <Loader2 size={10} className="animate-spin" />
-                {modelProgress}
-              </span>
-            )}
-            {useWebLLM && !modelLoading && (
-              <span className="text-[10px] text-green-600 flex items-center gap-1" title="本地模型运行中">
-                <Cpu size={10} />
-                本地
-              </span>
-            )}
-            {!useWebLLM && !modelLoading && (
-              <span className="text-[10px] text-slate-400 flex items-center gap-1" title="使用服务端 API">
-                <Wifi size={10} />
-                API
-              </span>
-            )}
             <select
               value={targetLevel}
               onChange={(e) => {

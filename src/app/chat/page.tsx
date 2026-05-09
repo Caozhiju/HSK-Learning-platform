@@ -1,12 +1,20 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { MessageCircle, Send, User, Bot, Settings, Loader2, Sparkles } from 'lucide-react';
+import { MessageCircle, Send, User, Bot, Settings, Loader2, Sparkles, Eye, EyeOff } from 'lucide-react';
+
+interface TokenInfo {
+  token: string;
+  level: number | null;
+  isOutOfLevel: boolean;
+  definition?: string;
+}
 
 interface Message {
   id: string;
   role: 'user' | 'assistant';
   content: string;
+  tokens?: TokenInfo[] | null;
 }
 
 export default function ChatPage() {
@@ -21,6 +29,7 @@ export default function ChatPage() {
   const [targetLevel, setTargetLevel] = useState<number>(3);
   const [sending, setSending] = useState(false);
   const [levelLocked, setLevelLocked] = useState(false);
+  const [showLevels, setShowLevels] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const levelHint: Record<number, string> = {
@@ -30,6 +39,23 @@ export default function ChatPage() {
     4: '回复 ≤80 字，用简短的段落对话',
     5: '回复 ≤150 字，用中等段落对话',
   };
+
+  /** 根据 HSK 等级返回颜色 */
+  function levelColor(level: number | null): string {
+    if (level === null) return '#9ca3af'; // gray-400
+    if (level <= 2) return '#22c55e';    // green-500
+    if (level <= 4) return '#eab308';    // yellow-500
+    if (level <= 6) return '#f97316';    // orange-500
+    return '#ef4444';                     // red-500
+  }
+
+  function levelBg(level: number | null): string {
+    if (level === null) return 'bg-gray-100 text-gray-500';
+    if (level <= 2) return 'bg-green-100 text-green-700';
+    if (level <= 4) return 'bg-yellow-100 text-yellow-700';
+    if (level <= 6) return 'bg-orange-100 text-orange-700';
+    return 'bg-red-100 text-red-700';
+  }
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -70,6 +96,7 @@ export default function ChatPage() {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
         content: data.reply,
+        tokens: data.tokens || null,
       };
 
       setMessages((prev) => [...prev, assistantMsg]);
@@ -128,6 +155,17 @@ export default function ChatPage() {
               已锁定
             </span>
           )}
+          <button
+            onClick={() => setShowLevels(!showLevels)}
+            className={`p-1.5 rounded-lg border text-xs transition-colors ${
+              showLevels
+                ? 'border-green-300 bg-green-50 text-green-700'
+                : 'border-slate-200 bg-white text-slate-400'
+            }`}
+            title={showLevels ? '隐藏词级标注' : '显示词级标注'}
+          >
+            {showLevels ? <Eye size={14} /> : <EyeOff size={14} />}
+          </button>
         </div>
       </div>
 
@@ -150,7 +188,22 @@ export default function ChatPage() {
                   : 'bg-white border border-slate-200 text-slate-700 rounded-bl-md shadow-sm'
               }`}
             >
-              {msg.content}
+              {msg.role === 'assistant' && showLevels && msg.tokens ? (
+                <span style={{ wordBreak: 'break-all' }}>
+                  {msg.tokens.map((t, i) => (
+                    <span
+                      key={i}
+                      className="inline-block cursor-help relative group"
+                      style={{ borderBottom: `2px solid ${levelColor(t.level)}` }}
+                      title={t.level ? `HSK ${t.level}${t.definition ? ': ' + t.definition : ''}` : '不在 HSK 大纲内'}
+                    >
+                      {t.token}
+                    </span>
+                  ))}
+                </span>
+              ) : (
+                msg.content
+              )}
               {msg.id !== 'welcome' && msg.role === 'assistant' && (
                 <div className="flex items-center gap-1 mt-2 pt-2 border-t border-slate-100">
                   <Sparkles size={12} className="text-blue-400" />

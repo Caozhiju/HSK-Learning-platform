@@ -11,6 +11,12 @@ interface VocabEntry {
   definition?: string;
 }
 
+interface WordDetail {
+  word: string;
+  level: number | null;
+  definition?: string;
+}
+
 interface RewriteResponse {
   success: boolean;
   originalText: string;
@@ -19,6 +25,7 @@ interface RewriteResponse {
   maxIterations: number;
   hasOutOfLevelWords: boolean;
   outOfLevelWords?: string[];
+  outOfLevelWordDetails?: WordDetail[];
   message?: string;
 }
 
@@ -279,6 +286,16 @@ export async function POST(request: Request): Promise<NextResponse> {
     const rewrittenText = rewrittenParts.join('');
     const uniqueResidual = Array.from(new Set(allResidualWords));
 
+    // 构建残留超纲词的详细信息（含等级和释义）
+    const wordDetails: WordDetail[] = uniqueResidual.map((word) => {
+      const entry = manager.getVocabEntry(word);
+      return {
+        word,
+        level: manager.checkWordLevel(word),
+        definition: entry?.definition || undefined,
+      };
+    });
+
     console.log(`\n📊 完成 | 总迭代: ${totalIterations} | 残留: ${uniqueResidual.length} 词`);
 
     const response: RewriteResponse = {
@@ -289,6 +306,7 @@ export async function POST(request: Request): Promise<NextResponse> {
       maxIterations: 3,
       hasOutOfLevelWords: anyHasOutOfLevel,
       outOfLevelWords: anyHasOutOfLevel ? uniqueResidual : undefined,
+      outOfLevelWordDetails: anyHasOutOfLevel ? wordDetails : undefined,
     };
 
     if (anyHasOutOfLevel) {

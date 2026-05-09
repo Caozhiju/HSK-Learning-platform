@@ -1,9 +1,19 @@
 import { NextResponse } from 'next/server';
+import { readFile } from 'fs/promises';
+import path from 'path';
 import { OpenAI } from 'openai';
+import VocabManager from '@/lib/vocab-manager';
 
 interface ChatRequest {
   messages: { role: 'user' | 'assistant'; content: string }[];
   targetLevel: number;
+}
+
+interface TokenInfo {
+  token: string;
+  level: number | null;
+  isOutOfLevel: boolean;
+  definition?: string;
 }
 
 export async function POST(request: Request): Promise<NextResponse> {
@@ -81,7 +91,6 @@ export async function POST(request: Request): Promise<NextResponse> {
         targetLevel,
       });
 
-      // Call our own rewrite endpoint internally
       const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
       const rewriteRes = await fetch(`${baseUrl}/api/rewrite`, {
         method: 'POST',
@@ -96,14 +105,41 @@ export async function POST(request: Request): Promise<NextResponse> {
         }
       }
     } catch {
-      // If rewrite fails, use the original reply
       console.warn('Rewrite step failed, using original LLM reply');
+    }
+
+    // Step 3: 分析回复中每个词的 HSK 等级
+    let tokens: TokenInfo[] | null = null;
+    try {
+      const manager = VocabManager.getInstance();
+      if (manager.getTotalVocabCount() === 0) {
+        const vocabPath = path.join(process.cwd(), 'public', 'hsk3.0_vocab.json');
+        let vocabContent = await readFile(vocabPath, 'utf-8');
+        if (vocabContent.charCodeAt(0) === 0xFEFF) vocabContent = vocabContent.slice(1);
+        const vocabData = JSON.parse(vocabContent);
+        await manager.initialize(vocabData);
+      }
+
+      const rawTokens = manager.tokenize(finalReply);
+      tokens = rawTokens.map((token) => {
+        const ch = manager.checkWordLevel(token);
+        const entry = manager.getVocabEntry(token);
+        return {
+          token,
+          level: ch,
+          isOutOfLevel: ch !== null && ch > targetLevel,
+          definition: entry?.definition || undefined,
+        };
+      });
+    } catch (err) {
+      console.warn('Token analysis failed:', err);
     }
 
     return NextResponse.json({
       success: true,
       reply: finalReply,
       originalReply: rawReply,
+      tokens,
     });
   } catch (error) {
     console.error('Error in chat API:', error);

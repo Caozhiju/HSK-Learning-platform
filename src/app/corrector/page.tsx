@@ -11,6 +11,12 @@ interface AnalyzeResult {
   outOfLevelWords: string[];
 }
 
+interface WordDetail {
+  word: string;
+  level: number | null;
+  definition?: string;
+}
+
 interface RewriteResult {
   success: boolean;
   originalText: string;
@@ -19,6 +25,7 @@ interface RewriteResult {
   maxIterations: number;
   hasOutOfLevelWords: boolean;
   outOfLevelWords?: string[];
+  outOfLevelWordDetails?: WordDetail[];
   message?: string;
 }
 
@@ -268,13 +275,31 @@ export default function CorrectorPage() {
                   {rewriteResult.rewrittenText}
                 </div>
 
-                {rewriteResult.hasOutOfLevelWords && rewriteResult.outOfLevelWords && (
-                  <div className="flex items-start gap-2 p-3 bg-amber-50 border border-amber-200 rounded-lg text-xs text-amber-700">
-                    <AlertTriangle size={14} className="shrink-0 mt-0.5" />
-                    <span>
-                      仍有 {rewriteResult.outOfLevelWords.length} 个残留超纲词:
-                      {rewriteResult.outOfLevelWords.join(', ')}
-                    </span>
+                {rewriteResult.hasOutOfLevelWords && rewriteResult.outOfLevelWordDetails && (
+                  <div className="p-3 bg-amber-50 border border-amber-200 rounded-lg">
+                    <div className="flex items-center gap-2 mb-2">
+                      <AlertTriangle size={14} className="text-amber-500 shrink-0" />
+                      <span className="text-xs font-medium text-amber-700">
+                        仍有 {rewriteResult.outOfLevelWordDetails.length} 个残留超纲词:
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-1 gap-1.5">
+                      {rewriteResult.outOfLevelWordDetails.map((w, i) => (
+                        <div key={i} className="flex items-start gap-2 bg-white/60 rounded px-2.5 py-1.5 text-xs">
+                          <span className="font-medium text-slate-800 shrink-0">{w.word}</span>
+                          <span className={`shrink-0 px-1 rounded text-[10px] ${
+                            w.level !== null && w.level <= 4 ? 'bg-green-100 text-green-700' :
+                            w.level !== null && w.level <= 6 ? 'bg-yellow-100 text-yellow-700' :
+                            'bg-red-100 text-red-700'
+                          }`}>
+                            {w.level ? `HSK ${w.level}` : '库外'}
+                          </span>
+                          {w.definition && (
+                            <span className="text-slate-500 leading-relaxed">{w.definition}</span>
+                          )}
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 )}
 

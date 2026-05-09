@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { Search, ChevronDown, BookOpen, Hash, Languages, Star } from 'lucide-react';
+import { useT } from '@/lib/i18n';
 
 interface VocabEntry {
   word: string;
@@ -11,6 +12,7 @@ interface VocabEntry {
 }
 
 export default function VocabPage() {
+  const { t, lang } = useT();
   const [allVocab, setAllVocab] = useState<VocabEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -99,9 +101,9 @@ export default function VocabPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-slate-900 flex items-center gap-3">
           <BookOpen size={32} className="text-blue-500" />
-          词汇学习
+          {t('vocab.title')}
         </h1>
-        <p className="text-slate-500 mt-2">浏览 HSK 3.0 标准词汇库，按等级筛选学习</p>
+        <p className="text-slate-500 mt-2">{t('vocab.subtitle')}</p>
       </div>
 
       {/* Filters */}
@@ -116,7 +118,7 @@ export default function VocabPage() {
               }
               className="appearance-none bg-slate-50 border border-slate-200 rounded-lg px-4 py-2.5 pr-10 text-sm font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
             >
-              <option value="all">全部等级</option>
+              <option value="all">{t('vocab.allLevels')}</option>
               {Array.from({ length: 9 }, (_, i) => i + 1).map((lvl) => (
                 <option key={lvl} value={lvl}>
                   HSK {lvl} 级
@@ -139,7 +141,7 @@ export default function VocabPage() {
             }`}
           >
             <Star size={16} fill={showFavorites ? 'currentColor' : 'none'} />
-            收藏{favorites.length > 0 && ` (${favorites.length})`}
+            {t('vocab.favorites')}{favorites.length > 0 && ` (${favorites.length})`}
           </button>
 
           {/* Search */}
@@ -149,7 +151,7 @@ export default function VocabPage() {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="搜索词汇、拼音或释义..."
+              placeholder={t('vocab.search')}
               className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -158,9 +160,9 @@ export default function VocabPage() {
         {/* Stats */}
         <div className="flex items-center gap-2 mt-3 text-xs text-slate-500">
           <Hash size={14} />
-          共 {filtered.length} 个词汇
-          {selectedLevel !== 'all' && ` · HSK ${selectedLevel} 级`}
-          {searchQuery && ` · 搜索: "${searchQuery}"`}
+          {t('vocab.count')} {filtered.length} {t('vocab.items')}
+          {selectedLevel !== 'all' && ` · HSK ${selectedLevel} ${t('vocab.level')}`}
+          {searchQuery && ` · ${lang === 'en' ? 'Search' : '搜索'}: "${searchQuery}"`}
         </div>
       </div>
 
@@ -168,11 +170,11 @@ export default function VocabPage() {
       {loading ? (
         <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-12 text-center">
           <div className="animate-spin w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full mx-auto mb-4" />
-          <p className="text-slate-500">正在加载词汇数据...</p>
+          <p className="text-slate-500">{t('vocab.loading')}</p>
         </div>
       ) : error ? (
         <div className="bg-red-50 border border-red-200 rounded-xl p-6">
-          <p className="text-red-700">加载失败: {error}</p>
+          <p className="text-red-700">{t('vocab.error')}: {error}</p>
         </div>
       ) : (
         <>
@@ -190,7 +192,7 @@ export default function VocabPage() {
                       ? 'text-amber-500 hover:text-amber-600'
                       : 'text-slate-300 hover:text-amber-400 opacity-0 group-hover:opacity-100'
                   }`}
-                  title={favorites.includes(entry.word) ? '取消收藏' : '收藏'}
+                  title={favorites.includes(entry.word) ? lang === 'en' ? 'Unfavorite' : '取消收藏' : '收藏'}
                 >
                   <Star size={16} fill={favorites.includes(entry.word) ? 'currentColor' : 'none'} />
                 </button>
@@ -217,7 +219,7 @@ export default function VocabPage() {
           {filtered.length === 0 && (
             <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-12 text-center">
               <Languages size={48} className="mx-auto text-slate-300 mb-4" />
-              <p className="text-slate-500">没有找到匹配的词汇</p>
+              <p className="text-slate-500">{t('vocab.empty')}</p>
             </div>
           )}
 
@@ -229,7 +231,7 @@ export default function VocabPage() {
                 disabled={currentPage === 1}
                 className="px-3 py-2 text-sm rounded-lg border border-slate-200 bg-white hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed"
               >
-                上一页
+                {t('vocab.prev')}
               </button>
               {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
                 let pageNum: number;
@@ -261,7 +263,7 @@ export default function VocabPage() {
                 disabled={currentPage === totalPages}
                 className="px-3 py-2 text-sm rounded-lg border border-slate-200 bg-white hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed"
               >
-                下一页
+                {t('vocab.next')}
               </button>
             </div>
           )}

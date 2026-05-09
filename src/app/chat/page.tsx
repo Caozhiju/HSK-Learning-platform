@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { MessageCircle, Send, User, Bot, Loader2, Sparkles, Eye, EyeOff, Menu, Plus, Trash2, Clock } from 'lucide-react';
+import { useT } from '@/lib/i18n';
 
 interface TokenInfo {
   token: string;
@@ -70,6 +71,7 @@ function formatTime(ts: number): string {
 }
 
 export default function ChatPage() {
+  const { t, lang } = useT();
   const [sessions, setSessions] = useState<ChatSession[]>(() => {
     const loaded = loadSessions();
     return loaded.length > 0 ? loaded : [createSession(3)];
@@ -165,7 +167,7 @@ export default function ChatPage() {
         messages: [...s.messages, {
           id: (Date.now() + 1).toString(),
           role: 'assistant',
-          content: '抱歉，发生了错误。请重试。',
+          content: t('chat.error'),
         }],
       }));
     } finally {
@@ -224,7 +226,7 @@ export default function ChatPage() {
             className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm font-medium transition-colors"
           >
             <Plus size={16} />
-            新对话
+            {t('chat.newChat')}
           </button>
         </div>
 
@@ -270,7 +272,7 @@ export default function ChatPage() {
 
         <div className="p-3 border-t border-slate-200 text-center">
           <span className="text-[10px] text-slate-400">
-            {sessions.length} 个对话 · 数据保存在本地
+            {sessions.length} {t('chat.sessions')} · {t('chat.sessionsHint')}
           </span>
         </div>
       </div>
@@ -290,7 +292,7 @@ export default function ChatPage() {
               <MessageCircle size={16} className="text-white" />
             </div>
             <div>
-              <h1 className="font-semibold text-slate-800 text-sm">智能对话</h1>
+              <h1 className="font-semibold text-slate-800 text-sm">{t('chat.title')}</h1>
               <p className="text-[10px] text-slate-400 truncate max-w-[120px]">{active?.title}</p>
             </div>
           </div>
@@ -313,7 +315,7 @@ export default function ChatPage() {
               className={`p-1.5 rounded-lg border text-xs transition-colors ${
                 showLevels ? 'border-green-300 bg-green-50 text-green-700' : 'border-slate-200 bg-white text-slate-400'
               }`}
-              title={showLevels ? '隐藏词级标注' : '显示词级标注'}
+              title={showLevels ? t('chat.hideLevels') : t('chat.showLevels')}
             >
               {showLevels ? <Eye size={14} /> : <EyeOff size={14} />}
             </button>
@@ -360,7 +362,7 @@ export default function ChatPage() {
                 {!msg.id.startsWith('welcome') && msg.role === 'assistant' && (
                   <div className="flex items-center gap-1 mt-2 pt-2 border-t border-slate-100">
                     <Sparkles size={11} className="text-blue-400" />
-                    <span className="text-[10px] text-blue-400">HSK {targetLevel} 级词汇</span>
+                    <span className="text-[10px] text-blue-400">{t('chat.levelLabel')} {targetLevel} {t('chat.vocabLevel')}</span>
                   </div>
                 )}
               </div>
@@ -392,7 +394,7 @@ export default function ChatPage() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="输入你的消息..."
+              placeholder={t('chat.placeholder')}
               disabled={sending}
               className="flex-1 px-4 py-2.5 border border-slate-200 rounded-xl text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-slate-50"
             />
@@ -405,7 +407,7 @@ export default function ChatPage() {
             </button>
           </div>
           <p className="text-[10px] text-slate-400 mt-1.5 text-center">
-            按 Enter 发送 · HSK {targetLevel} 级 · {levelHint[targetLevel] || '自然长度的对话'}
+            {t('chat.footer')} · {t('chat.levelLabel')} {targetLevel} · {lang === 'en' ? '' : levelHint[targetLevel] || '自然长度的对话'}
           </p>
         </div>
       </div>

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { PenLine, AlertTriangle, CheckCircle2, ArrowRight, Loader2, Sparkles, Info } from 'lucide-react';
+import { useT } from '@/lib/i18n';
 
 interface AnalyzeResult {
   success: boolean;
@@ -30,6 +31,7 @@ interface RewriteResult {
 }
 
 export default function CorrectorPage() {
+  const { t } = useT();
   const [text, setText] = useState('');
   const [targetLevel, setTargetLevel] = useState<number>(3);
   const [analyzeResult, setAnalyzeResult] = useState<AnalyzeResult | null>(null);
@@ -98,9 +100,9 @@ export default function CorrectorPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-slate-900 flex items-center gap-3">
           <PenLine size={32} className="text-blue-500" />
-          超纲文本修正
+          {t('corrector.title')}
         </h1>
-        <p className="text-slate-500 mt-2">检测文本中的超纲词并使用 AI 自动修正为指定 HSK 等级的合规文本</p>
+        <p className="text-slate-500 mt-2">{t('corrector.subtitle')}</p>
       </div>
 
       {/* Input Section */}
@@ -108,7 +110,7 @@ export default function CorrectorPage() {
         <div className="flex flex-col sm:flex-row gap-4 mb-4">
           <div className="flex-1">
             <label className="block text-sm font-medium text-slate-700 mb-2">
-              输入文本
+              {t('corrector.input')}
             </label>
             <textarea
               value={text}

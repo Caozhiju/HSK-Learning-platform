@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import Sidebar from '@/components/sidebar';
+import { LanguageProvider } from '@/lib/i18n';
 import './globals.css';
 
 const geistSans = Geist({
@@ -29,11 +30,12 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-slate-50">
-        <Sidebar />
-        {/* Main content offset for sidebar */}
-        <div className="lg:pl-64 pt-14 lg:pt-0">
-          <main className="min-h-screen">{children}</main>
-        </div>
+        <LanguageProvider>
+          <Sidebar />
+          <div className="lg:pl-64 pt-14 lg:pt-0">
+            <main className="min-h-screen">{children}</main>
+          </div>
+        </LanguageProvider>
       </body>
     </html>
   );

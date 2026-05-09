@@ -83,32 +83,7 @@ export async function POST(request: Request): Promise<NextResponse> {
       throw new Error('Empty response from LLM');
     }
 
-    // Step 2: Run rewrite to ensure compliance with target HSK level
-    let finalReply = rawReply;
-    try {
-      const rewriteBody = JSON.stringify({
-        text: rawReply,
-        targetLevel,
-      });
-
-      const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-      const rewriteRes = await fetch(`${baseUrl}/api/rewrite`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: rewriteBody,
-      });
-
-      if (rewriteRes.ok) {
-        const rewriteData = await rewriteRes.json();
-        if (rewriteData.success) {
-          finalReply = rewriteData.rewrittenText;
-        }
-      }
-    } catch {
-      console.warn('Rewrite step failed, using original LLM reply');
-    }
-
-    // Step 3: 分析回复中每个词的 HSK 等级
+    // Step 2: 分析回复中每个词的 HSK 等级
     let tokens: TokenInfo[] | null = null;
     try {
       const manager = VocabManager.getInstance();
@@ -120,7 +95,7 @@ export async function POST(request: Request): Promise<NextResponse> {
         await manager.initialize(vocabData);
       }
 
-      const rawTokens = manager.tokenize(finalReply);
+      const rawTokens = manager.tokenize(rawReply);
       tokens = rawTokens.map((token) => {
         const ch = manager.checkWordLevel(token);
         const entry = manager.getVocabEntry(token);
@@ -137,7 +112,7 @@ export async function POST(request: Request): Promise<NextResponse> {
 
     return NextResponse.json({
       success: true,
-      reply: finalReply,
+      reply: rawReply,
       originalReply: rawReply,
       tokens,
     });

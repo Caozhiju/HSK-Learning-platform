@@ -187,7 +187,7 @@ async function rewriteSingleText(
   outOfLevelWords: string[];
   hasOutOfLevel: boolean;
 }> {
-  const MAX_ITERATIONS = 3;
+  const MAX_ITERATIONS = 1;  // 单轮足够（qwen 多轮无增益，仅增加延迟）
   let currentText = text;
   let iterationCount = 0;
   let finalOutOfLevelWords: string[] = [];

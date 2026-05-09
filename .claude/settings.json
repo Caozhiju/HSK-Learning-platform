@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 30400 //F)",
+      "Bash(taskkill //PID 39964 //F)",
+      "Bash(rm -rf .next)",
+      "Bash(node scripts/batch-test.mjs)",
+      "Bash(tee scripts/batch-output-v2.txt)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -X POST http://localhost:3001/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你好\\\\\"}],\\\\\"targetLevel\\\\\":1}\")",
+      "Bash(node -e \"process.stdin.resume\\(\\);let d='';process.stdin.on\\('data',c=>d+=c\\);process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\('回复\\('+j.reply.length+'字\\):',j.reply\\)}\\)\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你好，你今天怎么样\\\\\"}],\\\\\"targetLevel\\\\\":2}\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你喜欢什么运动\\\\\"}],\\\\\"targetLevel\\\\\":3}\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你好\\\\\"},{\\\\\"role\\\\\":\\\\\"assistant\\\\\",\\\\\"content\\\\\":\\\\\"你好\\\\\"},{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你叫什么名字\\\\\"}],\\\\\"targetLevel\\\\\":1}\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你好\\\\\"},{\\\\\"role\\\\\":\\\\\"assistant\\\\\",\\\\\"content\\\\\":\\\\\"你好\\\\\"},{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你今天做了什么\\\\\"}],\\\\\"targetLevel\\\\\":2}\")",
+      "Bash(curl -s -X POST http://localhost:3002/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你好\\\\\"}],\\\\\"targetLevel\\\\\":1}\")",
+      "Bash(node -e \"process.stdin.resume\\(\\);let d='';process.stdin.on\\('data',c=>d+=c\\);process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d\\);console.log\\('\\('+j.reply.length+'字\\):',j.reply\\)}\\)\")",
+      "Bash(curl -s -X POST http://localhost:3002/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你叫什么名字\\\\\"}],\\\\\"targetLevel\\\\\":1}\")",
+      "Bash(curl -s -X POST http://localhost:3002/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你好\\\\\"}],\\\\\"targetLevel\\\\\":2}\")",
+      "Bash(curl -s -X POST http://localhost:3002/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"你喜欢什么运动\\\\\"}],\\\\\"targetLevel\\\\\":3}\")",
+      "Bash(node scripts/add-definitions.mjs)",
+      "Read(//d//**)",
+      "Bash(find /d -maxdepth 1 -name \"zi.json\")",
+      "Bash(node scripts/add-definitions-from-dict.mjs)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}

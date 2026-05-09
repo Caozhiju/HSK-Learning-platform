@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell(cmd /c \"npm run build\")"
+      "PowerShell(cmd /c \"npm run build\")",
+      "Bash(node -e ' *)"
     ]
   }
 }

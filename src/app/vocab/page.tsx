@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
-import { Search, ChevronDown, BookOpen, Hash, Languages } from 'lucide-react';
+import { Search, ChevronDown, BookOpen, Hash, Languages, Star } from 'lucide-react';
 
 interface VocabEntry {
   word: string;
@@ -17,7 +17,22 @@ export default function VocabPage() {
   const [selectedLevel, setSelectedLevel] = useState<number | 'all'>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
+  const [favorites, setFavorites] = useState<string[]>(() => {
+    try { return JSON.parse(localStorage.getItem('hsk-favorites') || '[]'); } catch { return []; }
+  });
+  const [showFavorites, setShowFavorites] = useState(false);
   const pageSize = 50;
+
+  // Sync favorites to localStorage
+  useEffect(() => {
+    localStorage.setItem('hsk-favorites', JSON.stringify(favorites));
+  }, [favorites]);
+
+  const toggleFavorite = (word: string) => {
+    setFavorites((prev) =>
+      prev.includes(word) ? prev.filter((w) => w !== word) : [...prev, word]
+    );
+  };
 
   useEffect(() => {
     const loadVocab = async () => {
@@ -40,6 +55,9 @@ export default function VocabPage() {
 
   const filtered = useMemo(() => {
     let result = allVocab;
+    if (showFavorites) {
+      result = result.filter((v) => favorites.includes(v.word));
+    }
     if (selectedLevel !== 'all') {
       result = result.filter((v) => v.level === selectedLevel);
     }
@@ -53,7 +71,7 @@ export default function VocabPage() {
       );
     }
     return result;
-  }, [allVocab, selectedLevel, searchQuery]);
+  }, [allVocab, selectedLevel, searchQuery, showFavorites, favorites]);
 
   const totalPages = Math.ceil(filtered.length / pageSize);
   const pageData = filtered.slice((currentPage - 1) * pageSize, currentPage * pageSize);
@@ -111,6 +129,19 @@ export default function VocabPage() {
             />
           </div>
 
+          {/* Favorites toggle */}
+          <button
+            onClick={() => { setShowFavorites(!showFavorites); setCurrentPage(1); }}
+            className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-sm font-medium border transition-colors ${
+              showFavorites
+                ? 'bg-amber-50 border-amber-300 text-amber-700'
+                : 'bg-slate-50 border-slate-200 text-slate-500 hover:border-amber-200 hover:text-amber-600'
+            }`}
+          >
+            <Star size={16} fill={showFavorites ? 'currentColor' : 'none'} />
+            收藏{favorites.length > 0 && ` (${favorites.length})`}
+          </button>
+
           {/* Search */}
           <div className="flex-1 relative">
             <Search size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
@@ -150,9 +181,20 @@ export default function VocabPage() {
             {pageData.map((entry, i) => (
               <div
                 key={`${entry.word}-${i}`}
-                className="bg-white rounded-xl shadow-sm border border-slate-200 p-4 hover:shadow-md hover:border-blue-200 transition-all duration-150 group"
+                className="bg-white rounded-xl shadow-sm border border-slate-200 p-4 hover:shadow-md hover:border-blue-200 transition-all duration-150 group relative"
               >
-                <div className="flex items-start justify-between mb-2">
+                <button
+                  onClick={(e) => { e.stopPropagation(); toggleFavorite(entry.word); }}
+                  className={`absolute top-3 right-3 p-1 rounded-lg transition-all ${
+                    favorites.includes(entry.word)
+                      ? 'text-amber-500 hover:text-amber-600'
+                      : 'text-slate-300 hover:text-amber-400 opacity-0 group-hover:opacity-100'
+                  }`}
+                  title={favorites.includes(entry.word) ? '取消收藏' : '收藏'}
+                >
+                  <Star size={16} fill={favorites.includes(entry.word) ? 'currentColor' : 'none'} />
+                </button>
+                <div className="flex items-start justify-between mb-2 pr-6">
                   <span className="text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
                     {entry.word}
                   </span>

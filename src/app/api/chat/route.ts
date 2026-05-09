@@ -1,20 +1,12 @@
 import { NextResponse } from 'next/server';
-import { readFile } from 'fs/promises';
-import path from 'path';
 import { OpenAI } from 'openai';
-import VocabManager from '@/lib/vocab-manager';
 
 interface ChatRequest {
   messages: { role: 'user' | 'assistant'; content: string }[];
   targetLevel: number;
 }
 
-interface TokenInfo {
-  token: string;
-  level: number | null;
-  isOutOfLevel: boolean;
-  definition?: string;
-}
+export const maxDuration = 30; // Vercel serverless 最大 30s
 
 export async function POST(request: Request): Promise<NextResponse> {
   try {
@@ -48,29 +40,19 @@ export async function POST(request: Request): Promise<NextResponse> {
       baseURL: process.env.OPENAI_BASE_URL || undefined,
     });
 
-    // 按等级设置生成长度约束
     const levelConfig: Record<number, { maxChars: number; maxTokens: number; desc: string }> = {
-      1: { maxChars: 10, maxTokens: 80,  desc: '单个词语或极短词组（如"你好""谢谢""我是学生"）' },
-      2: { maxChars: 20, maxTokens: 120, desc: '简单短句，单句为主（如"我今天去商店买东西了"）' },
-      3: { maxChars: 40, maxTokens: 200, desc: '1-2 个短句（如"虽然下雨了，但是我还是去了学校"）' },
-      4: { maxChars: 80, maxTokens: 350, desc: '2-3 个句子组成的简短段落' },
-      5: { maxChars: 150, maxTokens: 600, desc: '中等长度段落' },
+      1: { maxChars: 10, maxTokens: 80,  desc: '只回复单个词或短词组' },
+      2: { maxChars: 20, maxTokens: 120, desc: '回复简单短句' },
+      3: { maxChars: 40, maxTokens: 200, desc: '回复1-2个短句' },
+      4: { maxChars: 80, maxTokens: 350, desc: '回复简短段落' },
+      5: { maxChars: 150, maxTokens: 600, desc: '回复中等段落' },
     };
-    const cfg = levelConfig[targetLevel] || { maxChars: 300, maxTokens: 1024, desc: '自然长度的对话回复' };
+    const cfg = levelConfig[targetLevel] || { maxChars: 300, maxTokens: 1024, desc: '自然对话' };
 
-    const systemPrompt = `你是一名中文教师，正在和一位 HSK ${targetLevel} 级的中文学习者对话。
+    const systemPrompt = `你是中文教师。只用 HSK ${targetLevel} 级及以下词汇。每次回复不超过 ${cfg.maxChars} 字。${cfg.desc}。`;
 
-严格规则：
-1. 只使用 HSK ${targetLevel} 级及以下的基础词汇。
-2. 每次回复控制在 ${cfg.maxChars} 个字以内。${cfg.desc}。
-3. 句子要简单自然，像老师在课堂上对学生说话。
-4. 如果学生用了超纲词，用简单的方式回应，不要纠正。
-
-请直接用简洁的中文回复，不要加任何解释或标记。`;
-
-    // Call LLM for chat
     const completion = await client.chat.completions.create({
-      model: process.env.LLM_MODEL || 'gpt-4o-mini',
+      model: process.env.LLM_MODEL || 'qwen2.5:3b',
       max_tokens: cfg.maxTokens,
       messages: [
         { role: 'system', content: systemPrompt },
@@ -78,46 +60,17 @@ export async function POST(request: Request): Promise<NextResponse> {
       ],
     });
 
-    const rawReply = completion.choices[0]?.message?.content;
-    if (!rawReply) {
+    const reply = completion.choices[0]?.message?.content;
+    if (!reply) {
       throw new Error('Empty response from LLM');
-    }
-
-    // Step 2: 分析回复中每个词的 HSK 等级
-    let tokens: TokenInfo[] | null = null;
-    try {
-      const manager = VocabManager.getInstance();
-      if (manager.getTotalVocabCount() === 0) {
-        const vocabPath = path.join(process.cwd(), 'public', 'hsk3.0_vocab.json');
-        let vocabContent = await readFile(vocabPath, 'utf-8');
-        if (vocabContent.charCodeAt(0) === 0xFEFF) vocabContent = vocabContent.slice(1);
-        const vocabData = JSON.parse(vocabContent);
-        await manager.initialize(vocabData);
-      }
-
-      const rawTokens = manager.tokenize(rawReply);
-      tokens = rawTokens.map((token) => {
-        const ch = manager.checkWordLevel(token);
-        const entry = manager.getVocabEntry(token);
-        return {
-          token,
-          level: ch,
-          isOutOfLevel: ch !== null && ch > targetLevel,
-          definition: entry?.definition || undefined,
-        };
-      });
-    } catch (err) {
-      console.warn('Token analysis failed:', err);
     }
 
     return NextResponse.json({
       success: true,
-      reply: rawReply,
-      originalReply: rawReply,
-      tokens,
+      reply: reply.trim(),
     });
   } catch (error) {
-    console.error('Error in chat API:', error);
+    console.error('Chat API error:', error);
     return NextResponse.json(
       {
         success: false,

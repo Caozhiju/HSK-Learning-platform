@@ -40,21 +40,21 @@ export default function ChatPage() {
     5: '回复 ≤150 字，用中等段落对话',
   };
 
-  /** 根据 HSK 等级返回颜色 */
-  function levelColor(level: number | null): string {
-    if (level === null) return '#9ca3af'; // gray-400
-    if (level <= 2) return '#22c55e';    // green-500
-    if (level <= 4) return '#eab308';    // yellow-500
-    if (level <= 6) return '#f97316';    // orange-500
-    return '#ef4444';                     // red-500
+  /** 根据 HSK 等级返回 Tailwind 颜色类名 */
+  function levelBadgeClass(level: number | null): string {
+    if (level === null) return 'bg-gray-100 text-gray-500 border-gray-300';
+    if (level <= 2) return 'bg-green-50 text-green-800 border-green-300';
+    if (level <= 4) return 'bg-yellow-50 text-yellow-800 border-yellow-300';
+    if (level <= 6) return 'bg-orange-50 text-orange-800 border-orange-300';
+    return 'bg-red-50 text-red-800 border-red-300';
   }
 
-  function levelBg(level: number | null): string {
-    if (level === null) return 'bg-gray-100 text-gray-500';
-    if (level <= 2) return 'bg-green-100 text-green-700';
-    if (level <= 4) return 'bg-yellow-100 text-yellow-700';
-    if (level <= 6) return 'bg-orange-100 text-orange-700';
-    return 'bg-red-100 text-red-700';
+  function levelDotClass(level: number | null): string {
+    if (level === null) return 'bg-gray-400 text-white';
+    if (level <= 2) return 'bg-green-500 text-white';
+    if (level <= 4) return 'bg-yellow-500 text-white';
+    if (level <= 6) return 'bg-orange-500 text-white';
+    return 'bg-red-500 text-white';
   }
 
   useEffect(() => {
@@ -189,17 +189,25 @@ export default function ChatPage() {
               }`}
             >
               {msg.role === 'assistant' && showLevels && msg.tokens ? (
-                <span style={{ wordBreak: 'break-all' }}>
-                  {msg.tokens.map((t, i) => (
-                    <span
-                      key={i}
-                      className="inline-block cursor-help relative group"
-                      style={{ borderBottom: `2px solid ${levelColor(t.level)}` }}
-                      title={t.level ? `HSK ${t.level}${t.definition ? ': ' + t.definition : ''}` : '不在 HSK 大纲内'}
-                    >
-                      {t.token}
-                    </span>
-                  ))}
+                <span className="leading-loose">
+                  {msg.tokens.map((t, i) => {
+                    // 标点符号不标注
+                    if (/^[\s\p{P}]+$/u.test(t.token)) {
+                      return <span key={i}>{t.token}</span>;
+                    }
+                    return (
+                      <span
+                        key={i}
+                        className={`inline-flex items-center gap-0.5 mx-0.5 px-1.5 py-0.5 rounded-md border text-xs font-medium cursor-help ${levelBadgeClass(t.level)}`}
+                        title={t.level ? `HSK ${t.level}${t.definition ? ': ' + t.definition : ''}` : '不在 HSK 大纲内'}
+                      >
+                        {t.token}
+                        <span className={`text-[9px] px-1 rounded-full font-bold ${levelDotClass(t.level)}`}>
+                          {t.level ? 'L' + t.level : '?'}
+                        </span>
+                      </span>
+                    );
+                  })}
                 </span>
               ) : (
                 msg.content

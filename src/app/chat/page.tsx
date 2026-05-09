@@ -35,7 +35,12 @@ const WELCOME_MSG: Message = {
 
 function loadSessions(): ChatSession[] {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    if (!Array.isArray(raw)) return [];
+    // 过滤掉旧版本或损坏的数据
+    return raw.filter((s: any) =>
+      s && typeof s.id === 'string' && Array.isArray(s.messages) && typeof s.targetLevel === 'number'
+    );
   } catch { return []; }
 }
 
@@ -107,8 +112,13 @@ export default function ChatPage() {
   const deleteSession = (id: string) => {
     setSessions((prev) => {
       const next = prev.filter((s) => s.id !== id);
-      if (id === activeId && next.length > 0) setActiveId(next[0].id);
-      return next.length > 0 ? next : [createSession(3)];
+      if (next.length === 0) {
+        const fallback = createSession(3);
+        setActiveId(fallback.id);
+        return [fallback];
+      }
+      if (id === activeId) setActiveId(next[0].id);
+      return next;
     });
   };
 

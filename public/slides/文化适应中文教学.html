@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>以文化适应为导向的中文教学探析</title>
+
+<style>
+/* ===========================================
+   SWISS MODERN THEME — CSS Custom Properties
+   =========================================== */
+:root {
+  --bg-white:#ffffff;
+  --text-black:#000000;
+  --text-secondary:#555555;
+  --text-tertiary:#888888;
+  --accent:#ff3300;
+  --grid-color:rgba(0,0,0,0.05);
+  --border-color:rgba(0,0,0,0.1);
+  --card-bg:#f8f8f8;
+  --font-display:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --font-body:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --title-size:clamp(1.8rem,5vw,3.5rem);
+  --h2-size:clamp(1.25rem,3.5vw,2.2rem);
+  --h3-size:clamp(1rem,2vw,1.4rem);
+  --body-size:clamp(0.72rem,1.3vw,0.95rem);
+  --small-size:clamp(0.6rem,0.9vw,0.8rem);
+  --list-size:clamp(0.7rem,1.2vw,0.9rem);
+  --slide-padding:clamp(1.5rem,5vw,5rem);
+  --content-gap:clamp(0.8rem,2vh,1.5rem);
+  --card-gap:clamp(0.5rem,1.5vh,1rem);
+  --ease-out-expo:cubic-bezier(0.16,1,0.3,1);
+  --duration:0.5s;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+/* ===========================================
+   VIEWPORT FITTING — viewport-base.css (full)
+   =========================================== */
+html,body{height:100%;overflow-x:hidden;}
+html{scroll-snap-type:y mandatory;scroll-behavior:smooth;}
+.slide{width:100vw;height:100vh;height:100dvh;overflow:hidden;scroll-snap-align:start;display:flex;flex-direction:column;position:relative;background:var(--bg-white);}
+.slide-content{flex:1;display:flex;flex-direction:column;justify-content:center;max-height:100%;overflow:hidden;padding:var(--slide-padding);}
+
+/* Grid Overlay — Swiss Modern signature */
+.slide::before{content:'';position:absolute;inset:0;background-image:linear-gradient(var(--grid-color) 1px,transparent 1px),linear-gradient(90deg,var(--grid-color) 1px,transparent 1px);background-size:clamp(30px,5vw,60px) clamp(30px,5vw,60px);pointer-events:none;z-index:0;}
+.slide-content{position:relative;z-index:1;}
+
+/* Accent bar — Swiss Modern signature */
+.title-slide::after{content:'';position:absolute;left:0;top:0;bottom:0;width:clamp(4px,1vw,8px);background:var(--accent);z-index:2;}
+.content-slide::after{content:'';position:absolute;left:0;top:0;bottom:0;width:clamp(3px,0.7vw,5px);background:var(--text-black);z-index:2;}
+
+/* Typography */
+h1{font-family:var(--font-display);font-size:var(--title-size);font-weight:800;color:var(--text-black);line-height:1.15;letter-spacing:-0.02em;}
+h2{font-family:var(--font-display);font-size:var(--h2-size);font-weight:700;color:var(--text-black);letter-spacing:-0.01em;}
+h3{font-family:var(--font-display);font-size:var(--h3-size);font-weight:700;color:var(--text-black);}
+.sum{margin-bottom:clamp(2rem,4vh,3rem);}
+
+/* Subtitles & meta */
+.subtitle{font-family:var(--font-body);font-size:clamp(0.8rem,1.2vw,1rem);color:var(--text-secondary);font-weight:300;line-height:1.7;}
+.meta{font-family:var(--font-body);font-size:var(--small-size);color:var(--text-tertiary);font-weight:400;}
+
+/* Divider */
+.divider{width:clamp(2rem,4vw,3rem);height:3px;background:var(--accent);margin:var(--content-gap) 0;}
+
+/* Title Slide */
+.title-slide .slide-content{align-items:flex-start;padding-left:6vw;}
+.title-slide .divider{margin-bottom:var(--content-gap);}
+.title-slide h1{margin-bottom:clamp(0.8rem,2vh,1.2rem);}
+.title-slide .subtitle{margin-bottom:clamp(1rem,2.5vh,1.5rem);max-width:min(80vw,700px);}
+.title-slide .meta{text-transform:uppercase;letter-spacing:0.15em;}
+
+/* Content Slide */
+.content-slide .slide-content{justify-content:flex-start;padding-top:clamp(3rem,8vh,6rem);padding-left:6vw;padding-right:5vw;}
+.content-slide h2{margin-bottom:clamp(1rem,2.5vh,1.8rem);position:relative;}
+.content-slide h2::after{content:'';display:block;width:clamp(1.5rem,3vw,2.5rem);height:3px;background:var(--accent);margin-top:clamp(0.3rem,1vh,0.6rem);}
+
+/* Bullet lists */
+.bullet-list{list-style:none;display:flex;flex-direction:column;gap:var(--card-gap);max-width:min(85vw,800px);}
+.bullet-list li{font-family:var(--font-body);font-size:var(--list-size);color:var(--text-secondary);font-weight:400;line-height:1.5;padding-left:clamp(1rem,2vw,1.5rem);position:relative;}
+.bullet-list li::before{content:'';position:absolute;left:0;top:clamp(0.4em,0.65em,0.55em);width:clamp(4px,0.6vw,6px);height:clamp(4px,0.6vw,6px);background:var(--accent);}
+.bullet-list li strong{color:var(--text-black);font-weight:600;}
+
+/* Card grid (2-column) */
+.card-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--card-gap);max-width:min(85vw,900px);}
+.card{background:var(--card-bg);padding:clamp(0.8rem,2vw,1.5rem);border:1px solid var(--border-color);}
+.card h3{margin-bottom:clamp(0.3rem,0.8vh,0.6rem);font-size:clamp(0.8rem,1.3vw,1rem);}
+.card p{font-family:var(--font-body);font-size:var(--small-size);color:var(--text-secondary);line-height:1.5;}
+
+/* Numbered list */
+.num-list{list-style:none;display:flex;flex-direction:column;gap:var(--card-gap);max-width:min(85vw,800px);counter-reset:item;}
+.num-list li{font-family:var(--font-body);font-size:var(--list-size);color:var(--text-secondary);font-weight:400;line-height:1.5;padding-left:clamp(1.8rem,3vw,2.5rem);position:relative;counter-increment:item;}
+.num-list li::before{content:'0' counter(item);position:absolute;left:0;top:0;font-family:var(--font-display);font-size:clamp(0.6rem,0.9vw,0.8rem);font-weight:800;color:var(--accent);}
+.num-list li strong{color:var(--text-black);font-weight:600;}
+
+/* Highlight box */
+.highlight-box{background:var(--text-black);color:var(--bg-white);padding:clamp(1rem,2.5vw,2rem);max-width:min(80vw,750px);margin-top:var(--content-gap);}
+.highlight-box p{font-family:var(--font-body);font-size:var(--body-size);font-weight:400;line-height:1.6;}
+
+/* Flow diagram */
+.flow{display:flex;align-items:center;gap:clamp(0.3rem,1vw,0.8rem);flex-wrap:wrap;max-width:min(85vw,900px);margin-top:var(--content-gap);}
+.flow-item{background:var(--card-bg);border:1px solid var(--border-color);padding:clamp(0.4rem,1vw,0.7rem) clamp(0.6rem,1.5vw,1rem);font-family:var(--font-display);font-size:var(--small-size);font-weight:700;color:var(--text-black);white-space:nowrap;}
+.flow-arrow{font-family:var(--font-display);font-size:clamp(0.7rem,1.3vw,1rem);font-weight:800;color:var(--accent);}
+
+/* Conclusion slide */
+.conclusion-slide{background:var(--text-black);}
+.conclusion-slide::before{background-image:linear-gradient(rgba(255,255,255,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.04) 1px,transparent 1px);}
+.conclusion-slide::after{background:var(--accent);}
+.conclusion-slide h2{color:var(--bg-white);}
+.conclusion-slide h2::after{background:var(--accent);}
+.conclusion-slide .bullet-list li{color:rgba(255,255,255,0.75);}
+.conclusion-slide .bullet-list li strong{color:var(--bg-white);}
+.conclusion-slide .bullet-list li::before{background:var(--accent);}
+
+/* Nav dots */
+.nav-dots{position:fixed;right:clamp(0.6rem,1.5vw,1.2rem);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:clamp(4px,0.8vh,8px);z-index:100;}
+.nav-dot{width:clamp(6px,0.8vw,10px);height:clamp(6px,0.8vw,10px);border-radius:50%;background:var(--border-color);border:none;cursor:pointer;transition:background 0.3s;padding:0;}
+.nav-dot.active{background:var(--accent);}
+
+/* Progress bar */
+.progress-bar{position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:101;transition:width 0.3s ease;}
+
+/* Animations */
+.reveal{opacity:0;transform:translateX(-20px);transition:opacity var(--duration) var(--ease-out-expo),transform var(--duration) var(--ease-out-expo);}
+.slide.visible .reveal{opacity:1;transform:translateX(0);}
+.reveal:nth-child(2){transition-delay:0.1s}.reveal:nth-child(3){transition-delay:0.2s}.reveal:nth-child(4){transition-delay:0.3s}.reveal:nth-child(5){transition-delay:0.4s}.reveal:nth-child(6){transition-delay:0.5s}.reveal:nth-child(7){transition-delay:0.6s}
+
+/* Keyboard hint */
+.keyboard-hint{position:fixed;bottom:clamp(0.5rem,1.5vh,1rem);right:clamp(0.5rem,2vw,1.5rem);font-family:var(--font-body);font-size:clamp(0.5rem,0.7vw,0.65rem);color:var(--text-tertiary);z-index:99;}
+
+/* Responsive */
+@media(max-height:700px){
+  :root{--slide-padding:clamp(0.8rem,3vw,2rem);--content-gap:clamp(0.4rem,1.2vh,0.8rem);--title-size:clamp(1.5rem,4.5vw,2.5rem);--h2-size:clamp(1rem,3vw,1.5rem);}
+  .card-grid{gap:clamp(0.3rem,0.8vh,0.5rem);}
+}
+@media(max-height:600px){
+  :root{--slide-padding:clamp(0.5rem,2.5vw,1.5rem);--content-gap:clamp(0.3rem,1vh,0.6rem);--title-size:clamp(1.2rem,4vw,2rem);--body-size:clamp(0.6rem,1vw,0.8rem);}
+  .nav-dots,.keyboard-hint{display:none;}
+}
+@media(max-height:500px){
+  :root{--slide-padding:clamp(0.4rem,2vw,1rem);--title-size:clamp(1rem,3.5vw,1.5rem);--h2-size:clamp(0.8rem,2.5vw,1.2rem);--card-gap:clamp(0.2rem,0.6vh,0.4rem);}
+}
+@media(max-width:600px){.card-grid{grid-template-columns:1fr;}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.2s!important}html{scroll-behavior:auto;}}
+</style>
+</head>
+<body>
+
+<!-- Progress bar -->
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- Navigation dots -->
+<nav class="nav-dots" id="navDots" aria-label="Slide navigation"></nav>
+
+<!-- Keyboard hint -->
+<p class="keyboard-hint">← → &nbsp;Navigate</p>
+
+<!-- ============================================
+     SLIDE 1 — Title
+     ============================================ -->
+<section class="slide title-slide" data-slide="0">
+  <div class="slide-content">
+    <div class="divider reveal"></div>
+    <h1 class="reveal">以文化适应为导向的<br>中文教学探析</h1>
+    <p class="subtitle reveal">基于来华留学生"情境化问题"的实证研究</p>
+    <p class="meta reveal">徐浩文 &nbsp; 孙建朱 &nbsp;/&nbsp; 2026年3月 &nbsp;/&nbsp; 《国际中文教育》</p>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 2 — Outline
+     ============================================ -->
+<section class="slide content-slide" data-slide="1">
+  <div class="slide-content">
+    <h2 class="reveal">汇报提纲</h2>
+    <ol class="num-list">
+      <li class="reveal"><strong>研究背景与问题</strong> — 来华留学趋势与文化适应挑战</li>
+      <li class="reveal"><strong>理论基础与研究设计</strong> — 质性研究方法与框架</li>
+      <li class="reveal"><strong>核心发现：七大情境化挑战</strong> — 编码与主题分析</li>
+      <li class="reveal"><strong>教学"脱节"分析</strong> — 教学内容与方式的错位</li>
+      <li class="reveal"><strong>讨论与建议</strong> — 情境化教学路径</li>
+      <li class="reveal"><strong>结语</strong> — 研究贡献与展望</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 3 — Research Background
+     ============================================ -->
+<section class="slide content-slide" data-slide="2">
+  <div class="slide-content">
+    <h2 class="reveal">研究背景</h2>
+    <ul class="bullet-list">
+      <li class="reveal"><strong>"留学中国"计划推动</strong>，来华留学规模持续扩大，文化适应挑战日益凸显</li>
+      <li class="reveal"><strong>政策要求：</strong>《来华留学生高等教育质量规范（试行）》强调文化适应支持</li>
+      <li class="reveal"><strong>现实矛盾：</strong>留学生面临语言、生活、社交等多重适应挑战</li>
+      <li class="reveal"><strong>研究空白：</strong>语言教学如何有效支持文化适应？缺乏实证研究</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 4 — Core Concepts
+     ============================================ -->
+<section class="slide content-slide" data-slide="3">
+  <div class="slide-content">
+    <h2 class="reveal">核心概念：情境化问题</h2>
+    <p class="subtitle reveal" style="max-width:min(85vw,750px);margin-bottom:clamp(0.8rem,2vh,1.2rem);">在特定社会文化语境中，因语言、行为规范、社会规则差异而遭遇的<strong style="color:var(--accent)">独特适应挑战</strong></p>
+    <ul class="bullet-list">
+      <li class="reveal"><strong>情境依赖性</strong> — 特定社会场景中的即时挑战</li>
+      <li class="reveal"><strong>个体差异性</strong> — 因文化背景、语言水平、性格而异</li>
+      <li class="reveal"><strong>群体共性</strong> — 同文化背景留学生面临相似困境</li>
+      <li class="reveal"><strong>动态性</strong> — 随时间、文化接触频率而变化</li>
+      <li class="reveal"><strong>实践性</strong> — 根植于真实生活经验，非抽象问题</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 5 — Theoretical Framework
+     ============================================ -->
+<section class="slide content-slide" data-slide="4">
+  <div class="slide-content">
+    <h2 class="reveal">理论框架</h2>
+    <div class="card-grid">
+      <div class="card reveal">
+        <h3>文化适应理论</h3>
+        <p>Berry 的双维度模型：文化维持 + 主流社会参与。语言能力是文化适应的关键变量，直接影响适应策略的选择与效果。</p>
+      </div>
+      <div class="card reveal">
+        <h3>情境学习理论</h3>
+        <p>Lave & Wenger：学习根植于真实社会情境。语言学习不能脱离使用场景，需要在"实践共同体"中习得。</p>
+      </div>
+      <div class="card reveal">
+        <h3>语言-适应耦合</h3>
+        <p>语言不仅是交际工具，更是理解文化规则、建立社会关系、获取资源的媒介。语言能力 → 文化适应 → 学业成功。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 6 — Research Design
+     ============================================ -->
+<section class="slide content-slide" data-slide="5">
+  <div class="slide-content">
+    <h2 class="reveal">研究设计</h2>
+    <div class="card-grid">
+      <div class="card reveal">
+        <h3>研究方法</h3>
+        <p>质性研究 — 半结构式深度访谈，追踪留学生在真实情境中的适应经历与语言使用体验。</p>
+      </div>
+      <div class="card reveal">
+        <h3>研究对象</h3>
+        <p>12名来华留学生 — 涵盖欧洲、非洲、亚洲多国，本硕博层次，HSK 3-6级，来华6个月至4年。</p>
+      </div>
+      <div class="card reveal">
+        <h3>数据分析</h3>
+        <p>主题分析法（Braun & Clarke 六步骤），数据驱动归纳编码，从原始数据中提炼核心主题。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 7 — Findings Overview
+     ============================================ -->
+<section class="slide content-slide" data-slide="6">
+  <div class="slide-content">
+    <h2 class="reveal">研究发现概览</h2>
+    <div class="flow reveal">
+      <span class="flow-item">95个初始编码</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-item">41个子主题</span>
+      <span class="flow-arrow">→</span>
+      <span class="flow-item">7个核心挑战</span>
+    </div>
+    <p class="subtitle reveal" style="margin-top:clamp(1rem,2.5vh,1.5rem);max-width:min(80vw,700px);">通过编码聚合，留学生文化适应中的核心挑战可归纳为<strong style="color:var(--accent)">四大领域、七个维度</strong></p>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 8 — Challenge 1: Life & Economy
+     ============================================ -->
+<section class="slide content-slide" data-slide="7">
+  <div class="slide-content">
+    <h2 class="reveal">核心挑战（一）— 生活与经济适应</h2>
+    <div class="card-grid">
+      <div class="card reveal">
+        <h3>日常生活适应</h3>
+        <p>出行交通、饮食差异、移动支付、住宿安排、气候适应、方言障碍……每一个日常环节都可能成为挑战。</p>
+      </div>
+      <div class="card reveal">
+        <h3>留学经济成本</h3>
+        <p>学费压力、奖学金竞争、兼职工作机会有限、经济来源不稳定，直接影响学业与生活质量。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 9 — Challenge 2: Social & Digital
+     ============================================ -->
+<section class="slide content-slide" data-slide="8">
+  <div class="slide-content">
+    <h2 class="reveal">核心挑战（二）— 社交与数字化适应</h2>
+    <div class="card-grid">
+      <div class="card reveal">
+        <h3>数字化与休闲适应</h3>
+        <p>社交平台差异（微信 vs WhatsApp）、APP使用障碍、数字支付习惯差异、娱乐方式的跨文化隔阂。</p>
+      </div>
+      <div class="card reveal">
+        <h3>社交压力与人际关系</h3>
+        <p>圈层隔离、公共空间过度关注、跨文化恋爱困境、不友善对待经历，加重心理压力。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 10 — Challenge 3: Academic & Career
+     ============================================ -->
+<section class="slide content-slide" data-slide="9">
+  <div class="slide-content">
+    <h2 class="reveal">核心挑战（三）— 学业与发展</h2>
+    <div class="card-grid">
+      <div class="card reveal">
+        <h3>学业适应</h3>
+        <p>课程难度大、教学方式差异、师生互动不足、学术资源分配不均，中文授课对语言能力要求更高。</p>
+      </div>
+      <div class="card reveal">
+        <h3>工作与个人发展</h3>
+        <p>就业限制、实习机会少、职场竞争激烈、学业与工作冲突，职业路径模糊。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 11 — Challenge 4: Values
+     ============================================ -->
+<section class="slide content-slide" data-slide="10">
+  <div class="slide-content">
+    <h2 class="reveal">核心挑战（四）— 价值观冲突</h2>
+    <ul class="bullet-list">
+      <li class="reveal"><strong>节假日与调休制度</strong> — 对中国式调休、集中假期的适应困难</li>
+      <li class="reveal"><strong>婚恋观念差异</strong> — 家庭介入度、恋爱方式的文化冲突</li>
+      <li class="reveal"><strong>隐私边界不同</strong> — 对个人信息、私人空间的不同理解</li>
+      <li class="reveal"><strong>教育观念碰撞</strong> — 教师权威、课堂行为规范的跨文化差异</li>
+      <li class="reveal"><strong>工作价值观分歧</strong> — 加班文化、层级关系、职场沟通方式</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 12 — Key Finding
+     ============================================ -->
+<section class="slide content-slide" data-slide="11">
+  <div class="slide-content">
+    <h2 class="reveal">关键发现：语言贯穿始终</h2>
+    <div class="highlight-box reveal">
+      <p>语言障碍贯穿所有七大挑战领域，构成留学生文化适应的核心瓶颈。</p>
+    </div>
+    <ul class="bullet-list">
+      <li class="reveal">中文单一语境对留学生语言能力提出<strong>更高的实际交际要求</strong></li>
+      <li class="reveal">语言能力<strong>直接影响</strong>生活自理、学业完成、社交融入、社会参与</li>
+      <li class="reveal">语言不仅是学习对象，更是<strong>文化适应的根本介质</strong></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 13 — Problem Diagnosis
+     ============================================ -->
+<section class="slide content-slide" data-slide="12">
+  <div class="slide-content">
+    <h2 class="reveal">问题诊断：中文教学的"脱节"</h2>
+    <div class="card-grid">
+      <div class="card reveal">
+        <h3>脱节一：教学内容 vs 实际需求</h3>
+        <p>课堂侧重<strong>语言知识传授</strong>，而留学生真正需要的是电子支付、银行业务、就医挂号、订票出行等<strong>真实情境中的语言应用</strong>。</p>
+      </div>
+      <div class="card reveal">
+        <h3>脱节二：教学方式 vs 应用实践</h3>
+        <p>课堂以<strong>PPT单向讲授、机械记忆</strong>为主，缺乏真实交际场景的情境演练和互动实践机会。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 14 — Teaching Suggestion 1
+     ============================================ -->
+<section class="slide content-slide" data-slide="13">
+  <div class="slide-content">
+    <h2 class="reveal">教学建议（一）— 优化教学内容</h2>
+    <h3 class="reveal" style="margin-bottom:clamp(0.5rem,1vh,0.8rem);">聚焦<strong style="color:var(--accent)">情境化问题</strong></h3>
+    <ul class="bullet-list">
+      <li class="reveal">开发<strong>"行为文化"教学模块</strong>，融入"外国人在中国如何做"的真实案例</li>
+      <li class="reveal">覆盖<strong>生活、社交、学业、职场</strong>四大真实场景</li>
+      <li class="reveal">将电子支付、银行办事、医院挂号等纳入<strong>教学内容</strong></li>
+      <li class="reveal">建立<strong>场景化语料库</strong>，基于留学生真实经历设计教材</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 15 — Teaching Suggestion 2
+     ============================================ -->
+<section class="slide content-slide" data-slide="14">
+  <div class="slide-content">
+    <h2 class="reveal">教学建议（二）— 丰富教学方式</h2>
+    <h3 class="reveal" style="margin-bottom:clamp(0.5rem,1vh,0.8rem);">强化<strong style="color:var(--accent)">互动与实践</strong></h3>
+    <ul class="bullet-list">
+      <li class="reveal"><strong>任务法、体演法、情境法</strong> — 让课堂模拟真实交际场景</li>
+      <li class="reveal"><strong>探究式、合作式、问题导向式</strong>学习 — 从被动接受到主动发现</li>
+      <li class="reveal">增加<strong>课外实践任务</strong>，推动真实跨文化交际体验</li>
+      <li class="reveal">利用<strong>数字工具</strong>（微信、淘宝、美团等）开展实境教学</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 16 — Teaching Suggestion 3
+     ============================================ -->
+<section class="slide content-slide" data-slide="15">
+  <div class="slide-content">
+    <h2 class="reveal">教学建议（三）— 改进教学理念</h2>
+    <h3 class="reveal" style="margin-bottom:clamp(0.5rem,1vh,0.8rem);">推动<strong style="color:var(--accent)">"中文 + 文化适应"双轨并行</strong></h3>
+    <ul class="bullet-list">
+      <li class="reveal">从<strong>"知识传授"转向"能力培养"</strong> — 语言运用与文化适应一体化</li>
+      <li class="reveal">强化教师对<strong>留学生适应需求</strong>的敏感度与回应能力</li>
+      <li class="reveal">建立<strong>语言与文化适应的耦合教学模型</strong></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 17 — Contributions & Limitations
+     ============================================ -->
+<section class="slide content-slide" data-slide="16">
+  <div class="slide-content">
+    <h2 class="reveal">研究贡献与局限</h2>
+    <div class="card-grid">
+      <div class="card reveal">
+        <h3>理论贡献</h3>
+        <p>提出"情境化问题"分析框架，深化对来华留学生文化适应需求的认知，为国际中文教育研究提供新视角。</p>
+      </div>
+      <div class="card reveal">
+        <h3>实践价值</h3>
+        <p>为国际中文教育与文化适应融合提供可操作路径，推动教学从"语言本位"走向"需求本位"。</p>
+      </div>
+      <div class="card reveal">
+        <h3>研究局限</h3>
+        <p>样本量较小（质性研究12人）、特定时期数据、未对国别差异做系统比较，结论推广需谨慎。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE 18 — Conclusion
+     ============================================ -->
+<section class="slide content-slide conclusion-slide" data-slide="17">
+  <div class="slide-content">
+    <h2 class="reveal">结语</h2>
+    <ul class="bullet-list">
+      <li class="reveal">语言不仅是<strong>交际工具</strong>，更是促进文化理解与社会融入的<strong>桥梁</strong></li>
+    </ul>
+    <div style="height:clamp(1rem,2.5vh,2rem);"></div>
+    <div class="highlight-box reveal" style="background:var(--accent);">
+      <p style="font-family:var(--font-display);font-size:clamp(1rem,2vw,1.4rem);font-weight:700;letter-spacing:-0.01em;">以文化适应为导向的中文教学，<br>是提升国际中文教育质量的关键路径。</p>
+    </div>
+    <p class="meta reveal" style="color:rgba(255,255,255,0.4);margin-top:clamp(2rem,5vh,3rem);">感谢聆听 &nbsp;/&nbsp; 欢迎提问 &nbsp;/&nbsp; 徐浩文 孙建朱 &nbsp; 2026</p>
+  </div>
+</section>
+
+<!-- ============================================
+     SLIDE PRESENTATION CONTROLLER
+     ============================================ -->
+<script>
+class SlidePresentation {
+  constructor() {
+    this.slides = document.querySelectorAll('.slide');
+    this.totalSlides = this.slides.length;
+    this.currentSlide = 0;
+    this.navDotsContainer = document.getElementById('navDots');
+    this.progressBar = document.getElementById('progressBar');
+    this.setupIntersectionObserver();
+    this.setupKeyboardNav();
+    this.setupWheelNav();
+    this.setupNavDots();
+    this.updateProgress();
+  }
+
+  setupIntersectionObserver() {
+    const options = { root:null, rootMargin:'0px', threshold:0.6 };
+    this.observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const idx = parseInt(entry.target.dataset.slide);
+          this.currentSlide = idx;
+          entry.target.classList.add('visible');
+          this.updateNavDots();
+          this.updateProgress();
+        }
+      });
+    }, options);
+    this.slides.forEach(s => this.observer.observe(s));
+  }
+
+  setupKeyboardNav() {
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault();
+        this.goTo(Math.min(this.currentSlide + 1, this.totalSlides - 1));
+      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+        e.preventDefault();
+        this.goTo(Math.max(this.currentSlide - 1, 0));
+      } else if (e.key === 'PageDown') {
+        e.preventDefault();
+        this.goTo(Math.min(this.currentSlide + 1, this.totalSlides - 1));
+      } else if (e.key === 'PageUp') {
+        e.preventDefault();
+        this.goTo(Math.max(this.currentSlide - 1, 0));
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        this.goTo(0);
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        this.goTo(this.totalSlides - 1);
+      }
+    });
+  }
+
+  setupWheelNav() {
+    let wheelTimeout;
+    document.addEventListener('wheel', (e) => {
+      clearTimeout(wheelTimeout);
+      wheelTimeout = setTimeout(() => {
+        if (e.deltaY > 30) {
+          this.goTo(Math.min(this.currentSlide + 1, this.totalSlides - 1));
+        } else if (e.deltaY < -30) {
+          this.goTo(Math.max(this.currentSlide - 1, 0));
+        }
+      }, 50);
+    }, { passive:true });
+  }
+
+  setupNavDots() {
+    this.navDotsContainer.innerHTML = '';
+    this.slides.forEach((_, i) => {
+      const dot = document.createElement('button');
+      dot.className = 'nav-dot';
+      dot.setAttribute('aria-label', `Slide ${i+1}`);
+      dot.addEventListener('click', () => this.goTo(i));
+      this.navDotsContainer.appendChild(dot);
+    });
+    this.updateNavDots();
+  }
+
+  updateNavDots() {
+    const dots = this.navDotsContainer.querySelectorAll('.nav-dot');
+    dots.forEach((d, i) => d.classList.toggle('active', i === this.currentSlide));
+  }
+
+  updateProgress() {
+    const pct = ((this.currentSlide + 1) / this.totalSlides) * 100;
+    this.progressBar.style.width = pct + '%';
+  }
+
+  goTo(idx) {
+    if (idx >= 0 && idx < this.totalSlides) {
+      this.slides[idx].scrollIntoView({ behavior:'smooth' });
+    }
+  }
+}
+
+new SlidePresentation();
+</script>
+</body>
+</html>
